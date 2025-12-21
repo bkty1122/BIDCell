@@ -1,0 +1,132 @@
+(venv) PS D:\2512-BROCK-CODING\BIDCell> D:\2512-BROCK-CODING\BIDCell\bidcell\venv\Scripts\python example_small.py
+### Preprocessing ###
+
+Reading DAPI image
+D:\2512-BROCK-CODING\BIDCell\example_data\dataset_xenium_breast1_small\morphology_mip_small.tif
+DAPI shape h: 1800 w: 2400
+Segmenting DAPI patches h: 1800 w: 2400
+Nuclei image h: 382 w: 510
+  0%|                                                                                                                                                                                                                                                                                                                        | 0/1 [00:00<?, ?it/s]model_type argument is not used in v4.0.1+. Ignoring this argument...
+channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:05<00:00,  5.27s/it]
+Finished segmenting, found 852 nuclei
+Loading transcripts file
+   Unnamed: 0    transcript_id  cell_id  overlaps_nucleus feature_name  x_location  y_location  z_location         qv
+0     2565587  281496451551924       -1                 0        RUNX1   1062.1926   469.34515   10.958567  40.000000
+1     2565590  281496451551927    44769                 1         NKG7   1062.7025   327.25198   15.099401  40.000000
+2     2565591  281496451551928    45392                 0       HAVCR2   1062.9146   577.32130   11.937755  20.782797
+3     2565592  281496451551929    46672                 0        ITGAX   1063.0559   365.75200   10.617414  40.000000
+4     2565595  281496451551932       -1                 0        CXCR4   1063.3499   409.68720   11.384081  40.000000
+Filtering transcripts
+Finished filtering
+Saving csv...
+<bound method NDFrame.head of         Unnamed: 0    transcript_id  cell_id  overlaps_nucleus feature_name  x_location  y_location  z_location         qv
+0          2565587  281496451551924       -1                 0        RUNX1           0         257   10.958567  40.000000
+1          2565590  281496451551927    44769                 1         NKG7           1         115   15.099401  40.000000
+2          2565591  281496451551928    45392                 0       HAVCR2           1         365   11.937755  20.782797
+3          2565592  281496451551929    46672                 0        ITGAX           1         154   10.617414  40.000000
+4          2565595  281496451551932       -1                 0        CXCR4           1         198   11.384081  40.000000
+...            ...              ...      ...               ...          ...         ...         ...         ...        ...
+186141     3940032  281500747163393    43575                 0     ANKRD30A         509         243   16.281252  35.923073
+186142     3940037  281500747163399    43517                 1         NARS         509           2   15.730230  40.000000
+186143     3940039  281500747163401    43534                 0       LGALSL         509          37   15.751373  27.767600
+186144     3940041  281500747163403    43543                 0         NARS         509         299   12.549458  40.000000
+186145     3940042  281500747163404    43530                 1         NARS         509          26   17.624292  28.487734
+
+[186146 rows x 9 columns]>
+(186146, 9)
+313 unique genes
+Total height 382, width 510
+Converting to maps
+  0%|                                                                                                                                                                                                                                                                                                                        | 0/1 [00:00<?, ?it/s]Patch: (0, 382, 0, 510)
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [00:00<00:00, 356.84it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [01:03<00:00, 63.45s/it]
+Saved all maps
+(382, 510)
+Processing D:\2512-BROCK-CODING\BIDCell\example_data\dataset_xenium_breast1_small\expr_maps\all_genes_0_382_0_510.hdf5
+Loaded gene expr maps from D:\2512-BROCK-CODING\BIDCell\example_data\dataset_xenium_breast1_small\expr_maps\all_genes_0_382_0_510.hdf5
+[0, 382, 0, 510]
+Shift by 0
+88 patches
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 88/88 [00:00<00:00, 669.22it/s] 
+Shift by 24
+70 patches
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 70/70 [00:00<00:00, 732.12it/s] 
+Number of cells 852
+Number of splits for multiprocessing: 8
+Done
+Number of cells: 852
+Number of splits for multiprocessing: 8
+Computing simple annotation
+
+### Training ###
+
+Using device: cuda
+2025-12-20 23:49:10,956 INFO Initialising model
+Number of genes: 313
+2025-12-20 23:49:11,743 INFO Preparing data
+Loaded nuclei
+(382, 510)
+63 patches available
+Cell types: ['B', 'CD4Tconv/Treg', 'CD8T/CD8Tex', 'DC', 'Endothelial', 'Epithelial', 'Fibroblasts', 'Malignant', 'Mast', 'Mono/Macro', 'Myofibroblasts', 'NK', 'Neutrophils', 'Plasma', 'SMC']
+2025-12-20 23:49:11,785 INFO Total number of training examples: 63
+2025-12-20 23:49:11,786 INFO Begin training
+
+Epoch = 1  lr = 1e-05
+Epoch[1/1], Step[0], Loss:2784.2937
+NE:0.5541, TC:195.2034, CC:1291.8763, OV:0.8927, PN:1295.7672
+2025-12-20 23:49:13,244 INFO Model saved: D:\2512-BROCK-CODING\BIDCell\example_data\dataset_xenium_breast1_small\model_outputs\2025_12_20_23_49_10/models/epoch_1_step_0.pth
+2025-12-20 23:49:53,485 INFO Model saved: D:\2512-BROCK-CODING\BIDCell\example_data\dataset_xenium_breast1_small\model_outputs\2025_12_20_23_49_10/models/epoch_1_step_60.pth
+2025-12-20 23:49:54,993 INFO Training finished
+
+### Predict ###
+
+2025-12-20 23:49:54,996 INFO Initialising model
+Number of genes: 313
+2025-12-20 23:49:55,465 INFO Preparing data
+Loaded nuclei
+(382, 510)
+88 patches available
+Cell types: ['B', 'CD4Tconv/Treg', 'CD8T/CD8Tex', 'DC', 'Endothelial', 'Epithelial', 'Fibroblasts', 'Malignant', 'Mast', 'Mono/Macro', 'Myofibroblasts', 'NK', 'Neutrophils', 'Plasma', 'SMC']
+2025-12-20 23:49:55,498 INFO Total number of patches: 88
+2025-12-20 23:49:55,498 INFO Begin prediction
+Predict using D:\2512-BROCK-CODING\BIDCell\example_data\dataset_xenium_breast1_small\model_outputs\2025_12_20_23_49_10/models/epoch_1_step_60.pth
+2025-12-20 23:50:14,980 INFO Preparing data
+Loaded nuclei
+(382, 510)
+70 patches available
+Cell types: ['B', 'CD4Tconv/Treg', 'CD8T/CD8Tex', 'DC', 'Endothelial', 'Epithelial', 'Fibroblasts', 'Malignant', 'Mast', 'Mono/Macro', 'Myofibroblasts', 'NK', 'Neutrophils', 'Plasma', 'SMC']
+2025-12-20 23:50:15,016 INFO Total number of patches: 70
+2025-12-20 23:50:15,016 INFO Begin prediction
+Predict using D:\2512-BROCK-CODING\BIDCell\example_data\dataset_xenium_breast1_small\model_outputs\2025_12_20_23_49_10/models/epoch_1_step_60.pth
+2025-12-20 23:50:33,016 INFO Finished
+Combining predictions
+2 patches available
+Num multiprocessing splits: 8
+Processing...
+Combining results
+Saved segmentation to D:\2512-BROCK-CODING\BIDCell\example_data\dataset_xenium_breast1_small/model_outputs/2025_12_20_23_49_10/test_output/epoch_1_step_60_connected.tif
+Number of cells 852
+Number of splits for multiprocessing: 8
+Segmentation map pixel size:  (1798, 2400)
+Saving temporary resized segmentation
+Extracting cell expressions
+  0%|                                                                                                                                                                                                                                                                                                                        | 0/1 [00:00<?, ?it/s]Patch H 0:1798, W 0:2400
+(1798, 2400)
+Reading filtered transcripts
+0.0 508.99520000000007 0.0 380.99484
+Transforming x_location
+Transforming y_location
+0 2395 0 1793
+Transforming x_location
+Transforming y_location
+0 2395 0 1793
+D:\2512-BROCK-CODING\BIDCell\bidcell\venv\Lib\site-packages\numpy\core\fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+Extracting cell-gene matrix chunks
+Combining cell-gene matrix chunks
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [01:04<00:00, 64.77s/it]
+Obtained cell-gene matrix
+Done
+
+### Done ###

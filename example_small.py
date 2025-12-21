@@ -5,7 +5,7 @@ if __name__ == "__main__":
 
     model = BIDCellModel("params_small_example.yaml")
 
-    # model.run_pipeline()
+    model.run_pipeline()
 
     # Alternatively, call individual functions
 
@@ -19,6 +19,6 @@ if __name__ == "__main__":
     # # model.make_cell_gene_mat(is_cell=False)
     # # model.preannotate()
 
-    model.train()
+    # model.train()
 
     # model.predict()

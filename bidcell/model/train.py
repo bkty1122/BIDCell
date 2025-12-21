@@ -247,11 +247,11 @@ def train(config: Config):
             )
             optimizer.step()
 
-            # step_ne_loss = loss_ne.detach().cpu().numpy() # noqa
-            # step_os_loss = loss_os.detach().cpu().numpy() # noqa
-            # step_cc_loss = loss_cc.detach().cpu().numpy() # noqa
-            # step_ov_loss = loss_ov.detach().cpu().numpy() # noqa
-            # step_pn_loss = loss_pn.detach().cpu().numpy() # noqa
+            step_ne_loss = loss_ne.detach().cpu().numpy() # noqa
+            step_os_loss = loss_os.detach().cpu().numpy() # noqa
+            step_cc_loss = loss_cc.detach().cpu().numpy() # noqa
+            step_ov_loss = loss_ov.detach().cpu().numpy() # noqa
+            step_pn_loss = loss_pn.detach().cpu().numpy() # noqa
 
             step_train_loss = loss.detach().cpu().numpy()
 
@@ -280,11 +280,11 @@ def train(config: Config):
                         step_train_loss,
                     )
                 )
-                # print('NE:{:.4f}, TC:{:.4f}, CC:{:.4f}, OV:{:.4f}, PN:{:.4f}'.format(step_ne_loss,
-                #                                                                     step_os_loss,
-                #                                                                     step_cc_loss,
-                #                                                                     step_ov_loss,
-                #                                                                     step_pn_loss))
+                print('NE:{:.4f}, TC:{:.4f}, CC:{:.4f}, OV:{:.4f}, PN:{:.4f}'.format(step_ne_loss,
+                                                                                    step_os_loss,
+                                                                                    step_cc_loss,
+                                                                                    step_ov_loss,
+                                                                                    step_pn_loss))
 
             # Save model
             if (step_epoch % model_freq) == 0:
