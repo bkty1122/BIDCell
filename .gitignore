@@ -26,3 +26,4 @@ pypi_token.txt
 data/dataset_xenium_breast1/all_gene_names.txt
 .pdm-python
 get_markers.py
+*venv

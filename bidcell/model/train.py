@@ -11,6 +11,9 @@ import torch
 import torch.optim.lr_scheduler as lr_scheduler
 from torch.utils.data import DataLoader
 
+from torchjd.autojac import mtl_backward
+from torchjd.aggregation import UPGrad
+
 from .dataio.dataset_input import DataProcessing
 from .model.losses import (
     CellCallingLoss,
@@ -59,6 +62,9 @@ def train(config: Config):
         model_freq = config.training_params.model_freq
     else:
         model_freq = config.testing_params.test_step
+
+    # Initialize UPGrad aggregator
+    aggregator = UPGrad()
 
     # Set up the model
     logging.info("Initialising model")
@@ -232,7 +238,12 @@ def train(config: Config):
             loss = loss_ne + loss_os + loss_cc + loss_ov + loss_pn
 
             # Optimisation
-            loss.backward()
+            # loss.backward()
+            mtl_backward(
+                losses=[loss_ne, loss_os, loss_cc, loss_ov, loss_pn],
+                features=seg_pred,
+                aggregator=aggregator
+            )
             optimizer.step()
 
             # step_ne_loss = loss_ne.detach().cpu().numpy() # noqa

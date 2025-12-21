@@ -21,9 +21,9 @@ def resize_dapi(dapi, new_h, new_w):
 def segment_dapi(img, diameter=None, use_cpu=False):
     """Segment nuclei in DAPI image using Cellpose"""
     use_gpu = True if not use_cpu else False
-    model = models.Cellpose(gpu=use_gpu, model_type="cyto")
+    model = models.CellposeModel(gpu=use_gpu, model_type="cyto")
     channels = [0, 0]
-    mask, _, _, _ = model.eval(img, diameter=diameter, channels=channels)
+    mask, _, _ = model.eval(img, diameter=diameter, channels=channels)
     return mask
 
 
