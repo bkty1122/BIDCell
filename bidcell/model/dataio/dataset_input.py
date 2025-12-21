@@ -294,7 +294,7 @@ class DataProcessing(data.Dataset):
                         nucl_split[:, :, i_cell], kernel, iterations=1
                     )
 
-            ct_nucleus = int(self.nuclei_types_idx[self.nuclei_types_ids.index(c_id)])
+            ct_nucleus = int(self.nuclei_types_idx[self.nuclei_types_ids.index(int(c_id))])
             ct_nucleus_name = self.type_names[ct_nucleus]
 
             # Markers with dilation
