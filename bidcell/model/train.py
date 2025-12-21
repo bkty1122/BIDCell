@@ -40,6 +40,7 @@ def train(config: Config):
 
     use_cuda = torch.cuda.is_available()
     device = torch.device("cuda" if use_cuda else "cpu")
+    print(f"Using device: {device}")
 
     # Create experiment directories
     resume_epoch = None  # could be added

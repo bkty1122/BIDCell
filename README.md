@@ -26,6 +26,11 @@ python -m pip install bidcell
 ```
 Installation of dependencies typically requires a few minutes. 
 
+4. Install PyTorch with CUDA support (Required to run training and use CUDA):
+```sh
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+``` 
+
 > **Note**: We are actively finding and fixing issues. If you encounter `[xcb] Unknown sequence number while processing queue`, try running without a GUI, e.g. through PuTTY. Please let us know any other issues you may find. Thank you.
 
 
