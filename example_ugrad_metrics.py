@@ -2,98 +2,140 @@
 import os
 import sys
 import glob
+import re
+import json
+import io
+import shutil
 import numpy as np
 import pandas as pd
 import tifffile
 import cv2
-import argparse
+import matplotlib.pyplot as plt
 from bidcell.BIDCellModel import BIDCellModel
 from bidcell.config import load_config
 from bidcell.model.utils.utils import get_newest_id
 
-# Helper metric functions using OpenCV
+# Helper to redirect stdout for parsing
+class StdoutCapture:
+    def __init__(self):
+        self._stdout = sys.stdout
+        self._string_io = io.StringIO()
+    
+    def __enter__(self):
+        sys.stdout = self._string_io
+        return self
+    
+    def __exit__(self, exc_type, exc_value, traceback):
+        sys.stdout = self._stdout
+        
+    def get_output(self):
+        return self._string_io.getvalue()
+
+def parse_training_logs(log_text):
+    """
+    Parse the captured stdout for training metrics.
+    Expected formats:
+    Epoch[1/1], Step[0], Loss:2784.2937
+    NE:0.5541, TC:195.2034, CC:1291.8763, OV:0.8927, PN:1295.7672
+    Epoch = 1  lr = 1e-05
+    """
+    training_points = []
+    learning_rates = []
+    
+    lines = log_text.splitlines()
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        
+        # Check for learning rate
+        # Format: Epoch = 1  lr = 1e-05
+        lr_match = re.search(r"Epoch\s*=\s*(\d+)\s+lr\s*=\s*([0-9eE\.\-]+)", line)
+        if lr_match:
+            learning_rates.append({
+                "epoch": int(lr_match.group(1)),
+                "lr": float(lr_match.group(2))
+            })
+            
+        # Check for Step loss
+        # Format: Epoch[1/1], Step[0], Loss:2784.2937
+        step_match = re.search(r"Epoch\[(\d+)/(\d+)\],\s*Step\[(\d+)\],\s*Loss:([0-9eE\.\-]+)", line)
+        if step_match:
+            current_point = {
+                "epoch": int(step_match.group(1)),
+                "max_epochs": int(step_match.group(2)),
+                "step": int(step_match.group(3)),
+                "total_loss": float(step_match.group(4))
+            }
+            
+            # Look ahead for next line with breakdown
+            # NE:0.5541, TC:195.2034, CC:1291.8763, OV:0.8927, PN:1295.7672
+            if i + 1 < len(lines):
+                breakdown_line = lines[i+1]
+                parts = breakdown_line.split(',')
+                if len(parts) >= 5 and "NE" in parts[0]:
+                    try:
+                        for part in parts:
+                            key, val = part.strip().split(':')
+                            current_point[key] = float(val)
+                    except ValueError:
+                        pass # Parsing error
+            
+            training_points.append(current_point)
+            
+        i += 1
+        
+    return training_points, learning_rates
+
 def compute_morphology_metrics(seg_path):
     seg = tifffile.imread(seg_path)
-    # Get unique cell IDs (excluding 0 which is background)
     cell_ids = np.unique(seg)
     cell_ids = cell_ids[cell_ids != 0]
     
-    metrics = {
-        "area": [],
-        "elongation": [],
-        "compactness": [],
-        "sphericity": [],
-        "solidity": [],
-        "convexity": [],
-        "circularity": [],
-        "density": [] # Placeholder if density calculation is unclear
-    }
+    metrics = []
 
     if len(cell_ids) == 0:
         return metrics
 
     for cid in cell_ids:
-        # Create mask for current cell
         mask = np.uint8(seg == cid)
-        
-        # Find contours
         contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         if not contours:
             continue
             
         cnt = contours[0]
-        
         area = cv2.contourArea(cnt)
         perimeter = cv2.arcLength(cnt, True)
         
         if area == 0: continue
         
-        metrics["area"].append(area)
+        row = {"cell_id": int(cid), "area": area, "perimeter": perimeter}
         
-        # Convex Hull
         hull = cv2.convexHull(cnt)
         hull_area = cv2.contourArea(hull)
         hull_perimeter = cv2.arcLength(hull, True)
         
-        # Solidity: Area / ConvexArea
         if hull_area > 0:
             solidity = area / hull_area
         else:
             solidity = 0
-        metrics["solidity"].append(solidity)
+        row["solidity"] = solidity
         
-        # Convexity: ConvexPerimeter / Perimeter
         if perimeter > 0:
             convexity = hull_perimeter / perimeter
-        else:
-            convexity = 0
-        metrics["convexity"].append(convexity)
-        
-        # Circularity: 4 * pi * Area / (Perimeter^2)
-        if perimeter > 0:
             circularity = (4 * np.pi * area) / (perimeter ** 2)
-            # Inverse for Compactness? Or Perimeter^2 / Area
             compactness = (perimeter ** 2) / area
         else:
+            convexity = 0
             circularity = 0
             compactness = 0
-        metrics["circularity"].append(circularity)
-        
-        # The table had huge numbers for Compactness/Circularity. 
-        # We will store standard values alongside potentially raw moments if needed.
-        # But standard definitions are safer.
-        metrics["compactness"].append(compactness)
-        
-        # Sphericity: 2 * sqrt(pi * A) / P (for 2D) -> sqrt(circularity)
-        metrics["sphericity"].append(np.sqrt(circularity))
+        row["convexity"] = convexity
+        row["circularity"] = circularity
+        row["compactness"] = compactness
+        row["sphericity"] = np.sqrt(circularity)
 
-        # Elongation
         if len(cnt) >= 5:
             try:
                 (x,y), (MA, ma), angle = cv2.fitEllipse(cnt)
-                # ma is major axis, MA is minor axis? fitEllipse returns (MA, ma) typically (width, height)?
-                # OpenCV returns (center), (MA, ma), angle. 
-                # Usually axes are sorted or not guaranteed.
                 major = max(MA, ma)
                 minor = min(MA, ma)
                 if major > 0:
@@ -104,114 +146,163 @@ def compute_morphology_metrics(seg_path):
                 elongation = 1.0
         else:
             elongation = 1.0
-        metrics["elongation"].append(elongation)
+        row["elongation"] = elongation
+        
+        metrics.append(row)
         
     return metrics
 
 def compute_expression_metrics(cgm_path):
-    # Assuming CSV format
     if not os.path.exists(cgm_path):
-        print(f"CGM file not found: {cgm_path}")
-        return {"total_transcripts": 0, "total_genes": 0}
+        return []
         
     df = pd.read_csv(cgm_path, index_col=0)
-    # Rows are genes? Cols are cells? Or vice versa.
-    # Usually Cell x Gene.
-    # Let's check logic: dataset_input reads patches.
-    # make_cell_gene_mat.py creates cells as columns or rows?
-    # standard is Cell x Gene for AnnData. 
-    # If csv, let's assume rows=Cells, cols=Genes.
-    
-    # Check if index is cell_id or gene.
-    # Usually index is Cell ID.
-    
-    # Total transcripts per cell = sum of row
     counts = df.sum(axis=1) # Sum over genes
-    
-    # Total genes per cell = count of >0
     n_genes = (df > 0).sum(axis=1)
     
-    return {
-        "total_transcripts": counts.values,
-        "total_genes": n_genes.values
-    }
+    metrics = []
+    for idx in df.index:
+        metrics.append({
+            "cell_id": int(idx) if str(idx).isdigit() else str(idx),
+            "total_transcripts": int(counts[idx]),
+            "total_genes": int(n_genes[idx])
+        })
+    return metrics
 
-def print_metrics(morph_metrics, expr_metrics):
-    print("\n=== Metrics (Mean) ===")
+def plot_loss_curves(training_history, out_dir):
+    if not training_history:
+        return
+        
+    steps = [x['step'] for x in training_history]
+    total_loss = [x['total_loss'] for x in training_history]
     
-    for k, v in morph_metrics.items():
-        if len(v) > 0:
-            print(f"{k}: {np.mean(v):.4f}")
+    plt.figure(figsize=(10, 6))
+    plt.plot(steps, total_loss, label='Total Loss', color='black', linewidth=2)
+    
+    keys = ['NE', 'TC', 'CC', 'OV', 'PN']
+    colors = ['blue', 'orange', 'green', 'red', 'purple']
+    
+    for key, color in zip(keys, colors):
+        if key in training_history[0]:
+            vals = [x[key] for x in training_history]
+            plt.plot(steps, vals, label=key, color=color, alpha=0.7)
             
-    if "total_transcripts" in expr_metrics:
-        print(f"total transcripts: {np.mean(expr_metrics['total_transcripts']):.3f}")
-        print(f"total genes: {np.mean(expr_metrics['total_genes']):.3f}")
+    plt.xlabel('Step')
+    plt.ylabel('Loss')
+    plt.title('Training Loss Curves')
+    plt.legend()
+    plt.grid(True)
+    plt.savefig(os.path.join(out_dir, "loss_curves.png"), dpi=300)
+    plt.close()
+
+def plot_lr_curve(learning_rates, out_dir):
+    if not learning_rates:
+        return
+    
+    epochs = [x['epoch'] for x in learning_rates]
+    lrs = [x['lr'] for x in learning_rates]
+    
+    plt.figure(figsize=(8, 4))
+    plt.plot(epochs, lrs, 'o-', label='Learning Rate')
+    plt.xlabel('Epoch')
+    plt.ylabel('Learning Rate')
+    plt.title('Learning Rate Schedule')
+    plt.grid(True)
+    plt.savefig(os.path.join(out_dir, "lr_curve.png"), dpi=300)
+    plt.close()
 
 def main():
-    # 1. Setup Data
+    ugrad_results_dir = os.path.join("D:\\2512-BROCK-CODING\\BIDCell", "ugrad_results")
+    if not os.path.exists(ugrad_results_dir):
+        os.makedirs(ugrad_results_dir)
+        
     print("Setting up example data...")
     BIDCellModel.get_example_data()
     
-    # 2. Run Pipeline
     config_file = "params_small_example.yaml"
     print(f"Initializing model with {config_file}...")
     model = BIDCellModel(config_file)
     
-    # Check if we should render UGrad explicit? 
-    # The default train() in bidcell/model/train.py ALREADY uses UUPGrad/mtl_backward.
-    # So just running model.train() uses UGrad.
+    # Increase logging frequency to capture more data points
+    print("Adjusting training frequency for maximum data capture (sample_freq=1)...")
+    model.config.training_params.sample_freq = 1
+    model.config.training_params.total_epochs = 5
     
     print("Running pipeline (Preprocessing, Training, Prediction)...")
-    # We can run the full pipeline
-    model.run_pipeline()
     
-    # 3. Retrieve Results and Calculate Metrics
+    capture = StdoutCapture()
+    with capture:
+        try:
+            model.run_pipeline()
+        except SystemExit as e:
+            print(f"Caught system exit: {e}")
+        except Exception as e:
+            print(f"Caught exception: {e}")
+            import traceback
+            traceback.print_exc()
+
+    stdout_content = capture.get_output()
+    print(stdout_content)
+    
+    with open(os.path.join(ugrad_results_dir, "training_log.txt"), "w") as f:
+        f.write(stdout_content)
+        
     print("\nRetrieving metrics...")
     
-    # Find output directory
-    config = load_config(config_file)
+    training_points, lrs = parse_training_logs(stdout_content)
+    
+    with open(os.path.join(ugrad_results_dir, "training_metrics.json"), "w") as f:
+        json.dump({"history": training_points, "learning_rates": lrs}, f, indent=4)
+        
+    plot_loss_curves(training_points, ugrad_results_dir)
+    plot_lr_curve(lrs, ugrad_results_dir)
+    
+    # Post-processing identification
+    config = load_config(config_file) # Re-load to get clean paths
     if config.experiment_dirs.dir_id == "last":
         timestamp = get_newest_id(os.path.join(config.files.data_dir, "model_outputs"))
     else:
         timestamp = config.experiment_dirs.dir_id
         
+    out_dir = os.path.join(config.files.data_dir, "model_outputs", timestamp)
     print(f"Using output from timestamp: {timestamp}")
     
-    # Path to segmentation
-    out_dir = os.path.join(config.files.data_dir, "model_outputs", timestamp)
-    
-    # Need to find the connected tif. 
-    # It is in test_output/epoch_X_step_Y_connected.tif
     test_out_dir = os.path.join(out_dir, "test_output")
     connected_files = glob.glob(os.path.join(test_out_dir, "*_connected.tif"))
     
-    if not connected_files:
+    if connected_files:
+        seg_path = connected_files[0]
+        print(f"Analyzing segmentation: {seg_path}")
+        morph_metrics = compute_morphology_metrics(seg_path)
+        with open(os.path.join(ugrad_results_dir, "morphology_metrics.json"), "w") as f:
+            json.dump(morph_metrics, f, indent=4)
+    else:
         print("Error: No segmentation output found.")
-        return
-        
-    seg_path = connected_files[0]
-    print(f"Analyzing segmentation: {seg_path}")
-    
-    morph_metrics = compute_morphology_metrics(seg_path)
-    
-    # Path to Cell-Gene Matrix
-    # Usually in model_outputs/{timestamp}/cell_gene_matrix/
-    cgm_dir = os.path.join(out_dir, "cell_gene_matrix")
+
+    # Expression Metrics
+    # Check "cell_gene_matrices" (plural)
+    cgm_dir = os.path.join(out_dir, "cell_gene_matrices")
     cgm_files = glob.glob(os.path.join(cgm_dir, "*.csv"))
     
-    expr_metrics = {}
     if cgm_files:
         cgm_path = cgm_files[0]
         print(f"Analyzing expression matrix: {cgm_path}")
         expr_metrics = compute_expression_metrics(cgm_path)
+        with open(os.path.join(ugrad_results_dir, "expression_metrics.json"), "w") as f:
+            json.dump(expr_metrics, f, indent=4)
     else:
-        print("Warning: No Cell-Gene Matrix CSV found.")
+        # Fallback to broad search if clean path fails
+        all_csvs = glob.glob(os.path.join(out_dir, "**/*.csv"), recursive=True)
+        cgm_candidates = [f for f in all_csvs if "cell_gene" in f or "cell_by_gene" in f or "matrix" in f]
+        if cgm_candidates:
+            print(f"Found candidate expression matrix (fallback): {cgm_candidates[0]}")
+            expr_metrics = compute_expression_metrics(cgm_candidates[0])
+            with open(os.path.join(ugrad_results_dir, "expression_metrics.json"), "w") as f:
+                json.dump(expr_metrics, f, indent=4)
+        else:
+             print("Warning: No Cell-Gene Matrix CSV found.")
         
-    print_metrics(morph_metrics, expr_metrics)
-    
-    # Note: Precise "Positive/Negative Precision" would require re-implementing 
-    # the marker vs segmentation overlap logic which depends on the raw data patches.
-    # For now, we return the morphology and expression metrics which cover the first half of the user's table.
+    print(f"Results saved to {ugrad_results_dir}")
 
 if __name__ == "__main__":
     main()

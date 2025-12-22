@@ -239,12 +239,14 @@ def train(config: Config):
             loss = loss_ne + loss_os + loss_cc + loss_ov + loss_pn
 
             # Optimisation
-            # loss.backward()
-            mtl_backward(
-                losses=[loss_ne, loss_os, loss_cc, loss_ov, loss_pn],
-                features=seg_pred,
-                aggregator=aggregator
-            )
+            if config.training_params.aggregation == "sum":
+                loss.backward()
+            else:
+                mtl_backward(
+                    losses=[loss_ne, loss_os, loss_cc, loss_ov, loss_pn],
+                    features=seg_pred,
+                    aggregator=aggregator
+                )
             optimizer.step()
 
             step_ne_loss = loss_ne.detach().cpu().numpy() # noqa

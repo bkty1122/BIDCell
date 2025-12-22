@@ -185,6 +185,8 @@ class TrainingParams(BaseModel):
     weight_decay: float = 0.0001
     # optimiser
     optimizer: Literal["adam", "rmsprop"] = "adam"
+    # aggregation method for multi-task loss
+    aggregation: Literal["sum", "ugrad"] = "ugrad"
     ne_weight: float = 1.0
     os_weight: float = 1.0
     cc_weight: float = 1.0

@@ -1,0 +1,4262 @@
+[
+    {
+        "cell_id": 1,
+        "total_transcripts": 226,
+        "total_genes": 67
+    },
+    {
+        "cell_id": 2,
+        "total_transcripts": 52,
+        "total_genes": 33
+    },
+    {
+        "cell_id": 3,
+        "total_transcripts": 61,
+        "total_genes": 33
+    },
+    {
+        "cell_id": 4,
+        "total_transcripts": 58,
+        "total_genes": 28
+    },
+    {
+        "cell_id": 5,
+        "total_transcripts": 73,
+        "total_genes": 41
+    },
+    {
+        "cell_id": 6,
+        "total_transcripts": 112,
+        "total_genes": 57
+    },
+    {
+        "cell_id": 7,
+        "total_transcripts": 243,
+        "total_genes": 64
+    },
+    {
+        "cell_id": 8,
+        "total_transcripts": 72,
+        "total_genes": 28
+    },
+    {
+        "cell_id": 9,
+        "total_transcripts": 137,
+        "total_genes": 49
+    },
+    {
+        "cell_id": 10,
+        "total_transcripts": 124,
+        "total_genes": 49
+    },
+    {
+        "cell_id": 11,
+        "total_transcripts": 138,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 12,
+        "total_transcripts": 191,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 13,
+        "total_transcripts": 287,
+        "total_genes": 69
+    },
+    {
+        "cell_id": 14,
+        "total_transcripts": 48,
+        "total_genes": 23
+    },
+    {
+        "cell_id": 15,
+        "total_transcripts": 47,
+        "total_genes": 23
+    },
+    {
+        "cell_id": 16,
+        "total_transcripts": 388,
+        "total_genes": 77
+    },
+    {
+        "cell_id": 17,
+        "total_transcripts": 366,
+        "total_genes": 76
+    },
+    {
+        "cell_id": 18,
+        "total_transcripts": 45,
+        "total_genes": 22
+    },
+    {
+        "cell_id": 19,
+        "total_transcripts": 190,
+        "total_genes": 53
+    },
+    {
+        "cell_id": 20,
+        "total_transcripts": 82,
+        "total_genes": 42
+    },
+    {
+        "cell_id": 21,
+        "total_transcripts": 90,
+        "total_genes": 48
+    },
+    {
+        "cell_id": 22,
+        "total_transcripts": 199,
+        "total_genes": 71
+    },
+    {
+        "cell_id": 23,
+        "total_transcripts": 168,
+        "total_genes": 55
+    },
+    {
+        "cell_id": 24,
+        "total_transcripts": 317,
+        "total_genes": 72
+    },
+    {
+        "cell_id": 25,
+        "total_transcripts": 166,
+        "total_genes": 45
+    },
+    {
+        "cell_id": 26,
+        "total_transcripts": 126,
+        "total_genes": 44
+    },
+    {
+        "cell_id": 27,
+        "total_transcripts": 153,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 28,
+        "total_transcripts": 276,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 29,
+        "total_transcripts": 190,
+        "total_genes": 59
+    },
+    {
+        "cell_id": 30,
+        "total_transcripts": 82,
+        "total_genes": 33
+    },
+    {
+        "cell_id": 31,
+        "total_transcripts": 50,
+        "total_genes": 19
+    },
+    {
+        "cell_id": 32,
+        "total_transcripts": 50,
+        "total_genes": 16
+    },
+    {
+        "cell_id": 33,
+        "total_transcripts": 217,
+        "total_genes": 55
+    },
+    {
+        "cell_id": 34,
+        "total_transcripts": 319,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 35,
+        "total_transcripts": 100,
+        "total_genes": 41
+    },
+    {
+        "cell_id": 36,
+        "total_transcripts": 240,
+        "total_genes": 77
+    },
+    {
+        "cell_id": 37,
+        "total_transcripts": 98,
+        "total_genes": 31
+    },
+    {
+        "cell_id": 38,
+        "total_transcripts": 103,
+        "total_genes": 40
+    },
+    {
+        "cell_id": 39,
+        "total_transcripts": 239,
+        "total_genes": 63
+    },
+    {
+        "cell_id": 40,
+        "total_transcripts": 60,
+        "total_genes": 16
+    },
+    {
+        "cell_id": 41,
+        "total_transcripts": 183,
+        "total_genes": 55
+    },
+    {
+        "cell_id": 42,
+        "total_transcripts": 303,
+        "total_genes": 75
+    },
+    {
+        "cell_id": 43,
+        "total_transcripts": 103,
+        "total_genes": 35
+    },
+    {
+        "cell_id": 44,
+        "total_transcripts": 369,
+        "total_genes": 74
+    },
+    {
+        "cell_id": 45,
+        "total_transcripts": 234,
+        "total_genes": 77
+    },
+    {
+        "cell_id": 46,
+        "total_transcripts": 319,
+        "total_genes": 78
+    },
+    {
+        "cell_id": 47,
+        "total_transcripts": 245,
+        "total_genes": 63
+    },
+    {
+        "cell_id": 48,
+        "total_transcripts": 124,
+        "total_genes": 36
+    },
+    {
+        "cell_id": 49,
+        "total_transcripts": 110,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 50,
+        "total_transcripts": 223,
+        "total_genes": 58
+    },
+    {
+        "cell_id": 51,
+        "total_transcripts": 307,
+        "total_genes": 71
+    },
+    {
+        "cell_id": 52,
+        "total_transcripts": 413,
+        "total_genes": 82
+    },
+    {
+        "cell_id": 53,
+        "total_transcripts": 180,
+        "total_genes": 53
+    },
+    {
+        "cell_id": 54,
+        "total_transcripts": 515,
+        "total_genes": 91
+    },
+    {
+        "cell_id": 55,
+        "total_transcripts": 121,
+        "total_genes": 32
+    },
+    {
+        "cell_id": 56,
+        "total_transcripts": 100,
+        "total_genes": 30
+    },
+    {
+        "cell_id": 57,
+        "total_transcripts": 88,
+        "total_genes": 20
+    },
+    {
+        "cell_id": 58,
+        "total_transcripts": 133,
+        "total_genes": 46
+    },
+    {
+        "cell_id": 59,
+        "total_transcripts": 338,
+        "total_genes": 75
+    },
+    {
+        "cell_id": 60,
+        "total_transcripts": 99,
+        "total_genes": 27
+    },
+    {
+        "cell_id": 61,
+        "total_transcripts": 188,
+        "total_genes": 42
+    },
+    {
+        "cell_id": 62,
+        "total_transcripts": 499,
+        "total_genes": 90
+    },
+    {
+        "cell_id": 63,
+        "total_transcripts": 359,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 64,
+        "total_transcripts": 177,
+        "total_genes": 44
+    },
+    {
+        "cell_id": 65,
+        "total_transcripts": 119,
+        "total_genes": 33
+    },
+    {
+        "cell_id": 66,
+        "total_transcripts": 325,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 67,
+        "total_transcripts": 110,
+        "total_genes": 31
+    },
+    {
+        "cell_id": 68,
+        "total_transcripts": 195,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 69,
+        "total_transcripts": 248,
+        "total_genes": 57
+    },
+    {
+        "cell_id": 70,
+        "total_transcripts": 319,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 71,
+        "total_transcripts": 156,
+        "total_genes": 51
+    },
+    {
+        "cell_id": 72,
+        "total_transcripts": 192,
+        "total_genes": 44
+    },
+    {
+        "cell_id": 73,
+        "total_transcripts": 334,
+        "total_genes": 75
+    },
+    {
+        "cell_id": 74,
+        "total_transcripts": 139,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 75,
+        "total_transcripts": 350,
+        "total_genes": 76
+    },
+    {
+        "cell_id": 76,
+        "total_transcripts": 501,
+        "total_genes": 85
+    },
+    {
+        "cell_id": 77,
+        "total_transcripts": 155,
+        "total_genes": 51
+    },
+    {
+        "cell_id": 78,
+        "total_transcripts": 194,
+        "total_genes": 43
+    },
+    {
+        "cell_id": 79,
+        "total_transcripts": 168,
+        "total_genes": 47
+    },
+    {
+        "cell_id": 80,
+        "total_transcripts": 217,
+        "total_genes": 67
+    },
+    {
+        "cell_id": 81,
+        "total_transcripts": 333,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 82,
+        "total_transcripts": 355,
+        "total_genes": 93
+    },
+    {
+        "cell_id": 83,
+        "total_transcripts": 165,
+        "total_genes": 39
+    },
+    {
+        "cell_id": 84,
+        "total_transcripts": 187,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 85,
+        "total_transcripts": 416,
+        "total_genes": 82
+    },
+    {
+        "cell_id": 86,
+        "total_transcripts": 335,
+        "total_genes": 73
+    },
+    {
+        "cell_id": 87,
+        "total_transcripts": 185,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 88,
+        "total_transcripts": 127,
+        "total_genes": 27
+    },
+    {
+        "cell_id": 89,
+        "total_transcripts": 175,
+        "total_genes": 42
+    },
+    {
+        "cell_id": 90,
+        "total_transcripts": 192,
+        "total_genes": 55
+    },
+    {
+        "cell_id": 91,
+        "total_transcripts": 160,
+        "total_genes": 41
+    },
+    {
+        "cell_id": 92,
+        "total_transcripts": 182,
+        "total_genes": 45
+    },
+    {
+        "cell_id": 93,
+        "total_transcripts": 217,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 94,
+        "total_transcripts": 165,
+        "total_genes": 34
+    },
+    {
+        "cell_id": 95,
+        "total_transcripts": 168,
+        "total_genes": 41
+    },
+    {
+        "cell_id": 96,
+        "total_transcripts": 277,
+        "total_genes": 69
+    },
+    {
+        "cell_id": 97,
+        "total_transcripts": 237,
+        "total_genes": 63
+    },
+    {
+        "cell_id": 98,
+        "total_transcripts": 237,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 99,
+        "total_transcripts": 148,
+        "total_genes": 22
+    },
+    {
+        "cell_id": 100,
+        "total_transcripts": 156,
+        "total_genes": 25
+    },
+    {
+        "cell_id": 101,
+        "total_transcripts": 148,
+        "total_genes": 33
+    },
+    {
+        "cell_id": 102,
+        "total_transcripts": 146,
+        "total_genes": 26
+    },
+    {
+        "cell_id": 103,
+        "total_transcripts": 173,
+        "total_genes": 43
+    },
+    {
+        "cell_id": 104,
+        "total_transcripts": 295,
+        "total_genes": 85
+    },
+    {
+        "cell_id": 105,
+        "total_transcripts": 422,
+        "total_genes": 67
+    },
+    {
+        "cell_id": 106,
+        "total_transcripts": 563,
+        "total_genes": 86
+    },
+    {
+        "cell_id": 107,
+        "total_transcripts": 240,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 108,
+        "total_transcripts": 283,
+        "total_genes": 63
+    },
+    {
+        "cell_id": 109,
+        "total_transcripts": 254,
+        "total_genes": 61
+    },
+    {
+        "cell_id": 110,
+        "total_transcripts": 229,
+        "total_genes": 62
+    },
+    {
+        "cell_id": 111,
+        "total_transcripts": 262,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 112,
+        "total_transcripts": 227,
+        "total_genes": 60
+    },
+    {
+        "cell_id": 113,
+        "total_transcripts": 420,
+        "total_genes": 102
+    },
+    {
+        "cell_id": 114,
+        "total_transcripts": 296,
+        "total_genes": 87
+    },
+    {
+        "cell_id": 115,
+        "total_transcripts": 285,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 116,
+        "total_transcripts": 454,
+        "total_genes": 88
+    },
+    {
+        "cell_id": 117,
+        "total_transcripts": 204,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 118,
+        "total_transcripts": 179,
+        "total_genes": 31
+    },
+    {
+        "cell_id": 119,
+        "total_transcripts": 308,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 120,
+        "total_transcripts": 300,
+        "total_genes": 89
+    },
+    {
+        "cell_id": 121,
+        "total_transcripts": 273,
+        "total_genes": 72
+    },
+    {
+        "cell_id": 122,
+        "total_transcripts": 147,
+        "total_genes": 20
+    },
+    {
+        "cell_id": 123,
+        "total_transcripts": 362,
+        "total_genes": 58
+    },
+    {
+        "cell_id": 124,
+        "total_transcripts": 265,
+        "total_genes": 62
+    },
+    {
+        "cell_id": 125,
+        "total_transcripts": 187,
+        "total_genes": 38
+    },
+    {
+        "cell_id": 126,
+        "total_transcripts": 436,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 127,
+        "total_transcripts": 206,
+        "total_genes": 41
+    },
+    {
+        "cell_id": 128,
+        "total_transcripts": 424,
+        "total_genes": 71
+    },
+    {
+        "cell_id": 129,
+        "total_transcripts": 379,
+        "total_genes": 67
+    },
+    {
+        "cell_id": 130,
+        "total_transcripts": 342,
+        "total_genes": 63
+    },
+    {
+        "cell_id": 131,
+        "total_transcripts": 177,
+        "total_genes": 29
+    },
+    {
+        "cell_id": 132,
+        "total_transcripts": 438,
+        "total_genes": 82
+    },
+    {
+        "cell_id": 133,
+        "total_transcripts": 435,
+        "total_genes": 72
+    },
+    {
+        "cell_id": 134,
+        "total_transcripts": 201,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 135,
+        "total_transcripts": 243,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 136,
+        "total_transcripts": 211,
+        "total_genes": 44
+    },
+    {
+        "cell_id": 137,
+        "total_transcripts": 370,
+        "total_genes": 88
+    },
+    {
+        "cell_id": 138,
+        "total_transcripts": 297,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 139,
+        "total_transcripts": 161,
+        "total_genes": 21
+    },
+    {
+        "cell_id": 140,
+        "total_transcripts": 232,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 141,
+        "total_transcripts": 195,
+        "total_genes": 24
+    },
+    {
+        "cell_id": 142,
+        "total_transcripts": 154,
+        "total_genes": 11
+    },
+    {
+        "cell_id": 143,
+        "total_transcripts": 244,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 144,
+        "total_transcripts": 375,
+        "total_genes": 67
+    },
+    {
+        "cell_id": 145,
+        "total_transcripts": 516,
+        "total_genes": 94
+    },
+    {
+        "cell_id": 146,
+        "total_transcripts": 177,
+        "total_genes": 24
+    },
+    {
+        "cell_id": 147,
+        "total_transcripts": 228,
+        "total_genes": 34
+    },
+    {
+        "cell_id": 148,
+        "total_transcripts": 250,
+        "total_genes": 48
+    },
+    {
+        "cell_id": 149,
+        "total_transcripts": 314,
+        "total_genes": 55
+    },
+    {
+        "cell_id": 150,
+        "total_transcripts": 200,
+        "total_genes": 27
+    },
+    {
+        "cell_id": 151,
+        "total_transcripts": 241,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 152,
+        "total_transcripts": 712,
+        "total_genes": 94
+    },
+    {
+        "cell_id": 153,
+        "total_transcripts": 310,
+        "total_genes": 53
+    },
+    {
+        "cell_id": 154,
+        "total_transcripts": 383,
+        "total_genes": 61
+    },
+    {
+        "cell_id": 155,
+        "total_transcripts": 532,
+        "total_genes": 77
+    },
+    {
+        "cell_id": 156,
+        "total_transcripts": 421,
+        "total_genes": 87
+    },
+    {
+        "cell_id": 157,
+        "total_transcripts": 236,
+        "total_genes": 44
+    },
+    {
+        "cell_id": 158,
+        "total_transcripts": 197,
+        "total_genes": 29
+    },
+    {
+        "cell_id": 159,
+        "total_transcripts": 199,
+        "total_genes": 32
+    },
+    {
+        "cell_id": 160,
+        "total_transcripts": 388,
+        "total_genes": 67
+    },
+    {
+        "cell_id": 161,
+        "total_transcripts": 216,
+        "total_genes": 36
+    },
+    {
+        "cell_id": 162,
+        "total_transcripts": 667,
+        "total_genes": 128
+    },
+    {
+        "cell_id": 163,
+        "total_transcripts": 702,
+        "total_genes": 88
+    },
+    {
+        "cell_id": 164,
+        "total_transcripts": 297,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 165,
+        "total_transcripts": 208,
+        "total_genes": 22
+    },
+    {
+        "cell_id": 166,
+        "total_transcripts": 214,
+        "total_genes": 27
+    },
+    {
+        "cell_id": 167,
+        "total_transcripts": 229,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 168,
+        "total_transcripts": 239,
+        "total_genes": 35
+    },
+    {
+        "cell_id": 169,
+        "total_transcripts": 219,
+        "total_genes": 32
+    },
+    {
+        "cell_id": 170,
+        "total_transcripts": 232,
+        "total_genes": 34
+    },
+    {
+        "cell_id": 171,
+        "total_transcripts": 404,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 172,
+        "total_transcripts": 223,
+        "total_genes": 32
+    },
+    {
+        "cell_id": 173,
+        "total_transcripts": 609,
+        "total_genes": 82
+    },
+    {
+        "cell_id": 174,
+        "total_transcripts": 218,
+        "total_genes": 23
+    },
+    {
+        "cell_id": 175,
+        "total_transcripts": 390,
+        "total_genes": 57
+    },
+    {
+        "cell_id": 176,
+        "total_transcripts": 619,
+        "total_genes": 117
+    },
+    {
+        "cell_id": 177,
+        "total_transcripts": 327,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 178,
+        "total_transcripts": 204,
+        "total_genes": 21
+    },
+    {
+        "cell_id": 179,
+        "total_transcripts": 445,
+        "total_genes": 71
+    },
+    {
+        "cell_id": 180,
+        "total_transcripts": 258,
+        "total_genes": 45
+    },
+    {
+        "cell_id": 181,
+        "total_transcripts": 361,
+        "total_genes": 69
+    },
+    {
+        "cell_id": 182,
+        "total_transcripts": 285,
+        "total_genes": 53
+    },
+    {
+        "cell_id": 183,
+        "total_transcripts": 210,
+        "total_genes": 20
+    },
+    {
+        "cell_id": 184,
+        "total_transcripts": 249,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 185,
+        "total_transcripts": 353,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 186,
+        "total_transcripts": 291,
+        "total_genes": 46
+    },
+    {
+        "cell_id": 187,
+        "total_transcripts": 708,
+        "total_genes": 93
+    },
+    {
+        "cell_id": 188,
+        "total_transcripts": 235,
+        "total_genes": 24
+    },
+    {
+        "cell_id": 189,
+        "total_transcripts": 225,
+        "total_genes": 24
+    },
+    {
+        "cell_id": 190,
+        "total_transcripts": 223,
+        "total_genes": 29
+    },
+    {
+        "cell_id": 191,
+        "total_transcripts": 302,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 192,
+        "total_transcripts": 239,
+        "total_genes": 33
+    },
+    {
+        "cell_id": 193,
+        "total_transcripts": 307,
+        "total_genes": 45
+    },
+    {
+        "cell_id": 194,
+        "total_transcripts": 310,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 195,
+        "total_transcripts": 502,
+        "total_genes": 82
+    },
+    {
+        "cell_id": 196,
+        "total_transcripts": 313,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 197,
+        "total_transcripts": 290,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 198,
+        "total_transcripts": 307,
+        "total_genes": 45
+    },
+    {
+        "cell_id": 199,
+        "total_transcripts": 410,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 200,
+        "total_transcripts": 291,
+        "total_genes": 43
+    },
+    {
+        "cell_id": 201,
+        "total_transcripts": 263,
+        "total_genes": 41
+    },
+    {
+        "cell_id": 202,
+        "total_transcripts": 333,
+        "total_genes": 58
+    },
+    {
+        "cell_id": 203,
+        "total_transcripts": 399,
+        "total_genes": 60
+    },
+    {
+        "cell_id": 204,
+        "total_transcripts": 280,
+        "total_genes": 44
+    },
+    {
+        "cell_id": 205,
+        "total_transcripts": 372,
+        "total_genes": 59
+    },
+    {
+        "cell_id": 206,
+        "total_transcripts": 337,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 207,
+        "total_transcripts": 310,
+        "total_genes": 45
+    },
+    {
+        "cell_id": 208,
+        "total_transcripts": 295,
+        "total_genes": 45
+    },
+    {
+        "cell_id": 209,
+        "total_transcripts": 242,
+        "total_genes": 24
+    },
+    {
+        "cell_id": 210,
+        "total_transcripts": 304,
+        "total_genes": 43
+    },
+    {
+        "cell_id": 211,
+        "total_transcripts": 560,
+        "total_genes": 80
+    },
+    {
+        "cell_id": 212,
+        "total_transcripts": 546,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 213,
+        "total_transcripts": 244,
+        "total_genes": 21
+    },
+    {
+        "cell_id": 214,
+        "total_transcripts": 322,
+        "total_genes": 42
+    },
+    {
+        "cell_id": 215,
+        "total_transcripts": 292,
+        "total_genes": 45
+    },
+    {
+        "cell_id": 216,
+        "total_transcripts": 447,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 217,
+        "total_transcripts": 531,
+        "total_genes": 107
+    },
+    {
+        "cell_id": 218,
+        "total_transcripts": 287,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 219,
+        "total_transcripts": 467,
+        "total_genes": 79
+    },
+    {
+        "cell_id": 220,
+        "total_transcripts": 324,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 221,
+        "total_transcripts": 336,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 222,
+        "total_transcripts": 321,
+        "total_genes": 44
+    },
+    {
+        "cell_id": 223,
+        "total_transcripts": 284,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 224,
+        "total_transcripts": 290,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 225,
+        "total_transcripts": 546,
+        "total_genes": 114
+    },
+    {
+        "cell_id": 226,
+        "total_transcripts": 344,
+        "total_genes": 46
+    },
+    {
+        "cell_id": 227,
+        "total_transcripts": 401,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 228,
+        "total_transcripts": 385,
+        "total_genes": 47
+    },
+    {
+        "cell_id": 229,
+        "total_transcripts": 580,
+        "total_genes": 73
+    },
+    {
+        "cell_id": 230,
+        "total_transcripts": 257,
+        "total_genes": 16
+    },
+    {
+        "cell_id": 231,
+        "total_transcripts": 321,
+        "total_genes": 42
+    },
+    {
+        "cell_id": 232,
+        "total_transcripts": 780,
+        "total_genes": 95
+    },
+    {
+        "cell_id": 233,
+        "total_transcripts": 266,
+        "total_genes": 23
+    },
+    {
+        "cell_id": 234,
+        "total_transcripts": 441,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 235,
+        "total_transcripts": 390,
+        "total_genes": 63
+    },
+    {
+        "cell_id": 236,
+        "total_transcripts": 298,
+        "total_genes": 32
+    },
+    {
+        "cell_id": 237,
+        "total_transcripts": 476,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 238,
+        "total_transcripts": 310,
+        "total_genes": 44
+    },
+    {
+        "cell_id": 239,
+        "total_transcripts": 285,
+        "total_genes": 38
+    },
+    {
+        "cell_id": 240,
+        "total_transcripts": 262,
+        "total_genes": 19
+    },
+    {
+        "cell_id": 241,
+        "total_transcripts": 627,
+        "total_genes": 91
+    },
+    {
+        "cell_id": 242,
+        "total_transcripts": 312,
+        "total_genes": 43
+    },
+    {
+        "cell_id": 243,
+        "total_transcripts": 294,
+        "total_genes": 31
+    },
+    {
+        "cell_id": 244,
+        "total_transcripts": 642,
+        "total_genes": 87
+    },
+    {
+        "cell_id": 245,
+        "total_transcripts": 267,
+        "total_genes": 20
+    },
+    {
+        "cell_id": 246,
+        "total_transcripts": 313,
+        "total_genes": 33
+    },
+    {
+        "cell_id": 247,
+        "total_transcripts": 302,
+        "total_genes": 34
+    },
+    {
+        "cell_id": 248,
+        "total_transcripts": 363,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 249,
+        "total_transcripts": 448,
+        "total_genes": 67
+    },
+    {
+        "cell_id": 250,
+        "total_transcripts": 443,
+        "total_genes": 84
+    },
+    {
+        "cell_id": 251,
+        "total_transcripts": 291,
+        "total_genes": 24
+    },
+    {
+        "cell_id": 252,
+        "total_transcripts": 385,
+        "total_genes": 48
+    },
+    {
+        "cell_id": 253,
+        "total_transcripts": 691,
+        "total_genes": 83
+    },
+    {
+        "cell_id": 254,
+        "total_transcripts": 437,
+        "total_genes": 77
+    },
+    {
+        "cell_id": 255,
+        "total_transcripts": 515,
+        "total_genes": 95
+    },
+    {
+        "cell_id": 256,
+        "total_transcripts": 416,
+        "total_genes": 57
+    },
+    {
+        "cell_id": 257,
+        "total_transcripts": 306,
+        "total_genes": 36
+    },
+    {
+        "cell_id": 258,
+        "total_transcripts": 424,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 259,
+        "total_transcripts": 506,
+        "total_genes": 73
+    },
+    {
+        "cell_id": 260,
+        "total_transcripts": 332,
+        "total_genes": 41
+    },
+    {
+        "cell_id": 261,
+        "total_transcripts": 378,
+        "total_genes": 41
+    },
+    {
+        "cell_id": 262,
+        "total_transcripts": 880,
+        "total_genes": 95
+    },
+    {
+        "cell_id": 263,
+        "total_transcripts": 462,
+        "total_genes": 67
+    },
+    {
+        "cell_id": 264,
+        "total_transcripts": 640,
+        "total_genes": 97
+    },
+    {
+        "cell_id": 265,
+        "total_transcripts": 306,
+        "total_genes": 24
+    },
+    {
+        "cell_id": 266,
+        "total_transcripts": 400,
+        "total_genes": 73
+    },
+    {
+        "cell_id": 267,
+        "total_transcripts": 322,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 268,
+        "total_transcripts": 627,
+        "total_genes": 88
+    },
+    {
+        "cell_id": 269,
+        "total_transcripts": 492,
+        "total_genes": 96
+    },
+    {
+        "cell_id": 270,
+        "total_transcripts": 396,
+        "total_genes": 62
+    },
+    {
+        "cell_id": 271,
+        "total_transcripts": 299,
+        "total_genes": 21
+    },
+    {
+        "cell_id": 272,
+        "total_transcripts": 472,
+        "total_genes": 62
+    },
+    {
+        "cell_id": 273,
+        "total_transcripts": 464,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 274,
+        "total_transcripts": 432,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 275,
+        "total_transcripts": 368,
+        "total_genes": 40
+    },
+    {
+        "cell_id": 276,
+        "total_transcripts": 363,
+        "total_genes": 40
+    },
+    {
+        "cell_id": 277,
+        "total_transcripts": 304,
+        "total_genes": 19
+    },
+    {
+        "cell_id": 278,
+        "total_transcripts": 405,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 279,
+        "total_transcripts": 408,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 280,
+        "total_transcripts": 351,
+        "total_genes": 44
+    },
+    {
+        "cell_id": 281,
+        "total_transcripts": 329,
+        "total_genes": 30
+    },
+    {
+        "cell_id": 282,
+        "total_transcripts": 517,
+        "total_genes": 79
+    },
+    {
+        "cell_id": 283,
+        "total_transcripts": 427,
+        "total_genes": 67
+    },
+    {
+        "cell_id": 284,
+        "total_transcripts": 528,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 285,
+        "total_transcripts": 325,
+        "total_genes": 30
+    },
+    {
+        "cell_id": 286,
+        "total_transcripts": 440,
+        "total_genes": 69
+    },
+    {
+        "cell_id": 287,
+        "total_transcripts": 540,
+        "total_genes": 61
+    },
+    {
+        "cell_id": 288,
+        "total_transcripts": 456,
+        "total_genes": 72
+    },
+    {
+        "cell_id": 289,
+        "total_transcripts": 600,
+        "total_genes": 103
+    },
+    {
+        "cell_id": 290,
+        "total_transcripts": 432,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 291,
+        "total_transcripts": 324,
+        "total_genes": 26
+    },
+    {
+        "cell_id": 292,
+        "total_transcripts": 601,
+        "total_genes": 78
+    },
+    {
+        "cell_id": 293,
+        "total_transcripts": 476,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 294,
+        "total_transcripts": 413,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 295,
+        "total_transcripts": 583,
+        "total_genes": 76
+    },
+    {
+        "cell_id": 296,
+        "total_transcripts": 351,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 297,
+        "total_transcripts": 518,
+        "total_genes": 58
+    },
+    {
+        "cell_id": 298,
+        "total_transcripts": 354,
+        "total_genes": 27
+    },
+    {
+        "cell_id": 299,
+        "total_transcripts": 498,
+        "total_genes": 60
+    },
+    {
+        "cell_id": 300,
+        "total_transcripts": 352,
+        "total_genes": 27
+    },
+    {
+        "cell_id": 301,
+        "total_transcripts": 375,
+        "total_genes": 32
+    },
+    {
+        "cell_id": 302,
+        "total_transcripts": 616,
+        "total_genes": 87
+    },
+    {
+        "cell_id": 303,
+        "total_transcripts": 365,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 304,
+        "total_transcripts": 554,
+        "total_genes": 61
+    },
+    {
+        "cell_id": 305,
+        "total_transcripts": 645,
+        "total_genes": 86
+    },
+    {
+        "cell_id": 306,
+        "total_transcripts": 407,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 307,
+        "total_transcripts": 575,
+        "total_genes": 63
+    },
+    {
+        "cell_id": 308,
+        "total_transcripts": 342,
+        "total_genes": 23
+    },
+    {
+        "cell_id": 309,
+        "total_transcripts": 585,
+        "total_genes": 74
+    },
+    {
+        "cell_id": 310,
+        "total_transcripts": 344,
+        "total_genes": 23
+    },
+    {
+        "cell_id": 311,
+        "total_transcripts": 380,
+        "total_genes": 44
+    },
+    {
+        "cell_id": 312,
+        "total_transcripts": 367,
+        "total_genes": 38
+    },
+    {
+        "cell_id": 313,
+        "total_transcripts": 438,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 314,
+        "total_transcripts": 457,
+        "total_genes": 63
+    },
+    {
+        "cell_id": 315,
+        "total_transcripts": 480,
+        "total_genes": 63
+    },
+    {
+        "cell_id": 316,
+        "total_transcripts": 400,
+        "total_genes": 43
+    },
+    {
+        "cell_id": 317,
+        "total_transcripts": 630,
+        "total_genes": 63
+    },
+    {
+        "cell_id": 318,
+        "total_transcripts": 690,
+        "total_genes": 105
+    },
+    {
+        "cell_id": 319,
+        "total_transcripts": 421,
+        "total_genes": 59
+    },
+    {
+        "cell_id": 320,
+        "total_transcripts": 360,
+        "total_genes": 28
+    },
+    {
+        "cell_id": 321,
+        "total_transcripts": 528,
+        "total_genes": 55
+    },
+    {
+        "cell_id": 322,
+        "total_transcripts": 540,
+        "total_genes": 61
+    },
+    {
+        "cell_id": 323,
+        "total_transcripts": 420,
+        "total_genes": 60
+    },
+    {
+        "cell_id": 324,
+        "total_transcripts": 488,
+        "total_genes": 60
+    },
+    {
+        "cell_id": 325,
+        "total_transcripts": 391,
+        "total_genes": 45
+    },
+    {
+        "cell_id": 326,
+        "total_transcripts": 646,
+        "total_genes": 77
+    },
+    {
+        "cell_id": 327,
+        "total_transcripts": 705,
+        "total_genes": 84
+    },
+    {
+        "cell_id": 328,
+        "total_transcripts": 484,
+        "total_genes": 55
+    },
+    {
+        "cell_id": 329,
+        "total_transcripts": 397,
+        "total_genes": 46
+    },
+    {
+        "cell_id": 330,
+        "total_transcripts": 502,
+        "total_genes": 57
+    },
+    {
+        "cell_id": 331,
+        "total_transcripts": 436,
+        "total_genes": 51
+    },
+    {
+        "cell_id": 332,
+        "total_transcripts": 551,
+        "total_genes": 73
+    },
+    {
+        "cell_id": 333,
+        "total_transcripts": 366,
+        "total_genes": 25
+    },
+    {
+        "cell_id": 334,
+        "total_transcripts": 520,
+        "total_genes": 74
+    },
+    {
+        "cell_id": 335,
+        "total_transcripts": 417,
+        "total_genes": 44
+    },
+    {
+        "cell_id": 336,
+        "total_transcripts": 419,
+        "total_genes": 47
+    },
+    {
+        "cell_id": 337,
+        "total_transcripts": 397,
+        "total_genes": 41
+    },
+    {
+        "cell_id": 338,
+        "total_transcripts": 453,
+        "total_genes": 47
+    },
+    {
+        "cell_id": 339,
+        "total_transcripts": 398,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 340,
+        "total_transcripts": 399,
+        "total_genes": 32
+    },
+    {
+        "cell_id": 341,
+        "total_transcripts": 405,
+        "total_genes": 46
+    },
+    {
+        "cell_id": 342,
+        "total_transcripts": 406,
+        "total_genes": 36
+    },
+    {
+        "cell_id": 343,
+        "total_transcripts": 475,
+        "total_genes": 60
+    },
+    {
+        "cell_id": 344,
+        "total_transcripts": 544,
+        "total_genes": 58
+    },
+    {
+        "cell_id": 345,
+        "total_transcripts": 575,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 346,
+        "total_transcripts": 612,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 347,
+        "total_transcripts": 604,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 348,
+        "total_transcripts": 766,
+        "total_genes": 89
+    },
+    {
+        "cell_id": 349,
+        "total_transcripts": 524,
+        "total_genes": 83
+    },
+    {
+        "cell_id": 350,
+        "total_transcripts": 399,
+        "total_genes": 39
+    },
+    {
+        "cell_id": 351,
+        "total_transcripts": 672,
+        "total_genes": 84
+    },
+    {
+        "cell_id": 352,
+        "total_transcripts": 703,
+        "total_genes": 81
+    },
+    {
+        "cell_id": 353,
+        "total_transcripts": 398,
+        "total_genes": 31
+    },
+    {
+        "cell_id": 354,
+        "total_transcripts": 540,
+        "total_genes": 67
+    },
+    {
+        "cell_id": 355,
+        "total_transcripts": 386,
+        "total_genes": 18
+    },
+    {
+        "cell_id": 356,
+        "total_transcripts": 542,
+        "total_genes": 55
+    },
+    {
+        "cell_id": 357,
+        "total_transcripts": 454,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 358,
+        "total_transcripts": 489,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 359,
+        "total_transcripts": 404,
+        "total_genes": 29
+    },
+    {
+        "cell_id": 360,
+        "total_transcripts": 504,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 361,
+        "total_transcripts": 547,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 362,
+        "total_transcripts": 522,
+        "total_genes": 62
+    },
+    {
+        "cell_id": 363,
+        "total_transcripts": 441,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 364,
+        "total_transcripts": 1016,
+        "total_genes": 92
+    },
+    {
+        "cell_id": 365,
+        "total_transcripts": 460,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 366,
+        "total_transcripts": 466,
+        "total_genes": 59
+    },
+    {
+        "cell_id": 367,
+        "total_transcripts": 481,
+        "total_genes": 63
+    },
+    {
+        "cell_id": 368,
+        "total_transcripts": 441,
+        "total_genes": 41
+    },
+    {
+        "cell_id": 369,
+        "total_transcripts": 420,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 370,
+        "total_transcripts": 540,
+        "total_genes": 75
+    },
+    {
+        "cell_id": 371,
+        "total_transcripts": 706,
+        "total_genes": 85
+    },
+    {
+        "cell_id": 372,
+        "total_transcripts": 446,
+        "total_genes": 40
+    },
+    {
+        "cell_id": 373,
+        "total_transcripts": 437,
+        "total_genes": 40
+    },
+    {
+        "cell_id": 374,
+        "total_transcripts": 668,
+        "total_genes": 75
+    },
+    {
+        "cell_id": 375,
+        "total_transcripts": 573,
+        "total_genes": 71
+    },
+    {
+        "cell_id": 376,
+        "total_transcripts": 601,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 377,
+        "total_transcripts": 483,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 378,
+        "total_transcripts": 417,
+        "total_genes": 22
+    },
+    {
+        "cell_id": 379,
+        "total_transcripts": 546,
+        "total_genes": 73
+    },
+    {
+        "cell_id": 380,
+        "total_transcripts": 695,
+        "total_genes": 74
+    },
+    {
+        "cell_id": 381,
+        "total_transcripts": 581,
+        "total_genes": 60
+    },
+    {
+        "cell_id": 382,
+        "total_transcripts": 465,
+        "total_genes": 55
+    },
+    {
+        "cell_id": 383,
+        "total_transcripts": 599,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 384,
+        "total_transcripts": 470,
+        "total_genes": 53
+    },
+    {
+        "cell_id": 385,
+        "total_transcripts": 454,
+        "total_genes": 34
+    },
+    {
+        "cell_id": 386,
+        "total_transcripts": 996,
+        "total_genes": 126
+    },
+    {
+        "cell_id": 387,
+        "total_transcripts": 416,
+        "total_genes": 21
+    },
+    {
+        "cell_id": 388,
+        "total_transcripts": 535,
+        "total_genes": 71
+    },
+    {
+        "cell_id": 389,
+        "total_transcripts": 402,
+        "total_genes": 13
+    },
+    {
+        "cell_id": 390,
+        "total_transcripts": 731,
+        "total_genes": 84
+    },
+    {
+        "cell_id": 391,
+        "total_transcripts": 479,
+        "total_genes": 43
+    },
+    {
+        "cell_id": 392,
+        "total_transcripts": 471,
+        "total_genes": 46
+    },
+    {
+        "cell_id": 393,
+        "total_transcripts": 425,
+        "total_genes": 25
+    },
+    {
+        "cell_id": 394,
+        "total_transcripts": 1016,
+        "total_genes": 99
+    },
+    {
+        "cell_id": 395,
+        "total_transcripts": 462,
+        "total_genes": 44
+    },
+    {
+        "cell_id": 396,
+        "total_transcripts": 606,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 397,
+        "total_transcripts": 855,
+        "total_genes": 84
+    },
+    {
+        "cell_id": 398,
+        "total_transcripts": 858,
+        "total_genes": 94
+    },
+    {
+        "cell_id": 399,
+        "total_transcripts": 796,
+        "total_genes": 81
+    },
+    {
+        "cell_id": 400,
+        "total_transcripts": 624,
+        "total_genes": 64
+    },
+    {
+        "cell_id": 401,
+        "total_transcripts": 525,
+        "total_genes": 47
+    },
+    {
+        "cell_id": 402,
+        "total_transcripts": 471,
+        "total_genes": 43
+    },
+    {
+        "cell_id": 403,
+        "total_transcripts": 446,
+        "total_genes": 23
+    },
+    {
+        "cell_id": 404,
+        "total_transcripts": 593,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 405,
+        "total_transcripts": 468,
+        "total_genes": 36
+    },
+    {
+        "cell_id": 406,
+        "total_transcripts": 495,
+        "total_genes": 44
+    },
+    {
+        "cell_id": 407,
+        "total_transcripts": 726,
+        "total_genes": 96
+    },
+    {
+        "cell_id": 408,
+        "total_transcripts": 474,
+        "total_genes": 39
+    },
+    {
+        "cell_id": 409,
+        "total_transcripts": 753,
+        "total_genes": 74
+    },
+    {
+        "cell_id": 410,
+        "total_transcripts": 464,
+        "total_genes": 33
+    },
+    {
+        "cell_id": 411,
+        "total_transcripts": 476,
+        "total_genes": 41
+    },
+    {
+        "cell_id": 412,
+        "total_transcripts": 468,
+        "total_genes": 41
+    },
+    {
+        "cell_id": 413,
+        "total_transcripts": 451,
+        "total_genes": 23
+    },
+    {
+        "cell_id": 414,
+        "total_transcripts": 485,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 415,
+        "total_transcripts": 573,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 416,
+        "total_transcripts": 645,
+        "total_genes": 69
+    },
+    {
+        "cell_id": 417,
+        "total_transcripts": 493,
+        "total_genes": 38
+    },
+    {
+        "cell_id": 418,
+        "total_transcripts": 533,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 419,
+        "total_transcripts": 801,
+        "total_genes": 96
+    },
+    {
+        "cell_id": 420,
+        "total_transcripts": 514,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 421,
+        "total_transcripts": 735,
+        "total_genes": 89
+    },
+    {
+        "cell_id": 422,
+        "total_transcripts": 565,
+        "total_genes": 55
+    },
+    {
+        "cell_id": 423,
+        "total_transcripts": 683,
+        "total_genes": 75
+    },
+    {
+        "cell_id": 424,
+        "total_transcripts": 481,
+        "total_genes": 35
+    },
+    {
+        "cell_id": 425,
+        "total_transcripts": 496,
+        "total_genes": 46
+    },
+    {
+        "cell_id": 426,
+        "total_transcripts": 474,
+        "total_genes": 27
+    },
+    {
+        "cell_id": 427,
+        "total_transcripts": 479,
+        "total_genes": 38
+    },
+    {
+        "cell_id": 428,
+        "total_transcripts": 663,
+        "total_genes": 91
+    },
+    {
+        "cell_id": 429,
+        "total_transcripts": 492,
+        "total_genes": 40
+    },
+    {
+        "cell_id": 430,
+        "total_transcripts": 533,
+        "total_genes": 51
+    },
+    {
+        "cell_id": 431,
+        "total_transcripts": 468,
+        "total_genes": 28
+    },
+    {
+        "cell_id": 432,
+        "total_transcripts": 502,
+        "total_genes": 45
+    },
+    {
+        "cell_id": 433,
+        "total_transcripts": 585,
+        "total_genes": 72
+    },
+    {
+        "cell_id": 434,
+        "total_transcripts": 644,
+        "total_genes": 77
+    },
+    {
+        "cell_id": 435,
+        "total_transcripts": 826,
+        "total_genes": 92
+    },
+    {
+        "cell_id": 436,
+        "total_transcripts": 567,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 437,
+        "total_transcripts": 574,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 438,
+        "total_transcripts": 494,
+        "total_genes": 40
+    },
+    {
+        "cell_id": 439,
+        "total_transcripts": 526,
+        "total_genes": 44
+    },
+    {
+        "cell_id": 440,
+        "total_transcripts": 560,
+        "total_genes": 49
+    },
+    {
+        "cell_id": 441,
+        "total_transcripts": 664,
+        "total_genes": 73
+    },
+    {
+        "cell_id": 442,
+        "total_transcripts": 507,
+        "total_genes": 36
+    },
+    {
+        "cell_id": 443,
+        "total_transcripts": 513,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 444,
+        "total_transcripts": 669,
+        "total_genes": 76
+    },
+    {
+        "cell_id": 445,
+        "total_transcripts": 526,
+        "total_genes": 48
+    },
+    {
+        "cell_id": 446,
+        "total_transcripts": 563,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 447,
+        "total_transcripts": 573,
+        "total_genes": 48
+    },
+    {
+        "cell_id": 448,
+        "total_transcripts": 510,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 449,
+        "total_transcripts": 1070,
+        "total_genes": 95
+    },
+    {
+        "cell_id": 450,
+        "total_transcripts": 591,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 451,
+        "total_transcripts": 526,
+        "total_genes": 38
+    },
+    {
+        "cell_id": 452,
+        "total_transcripts": 649,
+        "total_genes": 81
+    },
+    {
+        "cell_id": 453,
+        "total_transcripts": 582,
+        "total_genes": 57
+    },
+    {
+        "cell_id": 454,
+        "total_transcripts": 658,
+        "total_genes": 63
+    },
+    {
+        "cell_id": 455,
+        "total_transcripts": 550,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 456,
+        "total_transcripts": 779,
+        "total_genes": 87
+    },
+    {
+        "cell_id": 457,
+        "total_transcripts": 516,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 458,
+        "total_transcripts": 598,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 459,
+        "total_transcripts": 733,
+        "total_genes": 62
+    },
+    {
+        "cell_id": 460,
+        "total_transcripts": 604,
+        "total_genes": 77
+    },
+    {
+        "cell_id": 461,
+        "total_transcripts": 595,
+        "total_genes": 47
+    },
+    {
+        "cell_id": 462,
+        "total_transcripts": 493,
+        "total_genes": 21
+    },
+    {
+        "cell_id": 463,
+        "total_transcripts": 508,
+        "total_genes": 32
+    },
+    {
+        "cell_id": 464,
+        "total_transcripts": 534,
+        "total_genes": 29
+    },
+    {
+        "cell_id": 465,
+        "total_transcripts": 583,
+        "total_genes": 53
+    },
+    {
+        "cell_id": 466,
+        "total_transcripts": 502,
+        "total_genes": 28
+    },
+    {
+        "cell_id": 467,
+        "total_transcripts": 526,
+        "total_genes": 40
+    },
+    {
+        "cell_id": 468,
+        "total_transcripts": 700,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 469,
+        "total_transcripts": 556,
+        "total_genes": 53
+    },
+    {
+        "cell_id": 470,
+        "total_transcripts": 561,
+        "total_genes": 46
+    },
+    {
+        "cell_id": 471,
+        "total_transcripts": 570,
+        "total_genes": 47
+    },
+    {
+        "cell_id": 472,
+        "total_transcripts": 593,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 473,
+        "total_transcripts": 537,
+        "total_genes": 40
+    },
+    {
+        "cell_id": 474,
+        "total_transcripts": 602,
+        "total_genes": 62
+    },
+    {
+        "cell_id": 475,
+        "total_transcripts": 774,
+        "total_genes": 76
+    },
+    {
+        "cell_id": 476,
+        "total_transcripts": 538,
+        "total_genes": 35
+    },
+    {
+        "cell_id": 477,
+        "total_transcripts": 521,
+        "total_genes": 25
+    },
+    {
+        "cell_id": 478,
+        "total_transcripts": 664,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 479,
+        "total_transcripts": 561,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 480,
+        "total_transcripts": 543,
+        "total_genes": 38
+    },
+    {
+        "cell_id": 481,
+        "total_transcripts": 518,
+        "total_genes": 29
+    },
+    {
+        "cell_id": 482,
+        "total_transcripts": 778,
+        "total_genes": 74
+    },
+    {
+        "cell_id": 483,
+        "total_transcripts": 673,
+        "total_genes": 57
+    },
+    {
+        "cell_id": 484,
+        "total_transcripts": 669,
+        "total_genes": 75
+    },
+    {
+        "cell_id": 485,
+        "total_transcripts": 570,
+        "total_genes": 31
+    },
+    {
+        "cell_id": 486,
+        "total_transcripts": 709,
+        "total_genes": 87
+    },
+    {
+        "cell_id": 487,
+        "total_transcripts": 865,
+        "total_genes": 92
+    },
+    {
+        "cell_id": 488,
+        "total_transcripts": 558,
+        "total_genes": 35
+    },
+    {
+        "cell_id": 489,
+        "total_transcripts": 562,
+        "total_genes": 42
+    },
+    {
+        "cell_id": 490,
+        "total_transcripts": 540,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 491,
+        "total_transcripts": 589,
+        "total_genes": 51
+    },
+    {
+        "cell_id": 492,
+        "total_transcripts": 577,
+        "total_genes": 42
+    },
+    {
+        "cell_id": 493,
+        "total_transcripts": 735,
+        "total_genes": 72
+    },
+    {
+        "cell_id": 494,
+        "total_transcripts": 748,
+        "total_genes": 88
+    },
+    {
+        "cell_id": 495,
+        "total_transcripts": 567,
+        "total_genes": 40
+    },
+    {
+        "cell_id": 496,
+        "total_transcripts": 610,
+        "total_genes": 51
+    },
+    {
+        "cell_id": 497,
+        "total_transcripts": 552,
+        "total_genes": 33
+    },
+    {
+        "cell_id": 498,
+        "total_transcripts": 629,
+        "total_genes": 57
+    },
+    {
+        "cell_id": 499,
+        "total_transcripts": 598,
+        "total_genes": 48
+    },
+    {
+        "cell_id": 500,
+        "total_transcripts": 619,
+        "total_genes": 60
+    },
+    {
+        "cell_id": 501,
+        "total_transcripts": 551,
+        "total_genes": 31
+    },
+    {
+        "cell_id": 502,
+        "total_transcripts": 622,
+        "total_genes": 73
+    },
+    {
+        "cell_id": 503,
+        "total_transcripts": 648,
+        "total_genes": 46
+    },
+    {
+        "cell_id": 504,
+        "total_transcripts": 668,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 505,
+        "total_transcripts": 688,
+        "total_genes": 60
+    },
+    {
+        "cell_id": 506,
+        "total_transcripts": 742,
+        "total_genes": 78
+    },
+    {
+        "cell_id": 507,
+        "total_transcripts": 575,
+        "total_genes": 40
+    },
+    {
+        "cell_id": 508,
+        "total_transcripts": 681,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 509,
+        "total_transcripts": 867,
+        "total_genes": 96
+    },
+    {
+        "cell_id": 510,
+        "total_transcripts": 709,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 511,
+        "total_transcripts": 693,
+        "total_genes": 58
+    },
+    {
+        "cell_id": 512,
+        "total_transcripts": 553,
+        "total_genes": 25
+    },
+    {
+        "cell_id": 513,
+        "total_transcripts": 589,
+        "total_genes": 42
+    },
+    {
+        "cell_id": 514,
+        "total_transcripts": 587,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 515,
+        "total_transcripts": 719,
+        "total_genes": 77
+    },
+    {
+        "cell_id": 516,
+        "total_transcripts": 788,
+        "total_genes": 99
+    },
+    {
+        "cell_id": 517,
+        "total_transcripts": 680,
+        "total_genes": 60
+    },
+    {
+        "cell_id": 518,
+        "total_transcripts": 647,
+        "total_genes": 69
+    },
+    {
+        "cell_id": 519,
+        "total_transcripts": 590,
+        "total_genes": 43
+    },
+    {
+        "cell_id": 520,
+        "total_transcripts": 628,
+        "total_genes": 47
+    },
+    {
+        "cell_id": 521,
+        "total_transcripts": 669,
+        "total_genes": 49
+    },
+    {
+        "cell_id": 522,
+        "total_transcripts": 641,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 523,
+        "total_transcripts": 750,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 524,
+        "total_transcripts": 789,
+        "total_genes": 79
+    },
+    {
+        "cell_id": 525,
+        "total_transcripts": 668,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 526,
+        "total_transcripts": 811,
+        "total_genes": 76
+    },
+    {
+        "cell_id": 527,
+        "total_transcripts": 626,
+        "total_genes": 45
+    },
+    {
+        "cell_id": 528,
+        "total_transcripts": 609,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 529,
+        "total_transcripts": 630,
+        "total_genes": 60
+    },
+    {
+        "cell_id": 530,
+        "total_transcripts": 724,
+        "total_genes": 83
+    },
+    {
+        "cell_id": 531,
+        "total_transcripts": 681,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 532,
+        "total_transcripts": 639,
+        "total_genes": 57
+    },
+    {
+        "cell_id": 533,
+        "total_transcripts": 598,
+        "total_genes": 40
+    },
+    {
+        "cell_id": 534,
+        "total_transcripts": 806,
+        "total_genes": 94
+    },
+    {
+        "cell_id": 535,
+        "total_transcripts": 696,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 536,
+        "total_transcripts": 589,
+        "total_genes": 36
+    },
+    {
+        "cell_id": 537,
+        "total_transcripts": 607,
+        "total_genes": 27
+    },
+    {
+        "cell_id": 538,
+        "total_transcripts": 581,
+        "total_genes": 32
+    },
+    {
+        "cell_id": 539,
+        "total_transcripts": 693,
+        "total_genes": 55
+    },
+    {
+        "cell_id": 540,
+        "total_transcripts": 666,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 541,
+        "total_transcripts": 613,
+        "total_genes": 28
+    },
+    {
+        "cell_id": 542,
+        "total_transcripts": 669,
+        "total_genes": 36
+    },
+    {
+        "cell_id": 543,
+        "total_transcripts": 705,
+        "total_genes": 72
+    },
+    {
+        "cell_id": 544,
+        "total_transcripts": 666,
+        "total_genes": 67
+    },
+    {
+        "cell_id": 545,
+        "total_transcripts": 982,
+        "total_genes": 99
+    },
+    {
+        "cell_id": 546,
+        "total_transcripts": 783,
+        "total_genes": 81
+    },
+    {
+        "cell_id": 547,
+        "total_transcripts": 714,
+        "total_genes": 71
+    },
+    {
+        "cell_id": 548,
+        "total_transcripts": 1034,
+        "total_genes": 117
+    },
+    {
+        "cell_id": 549,
+        "total_transcripts": 811,
+        "total_genes": 113
+    },
+    {
+        "cell_id": 550,
+        "total_transcripts": 631,
+        "total_genes": 43
+    },
+    {
+        "cell_id": 551,
+        "total_transcripts": 597,
+        "total_genes": 33
+    },
+    {
+        "cell_id": 552,
+        "total_transcripts": 609,
+        "total_genes": 33
+    },
+    {
+        "cell_id": 553,
+        "total_transcripts": 665,
+        "total_genes": 42
+    },
+    {
+        "cell_id": 554,
+        "total_transcripts": 633,
+        "total_genes": 48
+    },
+    {
+        "cell_id": 555,
+        "total_transcripts": 847,
+        "total_genes": 98
+    },
+    {
+        "cell_id": 556,
+        "total_transcripts": 722,
+        "total_genes": 81
+    },
+    {
+        "cell_id": 557,
+        "total_transcripts": 593,
+        "total_genes": 28
+    },
+    {
+        "cell_id": 558,
+        "total_transcripts": 950,
+        "total_genes": 88
+    },
+    {
+        "cell_id": 559,
+        "total_transcripts": 647,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 560,
+        "total_transcripts": 708,
+        "total_genes": 57
+    },
+    {
+        "cell_id": 561,
+        "total_transcripts": 628,
+        "total_genes": 45
+    },
+    {
+        "cell_id": 562,
+        "total_transcripts": 900,
+        "total_genes": 101
+    },
+    {
+        "cell_id": 563,
+        "total_transcripts": 604,
+        "total_genes": 32
+    },
+    {
+        "cell_id": 564,
+        "total_transcripts": 708,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 565,
+        "total_transcripts": 701,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 566,
+        "total_transcripts": 660,
+        "total_genes": 57
+    },
+    {
+        "cell_id": 567,
+        "total_transcripts": 713,
+        "total_genes": 59
+    },
+    {
+        "cell_id": 568,
+        "total_transcripts": 717,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 569,
+        "total_transcripts": 748,
+        "total_genes": 83
+    },
+    {
+        "cell_id": 570,
+        "total_transcripts": 742,
+        "total_genes": 83
+    },
+    {
+        "cell_id": 571,
+        "total_transcripts": 632,
+        "total_genes": 36
+    },
+    {
+        "cell_id": 572,
+        "total_transcripts": 636,
+        "total_genes": 35
+    },
+    {
+        "cell_id": 573,
+        "total_transcripts": 775,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 574,
+        "total_transcripts": 642,
+        "total_genes": 37
+    },
+    {
+        "cell_id": 575,
+        "total_transcripts": 670,
+        "total_genes": 59
+    },
+    {
+        "cell_id": 576,
+        "total_transcripts": 795,
+        "total_genes": 64
+    },
+    {
+        "cell_id": 577,
+        "total_transcripts": 656,
+        "total_genes": 32
+    },
+    {
+        "cell_id": 578,
+        "total_transcripts": 798,
+        "total_genes": 80
+    },
+    {
+        "cell_id": 579,
+        "total_transcripts": 740,
+        "total_genes": 71
+    },
+    {
+        "cell_id": 580,
+        "total_transcripts": 780,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 581,
+        "total_transcripts": 621,
+        "total_genes": 20
+    },
+    {
+        "cell_id": 582,
+        "total_transcripts": 691,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 583,
+        "total_transcripts": 703,
+        "total_genes": 59
+    },
+    {
+        "cell_id": 584,
+        "total_transcripts": 615,
+        "total_genes": 28
+    },
+    {
+        "cell_id": 585,
+        "total_transcripts": 732,
+        "total_genes": 77
+    },
+    {
+        "cell_id": 586,
+        "total_transcripts": 689,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 587,
+        "total_transcripts": 684,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 588,
+        "total_transcripts": 666,
+        "total_genes": 53
+    },
+    {
+        "cell_id": 589,
+        "total_transcripts": 643,
+        "total_genes": 38
+    },
+    {
+        "cell_id": 590,
+        "total_transcripts": 720,
+        "total_genes": 47
+    },
+    {
+        "cell_id": 591,
+        "total_transcripts": 788,
+        "total_genes": 72
+    },
+    {
+        "cell_id": 592,
+        "total_transcripts": 618,
+        "total_genes": 20
+    },
+    {
+        "cell_id": 593,
+        "total_transcripts": 642,
+        "total_genes": 34
+    },
+    {
+        "cell_id": 594,
+        "total_transcripts": 772,
+        "total_genes": 86
+    },
+    {
+        "cell_id": 595,
+        "total_transcripts": 653,
+        "total_genes": 32
+    },
+    {
+        "cell_id": 596,
+        "total_transcripts": 876,
+        "total_genes": 96
+    },
+    {
+        "cell_id": 597,
+        "total_transcripts": 814,
+        "total_genes": 69
+    },
+    {
+        "cell_id": 598,
+        "total_transcripts": 754,
+        "total_genes": 77
+    },
+    {
+        "cell_id": 599,
+        "total_transcripts": 799,
+        "total_genes": 92
+    },
+    {
+        "cell_id": 600,
+        "total_transcripts": 662,
+        "total_genes": 36
+    },
+    {
+        "cell_id": 601,
+        "total_transcripts": 943,
+        "total_genes": 89
+    },
+    {
+        "cell_id": 602,
+        "total_transcripts": 969,
+        "total_genes": 80
+    },
+    {
+        "cell_id": 603,
+        "total_transcripts": 988,
+        "total_genes": 92
+    },
+    {
+        "cell_id": 604,
+        "total_transcripts": 788,
+        "total_genes": 76
+    },
+    {
+        "cell_id": 605,
+        "total_transcripts": 839,
+        "total_genes": 62
+    },
+    {
+        "cell_id": 606,
+        "total_transcripts": 733,
+        "total_genes": 64
+    },
+    {
+        "cell_id": 607,
+        "total_transcripts": 657,
+        "total_genes": 36
+    },
+    {
+        "cell_id": 608,
+        "total_transcripts": 701,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 609,
+        "total_transcripts": 722,
+        "total_genes": 60
+    },
+    {
+        "cell_id": 610,
+        "total_transcripts": 856,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 611,
+        "total_transcripts": 798,
+        "total_genes": 61
+    },
+    {
+        "cell_id": 612,
+        "total_transcripts": 929,
+        "total_genes": 85
+    },
+    {
+        "cell_id": 613,
+        "total_transcripts": 962,
+        "total_genes": 74
+    },
+    {
+        "cell_id": 614,
+        "total_transcripts": 664,
+        "total_genes": 36
+    },
+    {
+        "cell_id": 615,
+        "total_transcripts": 755,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 616,
+        "total_transcripts": 824,
+        "total_genes": 83
+    },
+    {
+        "cell_id": 617,
+        "total_transcripts": 762,
+        "total_genes": 58
+    },
+    {
+        "cell_id": 618,
+        "total_transcripts": 648,
+        "total_genes": 24
+    },
+    {
+        "cell_id": 619,
+        "total_transcripts": 678,
+        "total_genes": 42
+    },
+    {
+        "cell_id": 620,
+        "total_transcripts": 993,
+        "total_genes": 80
+    },
+    {
+        "cell_id": 621,
+        "total_transcripts": 846,
+        "total_genes": 86
+    },
+    {
+        "cell_id": 622,
+        "total_transcripts": 797,
+        "total_genes": 71
+    },
+    {
+        "cell_id": 623,
+        "total_transcripts": 663,
+        "total_genes": 28
+    },
+    {
+        "cell_id": 624,
+        "total_transcripts": 818,
+        "total_genes": 63
+    },
+    {
+        "cell_id": 625,
+        "total_transcripts": 683,
+        "total_genes": 34
+    },
+    {
+        "cell_id": 626,
+        "total_transcripts": 1019,
+        "total_genes": 79
+    },
+    {
+        "cell_id": 627,
+        "total_transcripts": 864,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 628,
+        "total_transcripts": 701,
+        "total_genes": 47
+    },
+    {
+        "cell_id": 629,
+        "total_transcripts": 1086,
+        "total_genes": 80
+    },
+    {
+        "cell_id": 630,
+        "total_transcripts": 662,
+        "total_genes": 25
+    },
+    {
+        "cell_id": 631,
+        "total_transcripts": 713,
+        "total_genes": 57
+    },
+    {
+        "cell_id": 632,
+        "total_transcripts": 677,
+        "total_genes": 34
+    },
+    {
+        "cell_id": 633,
+        "total_transcripts": 783,
+        "total_genes": 51
+    },
+    {
+        "cell_id": 634,
+        "total_transcripts": 745,
+        "total_genes": 64
+    },
+    {
+        "cell_id": 635,
+        "total_transcripts": 754,
+        "total_genes": 62
+    },
+    {
+        "cell_id": 636,
+        "total_transcripts": 808,
+        "total_genes": 60
+    },
+    {
+        "cell_id": 637,
+        "total_transcripts": 981,
+        "total_genes": 88
+    },
+    {
+        "cell_id": 638,
+        "total_transcripts": 677,
+        "total_genes": 28
+    },
+    {
+        "cell_id": 639,
+        "total_transcripts": 709,
+        "total_genes": 36
+    },
+    {
+        "cell_id": 640,
+        "total_transcripts": 990,
+        "total_genes": 79
+    },
+    {
+        "cell_id": 641,
+        "total_transcripts": 726,
+        "total_genes": 42
+    },
+    {
+        "cell_id": 642,
+        "total_transcripts": 985,
+        "total_genes": 101
+    },
+    {
+        "cell_id": 643,
+        "total_transcripts": 958,
+        "total_genes": 74
+    },
+    {
+        "cell_id": 644,
+        "total_transcripts": 742,
+        "total_genes": 58
+    },
+    {
+        "cell_id": 645,
+        "total_transcripts": 739,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 646,
+        "total_transcripts": 710,
+        "total_genes": 29
+    },
+    {
+        "cell_id": 647,
+        "total_transcripts": 856,
+        "total_genes": 59
+    },
+    {
+        "cell_id": 648,
+        "total_transcripts": 797,
+        "total_genes": 78
+    },
+    {
+        "cell_id": 649,
+        "total_transcripts": 681,
+        "total_genes": 29
+    },
+    {
+        "cell_id": 650,
+        "total_transcripts": 782,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 651,
+        "total_transcripts": 1052,
+        "total_genes": 100
+    },
+    {
+        "cell_id": 652,
+        "total_transcripts": 885,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 653,
+        "total_transcripts": 751,
+        "total_genes": 55
+    },
+    {
+        "cell_id": 654,
+        "total_transcripts": 1163,
+        "total_genes": 92
+    },
+    {
+        "cell_id": 655,
+        "total_transcripts": 841,
+        "total_genes": 62
+    },
+    {
+        "cell_id": 656,
+        "total_transcripts": 1044,
+        "total_genes": 88
+    },
+    {
+        "cell_id": 657,
+        "total_transcripts": 768,
+        "total_genes": 59
+    },
+    {
+        "cell_id": 658,
+        "total_transcripts": 854,
+        "total_genes": 78
+    },
+    {
+        "cell_id": 659,
+        "total_transcripts": 799,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 660,
+        "total_transcripts": 873,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 661,
+        "total_transcripts": 841,
+        "total_genes": 69
+    },
+    {
+        "cell_id": 662,
+        "total_transcripts": 905,
+        "total_genes": 81
+    },
+    {
+        "cell_id": 663,
+        "total_transcripts": 857,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 664,
+        "total_transcripts": 744,
+        "total_genes": 44
+    },
+    {
+        "cell_id": 665,
+        "total_transcripts": 775,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 666,
+        "total_transcripts": 960,
+        "total_genes": 74
+    },
+    {
+        "cell_id": 667,
+        "total_transcripts": 798,
+        "total_genes": 58
+    },
+    {
+        "cell_id": 668,
+        "total_transcripts": 834,
+        "total_genes": 48
+    },
+    {
+        "cell_id": 669,
+        "total_transcripts": 1069,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 670,
+        "total_transcripts": 841,
+        "total_genes": 49
+    },
+    {
+        "cell_id": 671,
+        "total_transcripts": 746,
+        "total_genes": 45
+    },
+    {
+        "cell_id": 672,
+        "total_transcripts": 796,
+        "total_genes": 49
+    },
+    {
+        "cell_id": 673,
+        "total_transcripts": 883,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 674,
+        "total_transcripts": 733,
+        "total_genes": 40
+    },
+    {
+        "cell_id": 675,
+        "total_transcripts": 1022,
+        "total_genes": 83
+    },
+    {
+        "cell_id": 676,
+        "total_transcripts": 1003,
+        "total_genes": 117
+    },
+    {
+        "cell_id": 677,
+        "total_transcripts": 783,
+        "total_genes": 48
+    },
+    {
+        "cell_id": 678,
+        "total_transcripts": 840,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 679,
+        "total_transcripts": 982,
+        "total_genes": 81
+    },
+    {
+        "cell_id": 680,
+        "total_transcripts": 837,
+        "total_genes": 51
+    },
+    {
+        "cell_id": 681,
+        "total_transcripts": 773,
+        "total_genes": 38
+    },
+    {
+        "cell_id": 682,
+        "total_transcripts": 853,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 683,
+        "total_transcripts": 760,
+        "total_genes": 33
+    },
+    {
+        "cell_id": 684,
+        "total_transcripts": 892,
+        "total_genes": 64
+    },
+    {
+        "cell_id": 685,
+        "total_transcripts": 761,
+        "total_genes": 42
+    },
+    {
+        "cell_id": 686,
+        "total_transcripts": 900,
+        "total_genes": 94
+    },
+    {
+        "cell_id": 687,
+        "total_transcripts": 889,
+        "total_genes": 80
+    },
+    {
+        "cell_id": 688,
+        "total_transcripts": 803,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 689,
+        "total_transcripts": 1036,
+        "total_genes": 96
+    },
+    {
+        "cell_id": 690,
+        "total_transcripts": 930,
+        "total_genes": 61
+    },
+    {
+        "cell_id": 691,
+        "total_transcripts": 857,
+        "total_genes": 51
+    },
+    {
+        "cell_id": 692,
+        "total_transcripts": 1214,
+        "total_genes": 94
+    },
+    {
+        "cell_id": 693,
+        "total_transcripts": 907,
+        "total_genes": 75
+    },
+    {
+        "cell_id": 694,
+        "total_transcripts": 956,
+        "total_genes": 73
+    },
+    {
+        "cell_id": 695,
+        "total_transcripts": 842,
+        "total_genes": 58
+    },
+    {
+        "cell_id": 696,
+        "total_transcripts": 854,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 697,
+        "total_transcripts": 841,
+        "total_genes": 55
+    },
+    {
+        "cell_id": 698,
+        "total_transcripts": 790,
+        "total_genes": 44
+    },
+    {
+        "cell_id": 699,
+        "total_transcripts": 1077,
+        "total_genes": 99
+    },
+    {
+        "cell_id": 700,
+        "total_transcripts": 855,
+        "total_genes": 53
+    },
+    {
+        "cell_id": 701,
+        "total_transcripts": 895,
+        "total_genes": 72
+    },
+    {
+        "cell_id": 702,
+        "total_transcripts": 770,
+        "total_genes": 38
+    },
+    {
+        "cell_id": 703,
+        "total_transcripts": 868,
+        "total_genes": 84
+    },
+    {
+        "cell_id": 704,
+        "total_transcripts": 942,
+        "total_genes": 69
+    },
+    {
+        "cell_id": 705,
+        "total_transcripts": 1073,
+        "total_genes": 77
+    },
+    {
+        "cell_id": 706,
+        "total_transcripts": 1176,
+        "total_genes": 95
+    },
+    {
+        "cell_id": 707,
+        "total_transcripts": 852,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 708,
+        "total_transcripts": 983,
+        "total_genes": 82
+    },
+    {
+        "cell_id": 709,
+        "total_transcripts": 1034,
+        "total_genes": 94
+    },
+    {
+        "cell_id": 710,
+        "total_transcripts": 850,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 711,
+        "total_transcripts": 823,
+        "total_genes": 47
+    },
+    {
+        "cell_id": 712,
+        "total_transcripts": 784,
+        "total_genes": 40
+    },
+    {
+        "cell_id": 713,
+        "total_transcripts": 975,
+        "total_genes": 64
+    },
+    {
+        "cell_id": 714,
+        "total_transcripts": 997,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 715,
+        "total_transcripts": 939,
+        "total_genes": 64
+    },
+    {
+        "cell_id": 716,
+        "total_transcripts": 1025,
+        "total_genes": 67
+    },
+    {
+        "cell_id": 717,
+        "total_transcripts": 1201,
+        "total_genes": 87
+    },
+    {
+        "cell_id": 718,
+        "total_transcripts": 1307,
+        "total_genes": 104
+    },
+    {
+        "cell_id": 719,
+        "total_transcripts": 807,
+        "total_genes": 53
+    },
+    {
+        "cell_id": 720,
+        "total_transcripts": 790,
+        "total_genes": 41
+    },
+    {
+        "cell_id": 721,
+        "total_transcripts": 983,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 722,
+        "total_transcripts": 835,
+        "total_genes": 48
+    },
+    {
+        "cell_id": 723,
+        "total_transcripts": 886,
+        "total_genes": 61
+    },
+    {
+        "cell_id": 724,
+        "total_transcripts": 953,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 725,
+        "total_transcripts": 1208,
+        "total_genes": 87
+    },
+    {
+        "cell_id": 726,
+        "total_transcripts": 888,
+        "total_genes": 55
+    },
+    {
+        "cell_id": 727,
+        "total_transcripts": 974,
+        "total_genes": 59
+    },
+    {
+        "cell_id": 728,
+        "total_transcripts": 885,
+        "total_genes": 57
+    },
+    {
+        "cell_id": 729,
+        "total_transcripts": 887,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 730,
+        "total_transcripts": 983,
+        "total_genes": 64
+    },
+    {
+        "cell_id": 731,
+        "total_transcripts": 958,
+        "total_genes": 61
+    },
+    {
+        "cell_id": 732,
+        "total_transcripts": 767,
+        "total_genes": 26
+    },
+    {
+        "cell_id": 733,
+        "total_transcripts": 919,
+        "total_genes": 77
+    },
+    {
+        "cell_id": 734,
+        "total_transcripts": 1144,
+        "total_genes": 78
+    },
+    {
+        "cell_id": 735,
+        "total_transcripts": 981,
+        "total_genes": 72
+    },
+    {
+        "cell_id": 736,
+        "total_transcripts": 989,
+        "total_genes": 53
+    },
+    {
+        "cell_id": 737,
+        "total_transcripts": 959,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 738,
+        "total_transcripts": 1017,
+        "total_genes": 71
+    },
+    {
+        "cell_id": 739,
+        "total_transcripts": 850,
+        "total_genes": 46
+    },
+    {
+        "cell_id": 740,
+        "total_transcripts": 965,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 741,
+        "total_transcripts": 1112,
+        "total_genes": 84
+    },
+    {
+        "cell_id": 742,
+        "total_transcripts": 949,
+        "total_genes": 60
+    },
+    {
+        "cell_id": 743,
+        "total_transcripts": 1022,
+        "total_genes": 72
+    },
+    {
+        "cell_id": 744,
+        "total_transcripts": 1002,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 745,
+        "total_transcripts": 1048,
+        "total_genes": 67
+    },
+    {
+        "cell_id": 746,
+        "total_transcripts": 1237,
+        "total_genes": 85
+    },
+    {
+        "cell_id": 747,
+        "total_transcripts": 934,
+        "total_genes": 47
+    },
+    {
+        "cell_id": 748,
+        "total_transcripts": 948,
+        "total_genes": 67
+    },
+    {
+        "cell_id": 749,
+        "total_transcripts": 875,
+        "total_genes": 58
+    },
+    {
+        "cell_id": 750,
+        "total_transcripts": 860,
+        "total_genes": 51
+    },
+    {
+        "cell_id": 751,
+        "total_transcripts": 1196,
+        "total_genes": 81
+    },
+    {
+        "cell_id": 752,
+        "total_transcripts": 1264,
+        "total_genes": 86
+    },
+    {
+        "cell_id": 753,
+        "total_transcripts": 1036,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 754,
+        "total_transcripts": 935,
+        "total_genes": 53
+    },
+    {
+        "cell_id": 755,
+        "total_transcripts": 1038,
+        "total_genes": 73
+    },
+    {
+        "cell_id": 756,
+        "total_transcripts": 1077,
+        "total_genes": 81
+    },
+    {
+        "cell_id": 757,
+        "total_transcripts": 1013,
+        "total_genes": 84
+    },
+    {
+        "cell_id": 758,
+        "total_transcripts": 1092,
+        "total_genes": 69
+    },
+    {
+        "cell_id": 759,
+        "total_transcripts": 1094,
+        "total_genes": 82
+    },
+    {
+        "cell_id": 760,
+        "total_transcripts": 895,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 761,
+        "total_transcripts": 930,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 762,
+        "total_transcripts": 790,
+        "total_genes": 16
+    },
+    {
+        "cell_id": 763,
+        "total_transcripts": 885,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 764,
+        "total_transcripts": 1048,
+        "total_genes": 64
+    },
+    {
+        "cell_id": 765,
+        "total_transcripts": 854,
+        "total_genes": 43
+    },
+    {
+        "cell_id": 766,
+        "total_transcripts": 900,
+        "total_genes": 49
+    },
+    {
+        "cell_id": 767,
+        "total_transcripts": 979,
+        "total_genes": 60
+    },
+    {
+        "cell_id": 768,
+        "total_transcripts": 844,
+        "total_genes": 38
+    },
+    {
+        "cell_id": 769,
+        "total_transcripts": 962,
+        "total_genes": 77
+    },
+    {
+        "cell_id": 770,
+        "total_transcripts": 1034,
+        "total_genes": 70
+    },
+    {
+        "cell_id": 771,
+        "total_transcripts": 1058,
+        "total_genes": 80
+    },
+    {
+        "cell_id": 772,
+        "total_transcripts": 1022,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 773,
+        "total_transcripts": 923,
+        "total_genes": 53
+    },
+    {
+        "cell_id": 774,
+        "total_transcripts": 1048,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 775,
+        "total_transcripts": 1139,
+        "total_genes": 71
+    },
+    {
+        "cell_id": 776,
+        "total_transcripts": 987,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 777,
+        "total_transcripts": 877,
+        "total_genes": 39
+    },
+    {
+        "cell_id": 778,
+        "total_transcripts": 913,
+        "total_genes": 50
+    },
+    {
+        "cell_id": 779,
+        "total_transcripts": 1120,
+        "total_genes": 75
+    },
+    {
+        "cell_id": 780,
+        "total_transcripts": 1099,
+        "total_genes": 76
+    },
+    {
+        "cell_id": 781,
+        "total_transcripts": 1047,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 782,
+        "total_transcripts": 1167,
+        "total_genes": 80
+    },
+    {
+        "cell_id": 783,
+        "total_transcripts": 1359,
+        "total_genes": 94
+    },
+    {
+        "cell_id": 784,
+        "total_transcripts": 1070,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 785,
+        "total_transcripts": 1094,
+        "total_genes": 81
+    },
+    {
+        "cell_id": 786,
+        "total_transcripts": 840,
+        "total_genes": 35
+    },
+    {
+        "cell_id": 787,
+        "total_transcripts": 1184,
+        "total_genes": 81
+    },
+    {
+        "cell_id": 788,
+        "total_transcripts": 910,
+        "total_genes": 66
+    },
+    {
+        "cell_id": 789,
+        "total_transcripts": 861,
+        "total_genes": 33
+    },
+    {
+        "cell_id": 790,
+        "total_transcripts": 926,
+        "total_genes": 49
+    },
+    {
+        "cell_id": 791,
+        "total_transcripts": 1011,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 792,
+        "total_transcripts": 967,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 793,
+        "total_transcripts": 1009,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 794,
+        "total_transcripts": 948,
+        "total_genes": 60
+    },
+    {
+        "cell_id": 795,
+        "total_transcripts": 826,
+        "total_genes": 23
+    },
+    {
+        "cell_id": 796,
+        "total_transcripts": 901,
+        "total_genes": 48
+    },
+    {
+        "cell_id": 797,
+        "total_transcripts": 898,
+        "total_genes": 45
+    },
+    {
+        "cell_id": 798,
+        "total_transcripts": 926,
+        "total_genes": 49
+    },
+    {
+        "cell_id": 799,
+        "total_transcripts": 1165,
+        "total_genes": 73
+    },
+    {
+        "cell_id": 800,
+        "total_transcripts": 902,
+        "total_genes": 52
+    },
+    {
+        "cell_id": 801,
+        "total_transcripts": 973,
+        "total_genes": 67
+    },
+    {
+        "cell_id": 802,
+        "total_transcripts": 1022,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 803,
+        "total_transcripts": 1220,
+        "total_genes": 89
+    },
+    {
+        "cell_id": 804,
+        "total_transcripts": 1156,
+        "total_genes": 82
+    },
+    {
+        "cell_id": 805,
+        "total_transcripts": 965,
+        "total_genes": 61
+    },
+    {
+        "cell_id": 806,
+        "total_transcripts": 1092,
+        "total_genes": 72
+    },
+    {
+        "cell_id": 807,
+        "total_transcripts": 871,
+        "total_genes": 36
+    },
+    {
+        "cell_id": 808,
+        "total_transcripts": 906,
+        "total_genes": 43
+    },
+    {
+        "cell_id": 809,
+        "total_transcripts": 950,
+        "total_genes": 48
+    },
+    {
+        "cell_id": 810,
+        "total_transcripts": 909,
+        "total_genes": 43
+    },
+    {
+        "cell_id": 811,
+        "total_transcripts": 1268,
+        "total_genes": 84
+    },
+    {
+        "cell_id": 812,
+        "total_transcripts": 1105,
+        "total_genes": 69
+    },
+    {
+        "cell_id": 813,
+        "total_transcripts": 1086,
+        "total_genes": 81
+    },
+    {
+        "cell_id": 814,
+        "total_transcripts": 846,
+        "total_genes": 21
+    },
+    {
+        "cell_id": 815,
+        "total_transcripts": 1166,
+        "total_genes": 79
+    },
+    {
+        "cell_id": 816,
+        "total_transcripts": 1125,
+        "total_genes": 73
+    },
+    {
+        "cell_id": 817,
+        "total_transcripts": 957,
+        "total_genes": 59
+    },
+    {
+        "cell_id": 818,
+        "total_transcripts": 1010,
+        "total_genes": 59
+    },
+    {
+        "cell_id": 819,
+        "total_transcripts": 929,
+        "total_genes": 45
+    },
+    {
+        "cell_id": 820,
+        "total_transcripts": 909,
+        "total_genes": 54
+    },
+    {
+        "cell_id": 821,
+        "total_transcripts": 862,
+        "total_genes": 25
+    },
+    {
+        "cell_id": 822,
+        "total_transcripts": 973,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 823,
+        "total_transcripts": 905,
+        "total_genes": 35
+    },
+    {
+        "cell_id": 824,
+        "total_transcripts": 881,
+        "total_genes": 28
+    },
+    {
+        "cell_id": 825,
+        "total_transcripts": 1080,
+        "total_genes": 72
+    },
+    {
+        "cell_id": 826,
+        "total_transcripts": 976,
+        "total_genes": 53
+    },
+    {
+        "cell_id": 827,
+        "total_transcripts": 871,
+        "total_genes": 30
+    },
+    {
+        "cell_id": 828,
+        "total_transcripts": 881,
+        "total_genes": 29
+    },
+    {
+        "cell_id": 829,
+        "total_transcripts": 968,
+        "total_genes": 51
+    },
+    {
+        "cell_id": 830,
+        "total_transcripts": 1210,
+        "total_genes": 84
+    },
+    {
+        "cell_id": 831,
+        "total_transcripts": 907,
+        "total_genes": 49
+    },
+    {
+        "cell_id": 832,
+        "total_transcripts": 1206,
+        "total_genes": 84
+    },
+    {
+        "cell_id": 833,
+        "total_transcripts": 915,
+        "total_genes": 33
+    },
+    {
+        "cell_id": 834,
+        "total_transcripts": 1111,
+        "total_genes": 68
+    },
+    {
+        "cell_id": 835,
+        "total_transcripts": 928,
+        "total_genes": 36
+    },
+    {
+        "cell_id": 836,
+        "total_transcripts": 1106,
+        "total_genes": 65
+    },
+    {
+        "cell_id": 837,
+        "total_transcripts": 895,
+        "total_genes": 32
+    },
+    {
+        "cell_id": 838,
+        "total_transcripts": 910,
+        "total_genes": 34
+    },
+    {
+        "cell_id": 839,
+        "total_transcripts": 1254,
+        "total_genes": 80
+    },
+    {
+        "cell_id": 840,
+        "total_transcripts": 989,
+        "total_genes": 57
+    },
+    {
+        "cell_id": 841,
+        "total_transcripts": 880,
+        "total_genes": 22
+    },
+    {
+        "cell_id": 842,
+        "total_transcripts": 953,
+        "total_genes": 40
+    },
+    {
+        "cell_id": 843,
+        "total_transcripts": 907,
+        "total_genes": 32
+    },
+    {
+        "cell_id": 844,
+        "total_transcripts": 1091,
+        "total_genes": 62
+    },
+    {
+        "cell_id": 845,
+        "total_transcripts": 943,
+        "total_genes": 47
+    },
+    {
+        "cell_id": 846,
+        "total_transcripts": 894,
+        "total_genes": 29
+    },
+    {
+        "cell_id": 847,
+        "total_transcripts": 974,
+        "total_genes": 56
+    },
+    {
+        "cell_id": 848,
+        "total_transcripts": 938,
+        "total_genes": 39
+    },
+    {
+        "cell_id": 849,
+        "total_transcripts": 913,
+        "total_genes": 33
+    },
+    {
+        "cell_id": 850,
+        "total_transcripts": 869,
+        "total_genes": 16
+    },
+    {
+        "cell_id": 851,
+        "total_transcripts": 879,
+        "total_genes": 18
+    },
+    {
+        "cell_id": 852,
+        "total_transcripts": 880,
+        "total_genes": 24
+    }
+]
