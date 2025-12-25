@@ -166,8 +166,12 @@ def main():
         config = copy.deepcopy(base_config)
         config['training_params']['aggregation'] = 'ugrad'
         config['training_params']['total_epochs'] = 2
-        config['training_params']['model_freq'] = 1000 # Don't save models often
+        config['training_params']['model_freq'] = 60 # Save regularly to catch step 60
         config['training_params']['sample_freq'] = 1000
+        
+        # Sync Testing Params
+        config['testing_params']['test_epoch'] = 2
+        config['testing_params']['test_step'] = 60
         
         # Apply weights
         for k, v in params.items():
@@ -176,6 +180,8 @@ def main():
         # Output Dir
         run_id = f"ablation_{name}"
         config['experiment_dirs']['dir_id'] = run_id
+        
+        print(f"Configured {name}: Epochs={config['training_params']['total_epochs']}, Freq={config['training_params']['model_freq']}, TestEpoch={config['testing_params']['test_epoch']}, TestStep={config['testing_params']['test_step']}")
         
         # Temp Config File
         temp_cfg = f"temp_ablation_{name}.yaml"
@@ -190,7 +196,38 @@ def main():
             if not os.path.exists(os.path.join(config['files']['data_dir'], "expr_maps")):
                 model.preprocess()
             
+            # Detect new output folder by checking before/after
+            model_outputs_dir = os.path.join(config['files']['data_dir'], "model_outputs")
+            if not os.path.exists(model_outputs_dir):
+                os.makedirs(model_outputs_dir)
+            existing_dirs = set(os.listdir(model_outputs_dir))
+            
             model.train()
+            
+            current_dirs = set(os.listdir(model_outputs_dir))
+            new_dirs = current_dirs - existing_dirs
+            
+            if new_dirs:
+                # Assuming the most specific/relevant new dir is the one we want. 
+                # If multiple created (unlikely), pick the one that looks like a timestamp or just the first.
+                latest_id = list(new_dirs)[0]
+                print(f" Detected new training output directory: {latest_id}")
+            else:
+                # Fallback if no new directory appears (shouldn't happen if training ran)
+                from bidcell.model.utils.utils import get_newest_id
+                latest_id = get_newest_id(model_outputs_dir)
+                print(f" Warning: No new directory detected. Falling back to newest_id: {latest_id}")
+
+            # Update config to point to the actual output directory
+            config['experiment_dirs']['dir_id'] = latest_id
+            
+            # Write updated config back to temp file and reload the model
+            with open(temp_cfg, 'w') as f:
+                yaml.dump(config, f)
+            
+            # Reload model with updated config
+            model = BIDCellModel(temp_cfg)
+            
             model.predict()
             
             # Paths
@@ -198,7 +235,8 @@ def main():
             
             # 1. Segmentation
             # In data_dir/model_outputs/run_id/test_output
-            test_output = os.path.join(data_dir, "model_outputs", run_id, "test_output")
+            # Use `latest_id` instead of `ablation_name` run_id
+            test_output = os.path.join(data_dir, "model_outputs", latest_id, "test_output")
             connected_tifs = glob.glob(os.path.join(test_output, "*_connected.tif"))
             
             morph_metrics = []
@@ -210,7 +248,7 @@ def main():
                 
             # 2. Expression
             # In data_dir/cell_gene_matrices/run_id/expr_mat.csv
-            cgm_path = os.path.join(data_dir, "cell_gene_matrices", run_id, "expr_mat.csv")
+            cgm_path = os.path.join(data_dir, "cell_gene_matrices", latest_id, "expr_mat.csv")
             expr_metrics = []
             if os.path.exists(cgm_path):
                 print(f" processing expression: {cgm_path}")

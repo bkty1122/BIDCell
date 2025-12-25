@@ -173,14 +173,14 @@ class BIDCellModel:
             )
 
     def __check_valid_timestamp(self, timestamp: str) -> None:
-        outputs_path = Path(self.config.files.data_dir / "model_outputs")
+        outputs_path = Path(self.config.files.data_dir) / "model_outputs"
         outputs = list(outputs_path.iterdir())
         if len(outputs) == 0:
             raise ValueError(
                 f"There are no outputs yet under {str(outputs_path)}. Run BIDCell at least once with this dataset to get some."
             )
         if not any(
-            [timestamp == x for x in outputs if x.is_dir()]
+            [timestamp == x.name for x in outputs if x.is_dir()]
         ):
             valid_dirs = "\n".join(["\t" + str(x) for x in outputs])
             raise ValueError(

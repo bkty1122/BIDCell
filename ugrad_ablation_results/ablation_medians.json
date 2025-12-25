@@ -1,0 +1,62 @@
+{
+    "ne": {
+        "total_transcripts": 601.0,
+        "total_genes": 61.0,
+        "area": 97.0,
+        "elongation": 0.6575873089615171,
+        "compactness": 28.304571282563963,
+        "sphericity": 0.6663104759083581,
+        "solidity": 0.7558823529411764,
+        "convexity": 0.8633585408747734,
+        "circularity": 0.44396965030522273,
+        "density": 5.6923076923076925
+    },
+    "os": {
+        "total_transcripts": 603.0,
+        "total_genes": 61.5,
+        "area": 98.0,
+        "elongation": 0.6572140875495591,
+        "compactness": 30.702535110247766,
+        "sphericity": 0.6397610884180052,
+        "solidity": 0.732068096589218,
+        "convexity": 0.847406657031867,
+        "circularity": 0.40929425540516085,
+        "density": 5.733206457540359
+    },
+    "cc": {
+        "total_transcripts": 561.0,
+        "total_genes": 51.0,
+        "area": 54.0,
+        "elongation": 0.6451909581759476,
+        "compactness": 24.891734889091747,
+        "sphericity": 0.7105217038525202,
+        "solidity": 0.7972972972972973,
+        "convexity": 0.9060537381641337,
+        "circularity": 0.5048410916454885,
+        "density": 8.96551724137931
+    },
+    "mu": {
+        "total_transcripts": 605.0,
+        "total_genes": 63.0,
+        "area": 103.5,
+        "elongation": 0.6548412241365377,
+        "compactness": 27.73262739833406,
+        "sphericity": 0.6731462389986019,
+        "solidity": 0.7602739726027398,
+        "convexity": 0.8651032472802069,
+        "circularity": 0.45312585907796293,
+        "density": 5.654545454545454
+    },
+    "pn": {
+        "total_transcripts": 609.0,
+        "total_genes": 64.0,
+        "area": 116.5,
+        "elongation": 0.6606654644749237,
+        "compactness": 24.302320802726047,
+        "sphericity": 0.719086370539882,
+        "solidity": 0.810126582278481,
+        "convexity": 0.8935949349456245,
+        "circularity": 0.5170852082962205,
+        "density": 5.017543859649122
+    }
+}

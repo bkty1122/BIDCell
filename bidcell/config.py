@@ -200,8 +200,8 @@ class TrainingParams(BaseModel):
 
 
 class TestingParams(BaseModel):
-    test_epoch: int = 1
-    test_step: int = 4000
+    test_epoch: int = 2
+    test_step: int = 60
 
 
 class PostprocessParams(BaseModel):
