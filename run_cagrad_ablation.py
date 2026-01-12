@@ -132,6 +132,8 @@ def get_aggregated_metrics(morph_metrics, expr_metrics):
 
 # --- MAIN EXPERIMENT ---
 
+import shutil
+
 def main():
     base_config_path = "params_small_example.yaml"
     out_dir = "cagrad_ablation_results"
@@ -144,8 +146,17 @@ def main():
          print("Getting example data...")
          BIDCellModel.get_example_data()
          
+    # Isolate Data
+    data_dir = "cagrad_ablation_data"
+    if os.path.exists(data_dir):
+        shutil.rmtree(data_dir)
+    shutil.copytree("example_data", data_dir)
+    
     with open(base_config_path, 'r') as f:
         base_config = yaml.safe_load(f)
+        
+    # Point base config to isolated data
+    base_config['files']['data_dir'] = os.path.join(data_dir, "dataset_xenium_breast1_small")
         
     # Ablation Settings
     ablations = {

@@ -3,6 +3,7 @@ import os
 import sys
 import glob
 import re
+import yaml
 import json
 import io
 import shutil
@@ -217,11 +218,28 @@ def main():
         os.makedirs(nash_results_dir)
         
     print("Setting up example data...")
-    BIDCellModel.get_example_data()
+    if not os.path.exists("example_data"):
+        BIDCellModel.get_example_data()
     
-    config_file = "params_small_example.yaml"
-    print(f"Initializing model with {config_file}...")
-    model = BIDCellModel(config_file)
+    # Isolate data for NashMTL
+    nash_data_dir = "nash_data"
+    if os.path.exists(nash_data_dir):
+        shutil.rmtree(nash_data_dir)
+    shutil.copytree("example_data", nash_data_dir)
+    
+    # Update config to point to isolated data
+    params_file = "params_small_example.yaml"
+    with open(params_file, 'r') as f:
+        config = yaml.safe_load(f)
+        
+    config['files']['data_dir'] = os.path.join(nash_data_dir, "dataset_xenium_breast1_small")
+    
+    nash_config_file = "params_nash.yaml"
+    with open(nash_config_file, 'w') as f:
+        yaml.dump(config, f)
+
+    print(f"Initializing model with {nash_config_file}...")
+    model = BIDCellModel(nash_config_file)
     
     # Increase logging frequency to capture more data points
     print("Adjusting training frequency for maximum data capture (sample_freq=1)...")
@@ -247,6 +265,9 @@ def main():
 
     stdout_content = capture.get_output()
     print(stdout_content)
+
+    if os.path.exists(nash_config_file):
+        os.remove(nash_config_file)
     
     with open(os.path.join(nash_results_dir, "training_log.txt"), "w") as f:
         f.write(stdout_content)
