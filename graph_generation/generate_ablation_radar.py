@@ -4,27 +4,33 @@ import plotly.express as px
 import numpy as np
 import os
 
-def generate_ablation_radar_plot():
+def generate_lr_radar_plot():
     # Path to the JSON data
-    json_path = r"D:\2512-BROCK-CODING\BIDCell\ugrad_ablation_results\ablation_medians.json"
+    # Assuming the user puts the new data here, similar to the ablation results
+    # Use "ugrad_results" or "ugrad_ablation_results" as appropriate
+    json_path = r"D:\2512-BROCK-CODING\BIDCell\ugrad_results\lr_medians.json"
     
+    # Check if file exists
+    if not os.path.exists(json_path):
+        print(f"Error: Data file not found at {json_path}")
+        print("Please ensure you have created 'lr_medians.json' with keys like 'LR=10E-05', 'LR=10E-06', etc.")
+        
+        # Fallback check for the original ablation file just in case the user hasn't created the new one yet
+        # and we don't want to crash immediately if they run it accidentally without data.
+        # But strictly, we should require the correct data.
+        return
+
     # Load the data
+    print(f"Loading data from {json_path}...")
     with open(json_path, 'r') as f:
         data_values = json.load(f)
 
-    # Define metrics (cols) and labels with normalization markers set by user preferences in snippet
-    # Mapping JSON keys to what might be expected or just using them directly.
-    # JSON keys: total_transcripts, total_genes, area, elongation, compactness, sphericity, solidity, convexity, circularity, density
-    
-    # Labels with '*' indicate normalization (dividing by max)
-    # Based on user snippet reference:
-    # Normalized: total_transcripts, total_genes, area (cell_area), compactness, circularity, density
-    # Not normalized: elongation, sphericity, solidity, convexity
-    
+    # Define metrics mapping based on the provided image
+    # The '*' indicates normalization
     labels_map = {
         "total_transcripts": "total_transcripts*",
         "total_genes": "total_genes*",
-        "area": "area*",
+        "area": "cell_area*",  # Mapped from 'area' to 'cell_area*'
         "elongation": "elongation",
         "compactness": "compactness*",
         "sphericity": "sphericity",
@@ -34,42 +40,56 @@ def generate_ablation_radar_plot():
         "density": "density*"
     }
     
-    # List of metrics to plot
-    cols = list(data_values[next(iter(data_values))].keys())
-    
-    # Calculate max values for each column for normalization
-    col_maxs = {}
-    for col in cols:
-        values = [data_values[key][col] for key in data_values.keys()]
-        col_maxs[col] = np.max(values)
-
-    # Prepare data for DataFrame
-    # Structure: {"Metric": [label1, label2, ...], "ne": [val1, val2...], "os": [...], ...}
-    
-    # We want the labels in the plot to match the list in the snippet if possible, or at least be clean.
-    # The snippet uses labels list to drive the order.
-    
+    # Order of metrics in the graph (clockwise starting from top/density usually, but plotly handles it)
+    # Based on the image order: density, total_transcripts, total_genes, cell_area, elongation, compactness, sphericity, solidity, convexity, circularity
     ordered_metrics = [
-        "total_transcripts", "total_genes", "area", 
+        "density", "total_transcripts", "total_genes", "area", 
         "elongation", "compactness", "sphericity", 
-        "solidity", "convexity", "circularity", "density"
+        "solidity", "convexity", "circularity"
     ]
     
-    plot_labels = [labels_map[m] for m in ordered_metrics]
+    # Ensure all metrics exist in the data
+    first_key = next(iter(data_values))
+    available_keys = data_values[first_key].keys()
     
+    # Filter ordered_metrics to only those available in data (robustness)
+    ordered_metrics = [m for m in ordered_metrics if m in available_keys]
+    
+    plot_labels = [labels_map.get(m, m) for m in ordered_metrics]
+    
+    # Calculate max values for normalization
+    col_maxs = {}
+    for col in ordered_metrics:
+        # Extract all values for this column across all experiments/LRs
+        values = [data_values[k].get(col, 0) for k in data_values.keys()]
+        col_maxs[col] = np.max(values)
+
+    # Prepare data for Plotly
     plot_data = {"Metric": plot_labels}
+    experiment_keys = list(data_values.keys()) # Expected: LR=10E-05, LR=10E-06, etc.
     
-    experiment_keys = list(data_values.keys()) # ne, os, cc, mu, pn
-    
+    # Sort keys for consistent legend order
+    # Trying to sort by the numeric LR value if the key format matches "LR=..."
+    try:
+        # Extract number after '=' and convert to float
+        experiment_keys.sort(key=lambda x: float(x.split('=')[1]) if '=' in x else x, reverse=True) 
+        # reverse=True -> Larger LR (1e-5) first? 
+        # 1e-5 = 0.00001, 1e-9 = 0.000000001. 
+        # Typically legend order follows 1e-5 down to 1e-9.
+    except Exception as e:
+        print(f"Sorting keys alphabetically due to: {e}")
+        experiment_keys.sort()
+
     for key in experiment_keys:
         plot_data[key] = []
         for metric in ordered_metrics:
-            label = labels_map[metric]
-            value = data_values[key][metric]
+            label = labels_map.get(metric, metric)
+            value = data_values[key].get(metric, 0)
             
             if "*" in label:
                 # Normalize
-                normalized_val = value / col_maxs[metric] if col_maxs[metric] != 0 else 0
+                max_val = col_maxs[metric]
+                normalized_val = value / max_val if max_val != 0 else 0
                 plot_data[key].append(normalized_val)
             else:
                 plot_data[key].append(value)
@@ -77,57 +97,57 @@ def generate_ablation_radar_plot():
     df = pd.DataFrame(plot_data)
     
     # Melt the DataFrame for plotly
-    # id_vars = "Metric", var_name = "Ablation Type", value_name = "Value"
-    key_name = "Ablation Type"
+    # id_vars = "Metric", var_name = "Learning Rate", value_name = "Value"
+    key_name = "Learning Rate"
     df_long = df.melt(id_vars="Metric", var_name=key_name, value_name="Value")
 
     # Generate the plot
     fig = px.line_polar(df_long, r="Value", theta="Metric", color=key_name, line_close=True)
     
-    # Styling as requested
+    # Styling
     fig.update_traces(fill=None)
     fig.update_layout(
         title={
-            'text': "Ablation Study: Metrics Comparison",
-            'font': dict(size=36)
+            'text': "Default Summation",
+            'y':0.95,
+            'x':0.5,
+            'xanchor': 'center',
+            'yanchor': 'top',
+            'font': dict(size=24)
         },
         polar=dict(
             radialaxis=dict(
                 visible=True,
-                # range=[0, 1], # Range depends on if all are normalized. 
-                # Since some are NOT normalized (like solidity ~0.8), and normalized ones are 0-1.
-                # If mixed, range 0-1 might cut off data > 1?
-                # However, user snippet sets range=[0, 1].
-                # Let's check the non-normalized values in JSON:
-                # elongation ~0.65, sphericity ~0.66, solidity ~0.75, convexity ~0.86.
-                # All seem to be < 1. So range [0, 1] is safe and appropriate.
-                range=[0, 1],
-                tickfont=dict(size=24),
+                range=[0, 1], # Normalized scale 0-1
+                tickfont=dict(size=12),
             ),
             angularaxis=dict(
-                tickfont=dict(size=24),
+                tickfont=dict(size=14),
             )
         ),
-        legend=dict(font=dict(size=24)),
-        font=dict(size=18)
+        legend=dict(
+            title=dict(text="Learning Rate"),
+            font=dict(size=14)
+        ),
+        font=dict(size=14)
     )
     
-    # Show or Save? The user asked to "create a script ... that can transformating hte ablation medians information to the graphs that i want".
-    # Usually `fig.show()` opens a browser. I should probably also save it to an HTML or PNG file.
-    
     output_dir = r"D:\2512-BROCK-CODING\BIDCell\graph_generation"
-    output_html = os.path.join(output_dir, "ablation_radar_plot.html")
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    output_html = os.path.join(output_dir, "lr_radar_plot.html")
     print(f"Saving plot to {output_html}")
     fig.write_html(output_html)
 
-    # Save as PNG
-    output_png = os.path.join(output_dir, "ablation_radar_plot.png")
+    output_png = os.path.join(output_dir, "lr_radar_plot.png")
     print(f"Saving plot to {output_png}")
     try:
+        # Increasing scale for higher resolution
         fig.write_image(output_png, width=1200, height=800, scale=2)
     except Exception as e:
         print(f"Error saving PNG: {e}")
-        print("Ensure 'kaleido' is installed: pip install kaleido")
-    
+        print("Note: PNG export requires 'kaleido'. You can install it with: pip install kaleido")
+
 if __name__ == "__main__":
-    generate_ablation_radar_plot()
+    generate_lr_radar_plot()
