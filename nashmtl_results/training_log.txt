@@ -1,0 +1,40 @@
+### Preprocessing ###
+
+Reading DAPI image
+D:\2512-BROCK-CODING\BIDCell\example_data\dataset_xenium_breast1_small\morphology_mip_small.tif
+DAPI shape h: 1800 w: 2400
+Segmenting DAPI patches h: 1800 w: 2400
+Nuclei image h: 382 w: 510
+Finished segmenting, found 852 nuclei
+Loading transcripts file
+   Unnamed: 0    transcript_id  cell_id  ...  y_location z_location         qv
+0     2565587  281496451551924       -1  ...   469.34515  10.958567  40.000000
+1     2565590  281496451551927    44769  ...   327.25198  15.099401  40.000000
+2     2565591  281496451551928    45392  ...   577.32130  11.937755  20.782797
+3     2565592  281496451551929    46672  ...   365.75200  10.617414  40.000000
+4     2565595  281496451551932       -1  ...   409.68720  11.384081  40.000000
+
+[5 rows x 9 columns]
+Filtering transcripts
+Finished filtering
+Saving csv...
+<bound method NDFrame.head of         Unnamed: 0    transcript_id  cell_id  ...  y_location z_location         qv
+0          2565587  281496451551924       -1  ...         257  10.958567  40.000000
+1          2565590  281496451551927    44769  ...         115  15.099401  40.000000
+2          2565591  281496451551928    45392  ...         365  11.937755  20.782797
+3          2565592  281496451551929    46672  ...         154  10.617414  40.000000
+4          2565595  281496451551932       -1  ...         198  11.384081  40.000000
+...            ...              ...      ...  ...         ...        ...        ...
+186141     3940032  281500747163393    43575  ...         243  16.281252  35.923073
+186142     3940037  281500747163399    43517  ...           2  15.730230  40.000000
+186143     3940039  281500747163401    43534  ...          37  15.751373  27.767600
+186144     3940041  281500747163403    43543  ...         299  12.549458  40.000000
+186145     3940042  281500747163404    43530  ...          26  17.624292  28.487734
+
+[186146 rows x 9 columns]>
+(186146, 9)
+313 unique genes
+Total height 382, width 510
+Converting to maps
+Patch: (0, 382, 0, 510)
+Caught exception: [Errno 2] No such file or directory: 'D:\\2512-BROCK-CODING\\BIDCell\\example_data\\dataset_xenium_breast1_small\\expr_maps\\ABCC11_0_0.tif'

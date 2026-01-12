@@ -13,6 +13,7 @@ from torch.utils.data import DataLoader
 
 from torchjd.autojac import mtl_backward
 from torchjd.aggregation import UPGrad
+from ..custom_aggregators import CAGrad, NashMTL
 
 from .dataio.dataset_input import DataProcessing
 from .model.losses import (
@@ -64,8 +65,15 @@ def train(config: Config):
     else:
         model_freq = config.testing_params.test_step
 
-    # Initialize UPGrad aggregator
-    aggregator = UPGrad()
+    # Initialize aggregator
+    if config.training_params.aggregation == "ugrad":
+        aggregator = UPGrad()
+    elif config.training_params.aggregation == "cagrad":
+        aggregator = CAGrad()
+    elif config.training_params.aggregation == "nashmtl":
+        aggregator = NashMTL()
+    else:
+        aggregator = None
 
     # Set up the model
     logging.info("Initialising model")
