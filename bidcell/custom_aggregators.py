@@ -14,7 +14,7 @@ class CAGrad(Aggregator):
         super().__init__()
         self.c = c
 
-    def __call__(self, grads):
+    def forward(self, grads):
         """
         grads: (n_tasks, n_params)
         """
@@ -58,7 +58,7 @@ class CAGrad(Aggregator):
         return torch.matmul(w_torch, grads)
 
 class NashMTL(Aggregator):
-    def __call__(self, grads):
+    def forward(self, grads):
         """
         grads: (n_tasks, n_params)
         """

@@ -285,7 +285,7 @@ def main():
     plot_lr_curve(lrs, cagrad_results_dir)
     
     # Post-processing identification
-    config = load_config(config_file) # Re-load to get clean paths
+    config = load_config(cagrad_config_file) # Re-load to get clean paths
     if config.experiment_dirs.dir_id == "last":
         timestamp = get_newest_id(os.path.join(config.files.data_dir, "model_outputs"))
     else:

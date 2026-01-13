@@ -37,4 +37,39 @@ Saving csv...
 Total height 382, width 510
 Converting to maps
 Patch: (0, 382, 0, 510)
-Caught exception: [Errno 2] No such file or directory: 'D:\\2512-BROCK-CODING\\BIDCell\\example_data\\dataset_xenium_breast1_small\\expr_maps\\ABCC11_0_0.tif'
+Saved all maps
+(382, 510)
+Processing D:\2512-BROCK-CODING\BIDCell\nash_data\dataset_xenium_breast1_small\expr_maps\all_genes_0_382_0_510.hdf5
+Loaded gene expr maps from D:\2512-BROCK-CODING\BIDCell\nash_data\dataset_xenium_breast1_small\expr_maps\all_genes_0_382_0_510.hdf5
+[0, 382, 0, 510]
+Shift by 0
+88 patches
+Shift by 24
+70 patches
+Number of cells 852
+Number of splits for multiprocessing: 8
+Segmentation map pixel size:  (1798, 2400)
+Saving temporary resized segmentation
+Extracting cell expressions
+Patch H 0:1798, W 0:2400
+(1798, 2400)
+Reading filtered transcripts
+0.0 508.99520000000007 0.0 380.99484
+Transforming x_location
+Transforming y_location
+0 2395 0 1793
+Transforming x_location
+Transforming y_location
+0 2395 0 1793
+Extracting cell-gene matrix chunks
+Combining cell-gene matrix chunks
+Obtained cell-gene matrix
+Done
+Number of cells: 852
+Number of splits for multiprocessing: 8
+Computing simple annotation
+
+### Training ###
+
+Using device: cuda
+Caught exception: Can't instantiate abstract class NashMTL with abstract method forward

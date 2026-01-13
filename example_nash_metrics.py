@@ -283,7 +283,7 @@ def main():
     plot_lr_curve(lrs, nash_results_dir)
     
     # Post-processing identification
-    config = load_config(config_file) # Re-load to get clean paths
+    config = load_config(nash_config_file) # Re-load to get clean paths
     if config.experiment_dirs.dir_id == "last":
         timestamp = get_newest_id(os.path.join(config.files.data_dir, "model_outputs"))
     else:

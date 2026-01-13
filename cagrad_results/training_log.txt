@@ -7,29 +7,29 @@ Segmenting DAPI patches h: 1800 w: 2400
 Nuclei image h: 382 w: 510
 Finished segmenting, found 852 nuclei
 Loading transcripts file
-   Unnamed: 0    transcript_id  cell_id  overlaps_nucleus  ... x_location  y_location  z_location         qv
-0     2565587  281496451551924       -1                 0  ...  1062.1926   469.34515   10.958567  40.000000
-1     2565590  281496451551927    44769                 1  ...  1062.7025   327.25198   15.099401  40.000000
-2     2565591  281496451551928    45392                 0  ...  1062.9146   577.32130   11.937755  20.782797
-3     2565592  281496451551929    46672                 0  ...  1063.0559   365.75200   10.617414  40.000000
-4     2565595  281496451551932       -1                 0  ...  1063.3499   409.68720   11.384081  40.000000
+   Unnamed: 0    transcript_id  cell_id  ...  y_location z_location         qv
+0     2565587  281496451551924       -1  ...   469.34515  10.958567  40.000000
+1     2565590  281496451551927    44769  ...   327.25198  15.099401  40.000000
+2     2565591  281496451551928    45392  ...   577.32130  11.937755  20.782797
+3     2565592  281496451551929    46672  ...   365.75200  10.617414  40.000000
+4     2565595  281496451551932       -1  ...   409.68720  11.384081  40.000000
 
 [5 rows x 9 columns]
 Filtering transcripts
 Finished filtering
 Saving csv...
-<bound method NDFrame.head of         Unnamed: 0    transcript_id  cell_id  overlaps_nucleus  ... x_location  y_location  z_location         qv
-0          2565587  281496451551924       -1                 0  ...          0         257   10.958567  40.000000
-1          2565590  281496451551927    44769                 1  ...          1         115   15.099401  40.000000
-2          2565591  281496451551928    45392                 0  ...          1         365   11.937755  20.782797
-3          2565592  281496451551929    46672                 0  ...          1         154   10.617414  40.000000
-4          2565595  281496451551932       -1                 0  ...          1         198   11.384081  40.000000
-...            ...              ...      ...               ...  ...        ...         ...         ...        ...
-186141     3940032  281500747163393    43575                 0  ...        509         243   16.281252  35.923073
-186142     3940037  281500747163399    43517                 1  ...        509           2   15.730230  40.000000
-186143     3940039  281500747163401    43534                 0  ...        509          37   15.751373  27.767600
-186144     3940041  281500747163403    43543                 0  ...        509         299   12.549458  40.000000
-186145     3940042  281500747163404    43530                 1  ...        509          26   17.624292  28.487734
+<bound method NDFrame.head of         Unnamed: 0    transcript_id  cell_id  ...  y_location z_location         qv
+0          2565587  281496451551924       -1  ...         257  10.958567  40.000000
+1          2565590  281496451551927    44769  ...         115  15.099401  40.000000
+2          2565591  281496451551928    45392  ...         365  11.937755  20.782797
+3          2565592  281496451551929    46672  ...         154  10.617414  40.000000
+4          2565595  281496451551932       -1  ...         198  11.384081  40.000000
+...            ...              ...      ...  ...         ...        ...        ...
+186141     3940032  281500747163393    43575  ...         243  16.281252  35.923073
+186142     3940037  281500747163399    43517  ...           2  15.730230  40.000000
+186143     3940039  281500747163401    43534  ...          37  15.751373  27.767600
+186144     3940041  281500747163403    43543  ...         299  12.549458  40.000000
+186145     3940042  281500747163404    43530  ...          26  17.624292  28.487734
 
 [186146 rows x 9 columns]>
 (186146, 9)
@@ -37,4 +37,39 @@ Saving csv...
 Total height 382, width 510
 Converting to maps
 Patch: (0, 382, 0, 510)
-Caught exception: failed to read 194820 bytes, got 7936
+Saved all maps
+(382, 510)
+Processing D:\2512-BROCK-CODING\BIDCell\cagrad_data\dataset_xenium_breast1_small\expr_maps\all_genes_0_382_0_510.hdf5
+Loaded gene expr maps from D:\2512-BROCK-CODING\BIDCell\cagrad_data\dataset_xenium_breast1_small\expr_maps\all_genes_0_382_0_510.hdf5
+[0, 382, 0, 510]
+Shift by 0
+88 patches
+Shift by 24
+70 patches
+Number of cells 852
+Number of splits for multiprocessing: 8
+Segmentation map pixel size:  (1798, 2400)
+Saving temporary resized segmentation
+Extracting cell expressions
+Patch H 0:1798, W 0:2400
+(1798, 2400)
+Reading filtered transcripts
+0.0 508.99520000000007 0.0 380.99484
+Transforming x_location
+Transforming y_location
+0 2395 0 1793
+Transforming x_location
+Transforming y_location
+0 2395 0 1793
+Extracting cell-gene matrix chunks
+Combining cell-gene matrix chunks
+Obtained cell-gene matrix
+Done
+Number of cells: 852
+Number of splits for multiprocessing: 8
+Computing simple annotation
+
+### Training ###
+
+Using device: cuda
+Caught exception: Can't instantiate abstract class CAGrad with abstract method forward
