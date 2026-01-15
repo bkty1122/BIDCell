@@ -192,13 +192,21 @@ def main():
             current_metrics["density"] = float(cell_count)
             
             # 3. Expression
-            cgm_dir = os.path.join(out_dir, "cell_gene_matrices")
-            cgm_files = glob.glob(os.path.join(cgm_dir, "*.csv"))
+            # The structure observed is model_outputs/timestamp/test_output/... AND separate cell_gene_matrices/timestamp/expr_mat.csv
+            # But BIDCellModel usually saves it to config.data_dir/cell_gene_matrices/timestamp
             
-            if not cgm_files:
-                # Fallback search
-                 cgm_files = glob.glob(os.path.join(out_dir, "**/*.csv"), recursive=True)
-                 cgm_files = [f for f in cgm_files if "cell_gene" in f or "cell_by_gene" in f or "matrix" in f]
+            # Let's try to look in the standard location relative to the data dir
+            try:
+                # Re-read config cleanly to be sure (already done above)
+                cgm_base_dir = os.path.join(config.files.data_dir, "cell_gene_matrices", timestamp)
+                cgm_files = glob.glob(os.path.join(cgm_base_dir, "*.csv"))
+                
+                if not cgm_files:
+                    # Fallback: Search recursively in the output dir (for robustnees)
+                     cgm_files = glob.glob(os.path.join(out_dir, "**/*.csv"), recursive=True)
+                     cgm_files = [f for f in cgm_files if "cell_gene" in f or "cell_by_gene" in f or "matrix" in f]
+            except:
+                 cgm_files = []
             
             if cgm_files:
                 expr_rows = compute_expression_metrics(cgm_files[0])
