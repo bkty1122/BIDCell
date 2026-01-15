@@ -4,20 +4,15 @@ import plotly.express as px
 import numpy as np
 import os
 
-def generate_lr_radar_plot():
+def generate_ablation_radar_plot():
     # Path to the JSON data
-    # Assuming the user puts the new data here, similar to the ablation results
-    # Use "ugrad_results" or "ugrad_ablation_results" as appropriate
-    json_path = r"D:\2512-BROCK-CODING\BIDCell\ugrad_results\lr_medians.json"
+    # Using ablation medians data with keys: ne, os, cc, mu, pn
+    json_path = r"D:\2512-BROCK-CODING\BIDCell\ugrad_ablation_results\ablation_medians.json"
     
     # Check if file exists
     if not os.path.exists(json_path):
         print(f"Error: Data file not found at {json_path}")
-        print("Please ensure you have created 'lr_medians.json' with keys like 'LR=10E-05', 'LR=10E-06', etc.")
-        
-        # Fallback check for the original ablation file just in case the user hasn't created the new one yet
-        # and we don't want to crash immediately if they run it accidentally without data.
-        # But strictly, we should require the correct data.
+        print("Please ensure you have 'ablation_medians.json' with ablation experiment data.")
         return
 
     # Load the data
@@ -66,19 +61,10 @@ def generate_lr_radar_plot():
 
     # Prepare data for Plotly
     plot_data = {"Metric": plot_labels}
-    experiment_keys = list(data_values.keys()) # Expected: LR=10E-05, LR=10E-06, etc.
+    experiment_keys = list(data_values.keys()) # Expected: ne, os, cc, mu, pn
     
-    # Sort keys for consistent legend order
-    # Trying to sort by the numeric LR value if the key format matches "LR=..."
-    try:
-        # Extract number after '=' and convert to float
-        experiment_keys.sort(key=lambda x: float(x.split('=')[1]) if '=' in x else x, reverse=True) 
-        # reverse=True -> Larger LR (1e-5) first? 
-        # 1e-5 = 0.00001, 1e-9 = 0.000000001. 
-        # Typically legend order follows 1e-5 down to 1e-9.
-    except Exception as e:
-        print(f"Sorting keys alphabetically due to: {e}")
-        experiment_keys.sort()
+    # Sort keys for consistent legend order (alphabetically for ablation types)
+    experiment_keys.sort()
 
     for key in experiment_keys:
         plot_data[key] = []
@@ -97,8 +83,8 @@ def generate_lr_radar_plot():
     df = pd.DataFrame(plot_data)
     
     # Melt the DataFrame for plotly
-    # id_vars = "Metric", var_name = "Learning Rate", value_name = "Value"
-    key_name = "Learning Rate"
+    # id_vars = "Metric", var_name = "Ablation Type", value_name = "Value"
+    key_name = "Ablation Type"
     df_long = df.melt(id_vars="Metric", var_name=key_name, value_name="Value")
 
     # Generate the plot
@@ -108,7 +94,7 @@ def generate_lr_radar_plot():
     fig.update_traces(fill=None)
     fig.update_layout(
         title={
-            'text': "Default Summation",
+            'text': "Ablation Study: Metrics Comparison",
             'y':0.95,
             'x':0.5,
             'xanchor': 'center',
@@ -126,7 +112,7 @@ def generate_lr_radar_plot():
             )
         ),
         legend=dict(
-            title=dict(text="Learning Rate"),
+            title=dict(text="Ablation Type"),
             font=dict(size=14)
         ),
         font=dict(size=14)
@@ -136,11 +122,11 @@ def generate_lr_radar_plot():
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    output_html = os.path.join(output_dir, "lr_radar_plot.html")
+    output_html = os.path.join(output_dir, "ablation_radar_plot.html")
     print(f"Saving plot to {output_html}")
     fig.write_html(output_html)
 
-    output_png = os.path.join(output_dir, "lr_radar_plot.png")
+    output_png = os.path.join(output_dir, "ablation_radar_plot.png")
     print(f"Saving plot to {output_png}")
     try:
         # Increasing scale for higher resolution
@@ -150,4 +136,4 @@ def generate_lr_radar_plot():
         print("Note: PNG export requires 'kaleido'. You can install it with: pip install kaleido")
 
 if __name__ == "__main__":
-    generate_lr_radar_plot()
+    generate_ablation_radar_plot()

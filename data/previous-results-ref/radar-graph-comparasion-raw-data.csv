@@ -1,0 +1,41 @@
+﻿Metric Category,Method,1.00E-07
+Cell Area,amtl-median,186.43220000000002
+Cell Area,amtl-min,177.6392
+Cell Area,stch-mu-0.0005,147.276
+Cell Area,default,142.5357
+Circularity,amtl-median,103612000
+Circularity,amtl-min,109080000
+Circularity,stch-mu-0.0005,106000000
+Circularity,default,114000000
+Compactness,amtl-median,91620000
+Compactness,amtl-min,98944000
+Compactness,stch-mu-0.0005,98700000
+Compactness,default,106000000
+Convexity,amtl-median,0.9252
+Convexity,amtl-min,0.9298
+Convexity,stch-mu-0.0005,0.934
+Convexity,default,0.9336
+Density,amtl-median,2.268
+Density,amtl-min,2.322
+Density,stch-mu-0.0005,1.8177
+Density,default,1.7367
+Elongation,amtl-median,0.7914000000000001
+Elongation,amtl-min,0.8148
+Elongation,stch-mu-0.0005,0.7918
+Elongation,default,0.8124
+Solidity,amtl-median,0.807
+Solidity,amtl-min,0.8228
+Solidity,stch-mu-0.0005,0.8187
+Solidity,default,0.8151
+Sphericity,amtl-median,0.5968
+Sphericity,amtl-min,0.596
+Sphericity,stch-mu-0.0005,0.598
+Sphericity,default,0.6018
+Total Genes,amtl-median,71.4956
+Total Genes,amtl-min,69.3158
+Total Genes,stch-mu-0.0005,58.048
+Total Genes,default,57.5873
+Total Transcripts,amtl-median,261.2154
+Total Transcripts,amtl-min,247.1368
+Total Transcripts,stch-mu-0.0005,170.608
+Total Transcripts,default,164

@@ -3,7 +3,7 @@
 **/model_outputs
 *.tif
 *.pbs
-*.csv
+
 *.gz
 *.zip
 **/check_cells.py
@@ -27,3 +27,4 @@ data/dataset_xenium_breast1/all_gene_names.txt
 .pdm-python
 get_markers.py
 *venv
+*hdf5

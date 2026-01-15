@@ -1,0 +1,51 @@
+Metric Category,Method,1.00E-07
+Cell Area,Aligned-MTL,200.4646
+Cell Area,Aligned-MTL (Median),186.43220000000002
+Cell Area,Aligned-MTL (Min),177.6392
+Cell Area,STCH,147.276
+Cell Area,Weighted Sum,142.5357
+Circularity,Aligned-MTL,105000000.0
+Circularity,Aligned-MTL (Median),103612000.0
+Circularity,Aligned-MTL (Min),109080000.0
+Circularity,STCH,106000000.0
+Circularity,Weighted Sum,114000000.0
+Compactness,Aligned-MTL,96900000.0
+Compactness,Aligned-MTL (Median),91620000.0
+Compactness,Aligned-MTL (Min),98944000.0
+Compactness,STCH,98700000.0
+Compactness,Weighted Sum,106000000.0
+Convexity,Aligned-MTL,0.9268
+Convexity,Aligned-MTL (Median),0.9252
+Convexity,Aligned-MTL (Min),0.9298
+Convexity,STCH,0.934
+Convexity,Weighted Sum,0.9336
+Density,Aligned-MTL,2.4766
+Density,Aligned-MTL (Median),2.268
+Density,Aligned-MTL (Min),2.322
+Density,STCH,1.8177
+Density,Weighted Sum,1.7367
+Elongation,Aligned-MTL,0.8015
+Elongation,Aligned-MTL (Median),0.7914000000000001
+Elongation,Aligned-MTL (Min),0.8148
+Elongation,STCH,0.7918
+Elongation,Weighted Sum,0.8124
+Solidity,Aligned-MTL,0.8178
+Solidity,Aligned-MTL (Median),0.807
+Solidity,Aligned-MTL (Min),0.8228
+Solidity,STCH,0.8187
+Solidity,Weighted Sum,0.8151
+Sphericity,Aligned-MTL,0.6008
+Sphericity,Aligned-MTL (Median),0.5968
+Sphericity,Aligned-MTL (Min),0.596
+Sphericity,STCH,0.598
+Sphericity,Weighted Sum,0.6018
+Total Genes,Aligned-MTL,77.0267
+Total Genes,Aligned-MTL (Median),71.4956
+Total Genes,Aligned-MTL (Min),69.3158
+Total Genes,STCH,58.048
+Total Genes,Weighted Sum,57.5873
+Total Transcripts,Aligned-MTL,315.9237
+Total Transcripts,Aligned-MTL (Median),261.2154
+Total Transcripts,Aligned-MTL (Min),247.1368
+Total Transcripts,STCH,170.608
+Total Transcripts,Weighted Sum,164.0
