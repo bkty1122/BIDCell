@@ -13,9 +13,9 @@ files:
   fp_transcripts: ./data_large/dataset_xenium_breast1/transcripts.csv.gz
   
   # References (included in repo)
-  fp_ref: ./example_data/sc_references/sc_breast.csv
-  fp_pos_markers: ./example_data/sc_references/sc_breast_markers_pos.csv
-  fp_neg_markers: ./example_data/sc_references/sc_breast_markers_neg.csv
+  fp_ref: ./data/sc_references/sc_breast.csv
+  fp_pos_markers: ./data/sc_references/sc_breast_markers_pos.csv
+  fp_neg_markers: ./data/sc_references/sc_breast_markers_neg.csv
 
 nuclei_fovs:
   stitch_nuclei_fovs: False
@@ -47,7 +47,7 @@ affine:
 
 model_params:
   name: custom
-  patch_size: 48
+  patch_size: 128
   elongated:
   - Endothelial
   - Fibroblasts
