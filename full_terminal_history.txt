@@ -1,0 +1,1846 @@
+NE:0.1961, TC:56.0671, CC:155.6193, OV:8.8420, PN:411.3825
+Epoch[5/5], Step[4469], Loss:599.2264
+NE:0.1540, TC:42.6577, CC:238.2326, OV:1.8712, PN:316.3109
+Epoch[5/5], Step[4470], Loss:598.0125
+NE:0.1911, TC:55.4666, CC:168.4076, OV:6.7792, PN:367.1679
+Epoch[5/5], Step[4471], Loss:670.4016
+NE:0.2224, TC:63.1552, CC:191.8855, OV:4.8104, PN:410.3281
+Epoch[5/5], Step[4472], Loss:732.9589
+NE:0.2259, TC:55.3474, CC:313.1944, OV:2.0034, PN:362.1878
+Epoch[5/5], Step[4473], Loss:436.8510
+NE:0.2377, TC:58.4531, CC:131.3742, OV:5.7430, PN:241.0429
+Epoch[5/5], Step[4475], Loss:682.6783
+NE:0.2466, TC:64.0855, CC:244.2426, OV:0.7051, PN:373.3985
+Epoch[5/5], Step[4476], Loss:686.7430
+NE:0.2235, TC:63.7038, CC:193.4984, OV:1.9425, PN:427.3750
+Epoch[5/5], Step[4477], Loss:593.3794
+NE:0.2314, TC:58.3803, CC:146.1283, OV:5.3198, PN:383.3195
+Epoch[5/5], Step[4480], Loss:531.5942
+NE:0.2376, TC:60.2059, CC:142.7186, OV:5.2936, PN:323.1385
+Epoch[5/5], Step[4481], Loss:558.9028
+NE:0.2757, TC:67.3521, CC:165.1537, OV:4.9679, PN:321.1534
+Epoch[5/5], Step[4482], Loss:448.7632
+NE:0.2476, TC:57.9824, CC:140.6359, OV:8.2007, PN:241.6966
+Epoch[5/5], Step[4483], Loss:692.4903
+NE:0.2513, TC:68.8777, CC:176.6377, OV:6.1013, PN:440.6223
+Epoch[5/5], Step[4484], Loss:722.0875
+NE:0.2649, TC:74.1957, CC:203.7142, OV:4.4387, PN:439.4740
+Epoch[5/5], Step[4485], Loss:888.1788
+NE:0.2340, TC:74.3706, CC:237.9675, OV:0.0039, PN:575.6027
+Epoch[5/5], Step[4486], Loss:673.3669
+NE:0.2283, TC:63.2294, CC:196.4087, OV:4.8195, PN:408.6810
+Epoch[5/5], Step[4487], Loss:691.6863
+NE:0.2011, TC:57.5281, CC:160.5320, OV:5.6171, PN:467.8080
+Epoch[5/5], Step[4488], Loss:776.5094
+NE:0.2534, TC:70.1285, CC:221.1910, OV:2.8063, PN:482.1303
+Epoch[5/5], Step[4489], Loss:848.0259
+NE:0.2254, TC:62.0199, CC:210.9017, OV:1.5693, PN:573.3096
+Epoch[5/5], Step[4490], Loss:556.3720
+NE:0.2246, TC:60.4090, CC:147.2467, OV:9.2975, PN:339.1943
+Epoch[5/5], Step[4491], Loss:692.9252
+NE:0.2632, TC:65.6661, CC:221.5437, OV:6.5746, PN:398.8776
+Epoch[5/5], Step[4492], Loss:609.6190
+NE:0.1966, TC:58.8451, CC:245.7465, OV:0.6449, PN:304.1859
+Epoch[5/5], Step[4494], Loss:495.8226
+NE:0.2321, TC:58.1297, CC:171.4504, OV:4.0382, PN:261.9721
+Epoch[5/5], Step[4496], Loss:658.7845
+NE:0.2610, TC:67.2964, CC:159.1643, OV:8.1390, PN:423.9238
+Epoch[5/5], Step[4497], Loss:707.5544
+NE:0.2721, TC:70.7471, CC:192.9494, OV:2.8307, PN:440.7551
+Epoch[5/5], Step[4498], Loss:535.6465
+NE:0.1644, TC:47.2374, CC:176.7919, OV:4.3289, PN:307.1239
+Epoch[5/5], Step[4499], Loss:289.7318
+NE:0.0658, TC:18.1423, CC:104.2743, OV:0.0182, PN:167.2311
+Epoch[5/5], Step[4500], Loss:403.1382
+NE:0.2127, TC:50.5043, CC:135.8016, OV:3.6580, PN:212.9616
+Epoch[5/5], Step[4501], Loss:608.6077
+NE:0.1455, TC:44.4386, CC:244.9751, OV:0.0216, PN:319.0269
+Epoch[5/5], Step[4502], Loss:613.8395
+NE:0.2023, TC:56.1042, CC:172.8036, OV:5.2061, PN:379.5232
+Epoch[5/5], Step[4503], Loss:463.4591
+NE:0.2237, TC:56.1349, CC:135.3379, OV:7.2845, PN:264.4781
+Epoch[5/5], Step[4504], Loss:581.1886
+NE:0.2903, TC:75.9896, CC:226.1295, OV:0.0444, PN:278.7348
+Epoch[5/5], Step[4505], Loss:583.0179
+NE:0.2471, TC:65.1591, CC:165.2362, OV:6.5163, PN:345.8593
+Epoch[5/5], Step[4506], Loss:596.1705
+NE:0.1628, TC:48.7957, CC:187.5406, OV:5.5414, PN:354.1300
+Epoch[5/5], Step[4507], Loss:665.1364
+NE:0.2625, TC:67.3770, CC:153.7955, OV:6.9432, PN:436.7582
+Epoch[5/5], Step[4508], Loss:650.0314
+NE:0.2070, TC:56.1335, CC:167.8159, OV:2.3471, PN:423.5278
+Epoch[5/5], Step[4509], Loss:680.7609
+NE:0.2532, TC:62.4462, CC:143.6518, OV:4.9574, PN:469.4523
+Epoch[5/5], Step[4510], Loss:730.4945
+NE:0.1818, TC:47.7371, CC:217.7827, OV:0.0403, PN:464.7526
+Epoch[5/5], Step[4511], Loss:821.9031
+NE:0.2727, TC:80.1718, CC:309.7978, OV:1.1196, PN:430.5414
+Epoch[5/5], Step[4512], Loss:667.8677
+NE:0.2216, TC:60.5041, CC:195.0068, OV:5.6366, PN:406.4987
+Epoch[5/5], Step[4513], Loss:674.1549
+NE:0.2127, TC:61.1795, CC:189.1871, OV:10.8399, PN:412.7357
+Epoch[5/5], Step[4514], Loss:689.1118
+NE:0.2495, TC:57.8039, CC:235.7515, OV:3.7299, PN:391.5769
+Epoch[5/5], Step[4515], Loss:589.6859
+NE:0.2350, TC:61.9475, CC:168.5896, OV:7.2858, PN:351.6281
+Epoch[5/5], Step[4516], Loss:663.5144
+NE:0.2666, TC:70.4794, CC:192.5069, OV:6.5127, PN:393.7487
+Epoch[5/5], Step[4517], Loss:584.1039
+NE:0.2245, TC:58.0887, CC:155.5852, OV:4.8794, PN:365.3260
+Epoch[5/5], Step[4518], Loss:852.4103
+NE:0.2082, TC:62.5761, CC:254.2791, OV:0.0269, PN:535.3201
+Epoch[5/5], Step[4520], Loss:650.9303
+NE:0.2347, TC:60.2418, CC:198.2086, OV:2.3843, PN:389.8609
+Epoch[5/5], Step[4521], Loss:480.1688
+NE:0.1482, TC:43.3195, CC:185.5791, OV:3.8640, PN:247.2580
+Epoch[5/5], Step[4522], Loss:784.9957
+NE:0.2616, TC:70.6327, CC:218.9733, OV:3.6874, PN:491.4407
+Epoch[5/5], Step[4523], Loss:459.3369
+NE:0.2115, TC:53.2905, CC:197.5177, OV:0.2838, PN:208.0333
+Epoch[5/5], Step[4524], Loss:580.5857
+NE:0.2163, TC:57.0776, CC:141.7787, OV:7.6862, PN:373.8269
+Epoch[5/5], Step[4525], Loss:518.1882
+NE:0.1653, TC:43.1340, CC:164.6734, OV:1.8989, PN:308.3166
+Epoch[5/5], Step[4526], Loss:616.3518
+NE:0.2326, TC:64.1459, CC:157.4218, OV:6.0425, PN:388.5090
+Epoch[5/5], Step[4527], Loss:900.8513
+NE:0.1777, TC:57.5452, CC:400.1760, OV:0.0052, PN:442.9471
+Epoch[5/5], Step[4528], Loss:822.3372
+NE:0.2249, TC:64.4349, CC:242.6109, OV:0.0095, PN:515.0569
+Epoch[5/5], Step[4529], Loss:590.8412
+NE:0.2581, TC:64.3911, CC:132.3257, OV:6.9930, PN:386.8734
+Epoch[5/5], Step[4530], Loss:461.3425
+NE:0.2363, TC:57.6358, CC:129.0101, OV:7.3919, PN:267.0684
+Epoch[5/5], Step[4531], Loss:663.2737
+NE:0.2522, TC:65.3483, CC:186.5076, OV:3.2225, PN:407.9431
+Epoch[5/5], Step[4532], Loss:660.6679
+NE:0.1841, TC:54.7312, CC:185.1953, OV:10.7874, PN:409.7698
+Epoch[5/5], Step[4533], Loss:721.3195
+NE:0.2248, TC:64.0460, CC:190.0003, OV:4.8093, PN:462.2392
+Epoch[5/5], Step[4534], Loss:951.2802
+NE:0.3025, TC:81.0738, CC:252.6725, OV:3.7038, PN:613.5276
+Epoch[5/5], Step[4535], Loss:659.4256
+NE:0.2776, TC:74.1308, CC:170.1125, OV:4.4945, PN:410.4103
+Epoch[5/5], Step[4536], Loss:771.8965
+NE:0.2592, TC:70.8435, CC:240.0971, OV:2.8236, PN:457.8732
+Epoch[5/5], Step[4537], Loss:533.4552
+NE:0.1482, TC:40.9609, CC:205.9121, OV:0.6744, PN:285.7596
+Epoch[5/5], Step[4539], Loss:512.5417
+NE:0.2683, TC:63.9103, CC:142.4118, OV:6.2263, PN:299.7249
+Epoch[5/5], Step[4540], Loss:574.7567
+NE:0.1835, TC:52.8847, CC:178.3745, OV:9.2484, PN:334.0656
+Epoch[5/5], Step[4541], Loss:553.8893
+NE:0.2406, TC:61.2758, CC:157.2920, OV:6.1403, PN:328.9406
+Epoch[5/5], Step[4542], Loss:499.8214
+NE:0.2726, TC:67.8332, CC:152.3760, OV:6.1607, PN:273.1790
+Epoch[5/5], Step[4543], Loss:608.2596
+NE:0.1884, TC:52.2579, CC:176.7891, OV:3.5535, PN:375.4708
+Epoch[5/5], Step[4544], Loss:653.4714
+NE:0.2765, TC:62.9053, CC:158.2658, OV:3.8036, PN:428.2202
+Epoch[5/5], Step[4546], Loss:786.6241
+NE:0.3273, TC:85.7280, CC:350.1003, OV:0.7682, PN:349.7004
+Epoch[5/5], Step[4547], Loss:615.2205
+NE:0.1846, TC:49.8954, CC:279.7198, OV:3.9468, PN:281.4738
+Epoch[5/5], Step[4548], Loss:1499.8010
+NE:0.3205, TC:0.0000, CC:388.6729, OV:1.4543, PN:1109.3531
+Epoch[5/5], Step[4549], Loss:687.6027
+NE:0.2252, TC:63.8303, CC:171.0169, OV:9.3215, PN:443.2088
+Epoch[5/5], Step[4550], Loss:645.8813
+NE:0.2388, TC:73.2174, CC:255.9300, OV:0.0057, PN:316.4894
+Epoch[5/5], Step[4551], Loss:3665.9287
+NE:0.8568, TC:0.0000, CC:1974.0334, OV:0.3775, PN:1690.6608
+Epoch[5/5], Step[4552], Loss:1146.0632
+NE:0.3745, TC:111.5957, CC:512.6282, OV:0.0105, PN:521.4543
+Epoch[5/5], Step[4553], Loss:1042.6042
+NE:0.3152, TC:79.4260, CC:382.3472, OV:0.0786, PN:580.4373
+Epoch[5/5], Step[4554], Loss:604.5817
+NE:0.2220, TC:60.8367, CC:184.7250, OV:4.4376, PN:354.3604
+Epoch[5/5], Step[4555], Loss:444.2599
+NE:0.2315, TC:57.9065, CC:143.6931, OV:6.1305, PN:236.2983
+Epoch[5/5], Step[4557], Loss:751.2344
+NE:0.2440, TC:68.9669, CC:197.6171, OV:7.7265, PN:476.6798
+Epoch[5/5], Step[4558], Loss:722.2657
+NE:0.2444, TC:67.0065, CC:197.7816, OV:1.5434, PN:455.6898
+Epoch[5/5], Step[4559], Loss:545.5929
+NE:0.2467, TC:61.7135, CC:153.3788, OV:4.8682, PN:325.3856
+Epoch[5/5], Step[4560], Loss:1391.1387
+NE:0.0632, TC:12.0472, CC:1310.2423, OV:6.1134, PN:62.6724
+Epoch[5/5], Step[4561], Loss:762.1219
+NE:0.1956, TC:58.1066, CC:232.3252, OV:0.6720, PN:470.8226
+Epoch[5/5], Step[4562], Loss:739.5193
+NE:0.1811, TC:51.1873, CC:323.7578, OV:3.9826, PN:360.4105
+Epoch[5/5], Step[4563], Loss:640.0070
+NE:0.2346, TC:60.6457, CC:166.8080, OV:3.6153, PN:408.7034
+Epoch[5/5], Step[4564], Loss:728.8602
+NE:0.1985, TC:53.8147, CC:168.7313, OV:4.7996, PN:501.3161
+Epoch[5/5], Step[4565], Loss:609.1763
+NE:0.2168, TC:58.6413, CC:162.4192, OV:5.6522, PN:382.2467
+Epoch[5/5], Step[4566], Loss:569.5467
+NE:0.1456, TC:43.3433, CC:193.2530, OV:1.0512, PN:331.7537
+Epoch[5/5], Step[4567], Loss:593.8922
+NE:0.1616, TC:48.8758, CC:182.6932, OV:1.4804, PN:360.6812
+Epoch[5/5], Step[4568], Loss:665.4697
+NE:0.2001, TC:59.8525, CC:250.5844, OV:0.0300, PN:354.8026
+Epoch[5/5], Step[4569], Loss:581.1359
+NE:0.1924, TC:53.7396, CC:165.0900, OV:2.3663, PN:359.7476
+Epoch[5/5], Step[4570], Loss:460.8135
+NE:0.2453, TC:62.8920, CC:158.0812, OV:6.9725, PN:232.6225
+Epoch[5/5], Step[4571], Loss:587.2551
+NE:0.2667, TC:68.8197, CC:167.3188, OV:7.3788, PN:343.4710
+Epoch[5/5], Step[4572], Loss:508.2703
+NE:0.1240, TC:39.8133, CC:197.2506, OV:2.2322, PN:268.8502
+Epoch[5/5], Step[4573], Loss:584.8927
+NE:0.1756, TC:52.7673, CC:177.6366, OV:6.7264, PN:347.5869
+Epoch[5/5], Step[4574], Loss:637.0921
+NE:0.2536, TC:66.2569, CC:190.9386, OV:5.3307, PN:374.3123
+Epoch[5/5], Step[4575], Loss:585.2614
+NE:0.2535, TC:67.8545, CC:154.8022, OV:9.3511, PN:353.0002
+Epoch[5/5], Step[4576], Loss:538.4234
+NE:0.2311, TC:56.0051, CC:141.9884, OV:5.3828, PN:334.8160
+Epoch[5/5], Step[4577], Loss:572.7817
+NE:0.1808, TC:51.7133, CC:173.1676, OV:3.1202, PN:344.5997
+Epoch[5/5], Step[4578], Loss:816.0347
+NE:0.2167, TC:59.5569, CC:246.3000, OV:0.0416, PN:509.9195
+Epoch[5/5], Step[4579], Loss:450.8897
+NE:0.2360, TC:59.5779, CC:138.0383, OV:6.5474, PN:246.4901
+Epoch[5/5], Step[4580], Loss:548.9268
+NE:0.2219, TC:58.3654, CC:135.0990, OV:7.7169, PN:347.5237
+Epoch[5/5], Step[4581], Loss:1150.4414
+NE:0.0537, TC:11.6730, CC:1075.4657, OV:2.9225, PN:60.3264
+Epoch[5/5], Step[4582], Loss:531.5296
+NE:0.2418, TC:61.6842, CC:148.0244, OV:6.1789, PN:315.4003
+Epoch[5/5], Step[4583], Loss:754.3860
+NE:0.3662, TC:59.3247, CC:296.3581, OV:1.9707, PN:396.3663
+Epoch[5/5], Step[4584], Loss:634.7086
+NE:0.2361, TC:63.0007, CC:228.8788, OV:3.2320, PN:339.3610
+Epoch[5/5], Step[4585], Loss:735.6619
+NE:0.2227, TC:63.1859, CC:342.7156, OV:0.0282, PN:329.5096
+Epoch[5/5], Step[4586], Loss:451.4791
+NE:0.2269, TC:57.8796, CC:136.0173, OV:7.2908, PN:250.0645
+Epoch[5/5], Step[4587], Loss:477.4756
+NE:0.2271, TC:58.3800, CC:160.0690, OV:6.1151, PN:252.6844
+Epoch[5/5], Step[4589], Loss:258.7645
+NE:0.1193, TC:29.2253, CC:104.3646, OV:0.2337, PN:124.8216
+Epoch[5/5], Step[4590], Loss:512.6171
+NE:0.2313, TC:60.7588, CC:151.7726, OV:5.6950, PN:294.1594
+Epoch[5/5], Step[4591], Loss:742.6873
+NE:0.2988, TC:77.0925, CC:168.2097, OV:5.7682, PN:491.3181
+Epoch[5/5], Step[4592], Loss:683.6980
+NE:0.1677, TC:49.7510, CC:243.9060, OV:2.3235, PN:387.5497
+Epoch[5/5], Step[4593], Loss:521.7347
+NE:0.1779, TC:50.1251, CC:188.6514, OV:7.9939, PN:274.7864
+Epoch[5/5], Step[4594], Loss:1463.7319
+NE:0.1000, TC:25.0206, CC:1321.3724, OV:5.0384, PN:112.2006
+Epoch[5/5], Step[4595], Loss:598.6633
+NE:0.2390, TC:62.9408, CC:173.0699, OV:4.4863, PN:357.9272
+Epoch[5/5], Step[4597], Loss:3508.2236
+NE:0.8336, TC:0.0000, CC:1920.5183, OV:0.3775, PN:1586.4940
+Epoch[5/5], Step[4598], Loss:761.9668
+NE:0.2822, TC:78.7249, CC:301.9486, OV:4.0806, PN:376.9304
+Epoch[5/5], Step[4599], Loss:686.9495
+NE:0.2216, TC:62.9391, CC:194.1773, OV:3.5852, PN:426.0262
+Epoch[5/5], Step[4600], Loss:661.5856
+NE:0.2883, TC:73.5405, CC:196.1369, OV:3.7172, PN:387.9029
+Epoch[5/5], Step[4601], Loss:634.1767
+NE:0.2422, TC:59.5373, CC:159.1817, OV:4.9388, PN:410.2767
+Epoch[5/5], Step[4602], Loss:398.2944
+NE:0.1923, TC:49.9798, CC:146.9422, OV:5.2020, PN:195.9781
+Epoch[5/5], Step[4603], Loss:575.7103
+NE:0.2125, TC:54.3344, CC:155.9238, OV:6.5244, PN:358.7152
+Epoch[5/5], Step[4604], Loss:616.8934
+NE:0.2477, TC:61.6563, CC:163.0633, OV:4.5238, PN:387.4023
+Epoch[5/5], Step[4605], Loss:231.5226
+NE:0.0262, TC:10.1292, CC:165.8026, OV:0.0008, PN:55.5638
+Epoch[5/5], Step[4606], Loss:731.6860
+NE:0.2106, TC:61.4664, CC:191.3997, OV:4.8147, PN:473.7946
+Epoch[5/5], Step[4608], Loss:592.6492
+NE:0.2122, TC:57.4431, CC:165.5984, OV:6.4491, PN:362.9464
+Epoch[5/5], Step[4609], Loss:519.7230
+NE:0.2221, TC:59.6940, CC:162.1811, OV:6.4717, PN:291.1541
+Epoch[5/5], Step[4610], Loss:643.8998
+NE:0.2679, TC:66.2885, CC:171.8477, OV:4.1756, PN:401.3200
+Epoch[5/5], Step[4611], Loss:566.1072
+NE:0.1904, TC:53.0842, CC:203.2058, OV:2.7258, PN:306.9010
+Epoch[5/5], Step[4612], Loss:563.2314
+NE:0.2306, TC:61.2669, CC:157.9729, OV:6.5008, PN:337.2602
+Epoch[5/5], Step[4613], Loss:655.1777
+NE:0.2680, TC:62.2054, CC:159.7017, OV:4.6422, PN:428.3603
+Epoch[5/5], Step[4614], Loss:491.7910
+NE:0.2408, TC:58.8197, CC:143.3980, OV:6.9884, PN:282.3441
+Epoch[5/5], Step[4615], Loss:675.9955
+NE:0.1463, TC:45.7499, CC:232.1903, OV:0.0054, PN:397.9036
+Epoch[5/5], Step[4616], Loss:537.8351
+NE:0.2352, TC:58.3169, CC:146.0183, OV:6.5593, PN:326.7053
+Epoch[5/5], Step[4618], Loss:615.3873
+NE:0.2413, TC:62.4382, CC:176.4429, OV:4.0969, PN:372.1682
+Epoch[5/5], Step[4619], Loss:665.7025
+NE:0.1769, TC:55.2502, CC:282.8907, OV:0.2493, PN:327.1354
+Epoch[5/5], Step[4620], Loss:815.2380
+NE:0.2762, TC:74.3477, CC:244.0359, OV:4.0922, PN:492.4861
+Epoch[5/5], Step[4621], Loss:936.8251
+NE:0.3386, TC:95.8092, CC:318.3884, OV:2.8933, PN:519.3957
+Epoch[5/5], Step[4622], Loss:412.4083
+NE:0.1526, TC:38.0530, CC:180.2711, OV:1.0968, PN:192.8348
+Epoch[5/5], Step[4623], Loss:596.7107
+NE:0.1567, TC:47.1297, CC:237.0695, OV:3.0833, PN:309.2716
+Epoch[5/5], Step[4624], Loss:724.7739
+NE:0.2132, TC:59.4568, CC:183.9352, OV:6.8616, PN:474.3071
+Epoch[5/5], Step[4625], Loss:658.2686
+NE:0.2156, TC:58.6962, CC:207.7414, OV:3.9957, PN:387.6196
+Epoch[5/5], Step[4626], Loss:351.6129
+NE:0.1349, TC:36.5236, CC:130.9884, OV:2.2753, PN:181.6907
+Epoch[5/5], Step[4627], Loss:665.3602
+NE:0.2465, TC:65.9252, CC:235.9216, OV:1.1532, PN:362.1137
+Epoch[5/5], Step[4628], Loss:579.9485
+NE:0.1877, TC:53.8965, CC:164.3141, OV:4.3742, PN:357.1762
+Epoch[5/5], Step[4629], Loss:542.1655
+NE:0.2884, TC:72.7528, CC:201.3953, OV:3.7196, PN:264.0095
+Epoch[5/5], Step[4632], Loss:687.4275
+NE:0.1951, TC:56.5547, CC:205.6694, OV:3.9847, PN:421.0236
+Epoch[5/5], Step[4633], Loss:1172.1868
+NE:0.2257, TC:48.8202, CC:443.2169, OV:0.0233, PN:679.9006
+Epoch[5/5], Step[4634], Loss:641.4969
+NE:0.2212, TC:61.1632, CC:220.0636, OV:1.5254, PN:358.5235
+Epoch[5/5], Step[4635], Loss:616.5136
+NE:0.2591, TC:64.3339, CC:156.6971, OV:5.7991, PN:389.4245
+Epoch[5/5], Step[4636], Loss:374.5692
+NE:0.1202, TC:32.6471, CC:163.3998, OV:0.2086, PN:178.1935
+Epoch[5/5], Step[4637], Loss:625.4996
+NE:0.1717, TC:48.0964, CC:239.5165, OV:0.0409, PN:337.6740
+Epoch[5/5], Step[4638], Loss:570.3652
+NE:0.2181, TC:59.5238, CC:194.2146, OV:1.9220, PN:314.4867
+Epoch[5/5], Step[4639], Loss:424.0774
+NE:0.1107, TC:34.7614, CC:190.8541, OV:0.0147, PN:198.3364
+Epoch[5/5], Step[4640], Loss:592.4593
+NE:0.1952, TC:55.0815, CC:256.4986, OV:1.0738, PN:279.6101
+Epoch[5/5], Step[4641], Loss:540.3146
+NE:0.1434, TC:41.8165, CC:174.0904, OV:2.6786, PN:321.5856
+Epoch[5/5], Step[4642], Loss:565.0168
+NE:0.1607, TC:46.6608, CC:192.5809, OV:5.1294, PN:320.4850
+Epoch[5/5], Step[4643], Loss:659.3856
+NE:0.2455, TC:61.9719, CC:266.4002, OV:0.7308, PN:330.0372
+Epoch[5/5], Step[4644], Loss:3145.5693
+NE:0.8325, TC:0.0000, CC:1917.9690, OV:0.3775, PN:1226.3905
+Epoch[5/5], Step[4645], Loss:970.3805
+NE:0.3191, TC:84.1410, CC:581.7718, OV:0.0116, PN:304.1369
+Epoch[5/5], Step[4646], Loss:548.7285
+NE:0.2148, TC:53.2413, CC:157.5586, OV:5.2987, PN:332.4153
+Epoch[5/5], Step[4647], Loss:566.5643
+NE:0.1760, TC:50.8189, CC:209.5339, OV:10.3549, PN:295.6807
+Epoch[5/5], Step[4648], Loss:683.1174
+NE:0.2914, TC:79.8327, CC:202.7194, OV:3.6054, PN:396.6685
+Epoch[5/5], Step[4649], Loss:490.4849
+NE:0.2268, TC:57.7651, CC:134.7789, OV:7.3352, PN:290.3789
+Epoch[5/5], Step[4650], Loss:629.9399
+NE:0.2417, TC:62.8891, CC:251.7403, OV:0.7521, PN:314.3166
+Epoch[5/5], Step[4651], Loss:656.0861
+NE:0.1706, TC:44.7670, CC:365.4832, OV:0.6884, PN:244.9769
+Epoch[5/5], Step[4652], Loss:531.5030
+NE:0.2642, TC:66.5934, CC:152.9474, OV:6.1455, PN:305.5525
+Epoch[5/5], Step[4653], Loss:416.6561
+NE:0.1338, TC:34.8506, CC:175.2285, OV:0.2451, PN:206.1981
+Epoch[5/5], Step[4654], Loss:503.8044
+NE:0.2207, TC:54.9470, CC:137.8297, OV:5.7244, PN:305.0827
+Epoch[5/5], Step[4655], Loss:738.5952
+NE:0.2292, TC:65.7587, CC:220.2957, OV:3.1812, PN:449.1304
+Epoch[5/5], Step[4657], Loss:495.6336
+NE:0.2742, TC:62.2486, CC:156.5258, OV:7.1003, PN:269.4848
+Epoch[5/5], Step[4659], Loss:438.3155
+NE:0.2597, TC:62.4090, CC:137.3153, OV:5.7913, PN:232.5402
+Epoch[5/5], Step[4660], Loss:623.6531
+NE:0.2032, TC:56.3306, CC:174.8522, OV:8.0481, PN:384.2190
+Epoch[5/5], Step[4661], Loss:1115.9932
+NE:0.3346, TC:93.1418, CC:427.7651, OV:0.0585, PN:594.6931
+Epoch[5/5], Step[4662], Loss:610.8523
+NE:0.2170, TC:63.6261, CC:224.4991, OV:0.2666, PN:322.2434
+Epoch[5/5], Step[4663], Loss:415.8347
+NE:0.2263, TC:56.5204, CC:137.4231, OV:6.9283, PN:214.7366
+Epoch[5/5], Step[4665], Loss:805.3146
+NE:0.2417, TC:66.8453, CC:185.5596, OV:1.1386, PN:551.5294
+Epoch[5/5], Step[4666], Loss:550.1339
+NE:0.2028, TC:54.2328, CC:158.7153, OV:5.2477, PN:331.7353
+Epoch[5/5], Step[4667], Loss:456.5781
+NE:0.2408, TC:59.1082, CC:133.0054, OV:6.1493, PN:258.0744
+Epoch[5/5], Step[4668], Loss:509.1792
+NE:0.1846, TC:49.4972, CC:163.7261, OV:4.3936, PN:291.3776
+Epoch[5/5], Step[4669], Loss:546.6981
+NE:0.2359, TC:61.1471, CC:209.6318, OV:0.2784, PN:275.4048
+Epoch[5/5], Step[4670], Loss:571.0190
+NE:0.1282, TC:35.0690, CC:199.5748, OV:0.0084, PN:336.2387
+Epoch[5/5], Step[4671], Loss:1016.8022
+NE:0.0855, TC:26.4552, CC:809.8170, OV:5.8754, PN:174.5692
+Epoch[5/5], Step[4672], Loss:771.0520
+NE:0.2856, TC:79.5596, CC:289.1929, OV:0.0243, PN:401.9896
+Epoch[5/5], Step[4673], Loss:496.1210
+NE:0.2346, TC:58.8068, CC:170.8739, OV:4.9286, PN:261.2772
+Epoch[5/5], Step[4675], Loss:490.9277
+NE:0.1945, TC:52.0965, CC:180.7264, OV:1.1107, PN:256.7995
+Epoch[5/5], Step[4677], Loss:790.3074
+NE:0.2745, TC:74.5041, CC:191.0011, OV:6.5720, PN:517.9556
+Epoch[5/5], Step[4678], Loss:560.9478
+NE:0.1691, TC:48.3058, CC:141.2795, OV:9.1539, PN:362.0396
+Epoch[5/5], Step[4679], Loss:457.8654
+NE:0.1615, TC:46.8456, CC:171.0536, OV:4.3005, PN:235.5043
+Epoch[5/5], Step[4681], Loss:1014.4593
+NE:0.2951, TC:81.4525, CC:292.6644, OV:0.3246, PN:639.7228
+Epoch[5/5], Step[4683], Loss:987.5146
+NE:0.1772, TC:49.5402, CC:502.3403, OV:5.1919, PN:430.2650
+Epoch[5/5], Step[4684], Loss:753.8542
+NE:0.3135, TC:84.2594, CC:238.5691, OV:1.5898, PN:429.1225
+Epoch[5/5], Step[4685], Loss:524.6760
+NE:0.1911, TC:53.9396, CC:148.9068, OV:4.7849, PN:316.8536
+Epoch[5/5], Step[4686], Loss:655.1921
+NE:0.1894, TC:55.0426, CC:168.0223, OV:10.8457, PN:421.0922
+Epoch[5/5], Step[4687], Loss:579.5139
+NE:0.2418, TC:59.3815, CC:150.1993, OV:5.7706, PN:363.9206
+Epoch[5/5], Step[4688], Loss:433.4586
+NE:0.2313, TC:56.8204, CC:141.7620, OV:6.4920, PN:228.1529
+Epoch[5/5], Step[4689], Loss:1557.1809
+NE:0.3870, TC:99.2258, CC:410.8299, OV:0.0202, PN:1046.7180
+Epoch[5/5], Step[4690], Loss:715.2167
+NE:0.2353, TC:65.3030, CC:192.1825, OV:1.5280, PN:455.9679
+Epoch[5/5], Step[4691], Loss:399.8019
+NE:0.2365, TC:60.1662, CC:137.7603, OV:7.7286, PN:193.9103
+Epoch[5/5], Step[4692], Loss:609.4086
+NE:0.1725, TC:47.3238, CC:236.2081, OV:1.1067, PN:324.5975
+Epoch[5/5], Step[4693], Loss:645.5530
+NE:0.1910, TC:55.9627, CC:174.3471, OV:12.0105, PN:403.0417
+Epoch[5/5], Step[4694], Loss:1013.4169
+NE:0.2759, TC:77.9519, CC:364.0945, OV:0.3194, PN:570.7753
+Epoch[5/5], Step[4695], Loss:759.1746
+NE:0.2430, TC:66.4363, CC:185.2187, OV:8.5343, PN:498.7422
+Epoch[5/5], Step[4696], Loss:893.4935
+NE:0.3029, TC:85.3319, CC:255.1747, OV:1.5927, PN:551.0913
+Epoch[5/5], Step[4697], Loss:671.5950
+NE:0.2570, TC:65.9673, CC:167.0318, OV:6.1705, PN:432.1684
+Epoch[5/5], Step[4698], Loss:509.9687
+NE:0.2322, TC:56.4350, CC:141.8476, OV:6.9929, PN:304.4609
+Epoch[5/5], Step[4699], Loss:631.1394
+NE:0.2401, TC:62.0058, CC:180.2117, OV:4.4935, PN:384.1884
+Epoch[5/5], Step[4701], Loss:449.4181
+NE:0.0750, TC:25.0691, CC:232.6411, OV:0.0038, PN:191.6292
+Epoch[5/5], Step[4702], Loss:547.3109
+NE:0.2447, TC:60.3475, CC:152.5932, OV:5.7516, PN:328.3738
+Epoch[5/5], Step[4703], Loss:500.1309
+NE:0.1812, TC:47.3547, CC:156.4335, OV:4.8027, PN:291.3587
+Epoch[5/5], Step[4704], Loss:655.7051
+NE:0.2457, TC:67.4675, CC:251.2597, OV:0.7071, PN:336.0250
+Epoch[5/5], Step[4705], Loss:635.9633
+NE:0.2724, TC:70.3507, CC:173.9098, OV:5.3622, PN:386.0681
+Epoch[5/5], Step[4706], Loss:499.0716
+NE:0.2405, TC:59.9485, CC:137.5121, OV:8.5525, PN:292.8180
+Epoch[5/5], Step[4707], Loss:609.2467
+NE:0.2224, TC:60.6857, CC:178.5885, OV:5.2539, PN:364.4962
+Epoch[5/5], Step[4708], Loss:692.7537
+NE:0.2334, TC:66.8597, CC:280.4483, OV:3.2002, PN:342.0120
+Epoch[5/5], Step[4709], Loss:769.4437
+NE:0.2219, TC:63.7540, CC:211.7363, OV:4.8569, PN:488.8746
+Epoch[5/5], Step[4710], Loss:1188.6924
+NE:0.2152, TC:58.0820, CC:743.3232, OV:1.5191, PN:385.5527
+Epoch[5/5], Step[4711], Loss:784.3445
+NE:0.3424, TC:98.1146, CC:279.2003, OV:0.3202, PN:406.3669
+Epoch[5/5], Step[4712], Loss:645.9507
+NE:0.1840, TC:59.2375, CC:255.0940, OV:0.0033, PN:331.4320
+Epoch[5/5], Step[4713], Loss:1001.1836
+NE:0.2914, TC:47.0693, CC:364.6793, OV:1.4496, PN:587.6940
+Epoch[5/5], Step[4714], Loss:814.2217
+NE:0.2493, TC:66.9334, CC:301.7026, OV:1.5330, PN:443.8034
+Epoch[5/5], Step[4715], Loss:483.0630
+NE:0.1888, TC:50.4473, CC:181.7808, OV:5.1573, PN:245.4887
+Epoch[5/5], Step[4717], Loss:501.0787
+NE:0.1773, TC:52.2361, CC:166.0887, OV:1.4714, PN:281.1052
+Epoch[5/5], Step[4718], Loss:720.3268
+NE:0.2480, TC:56.2888, CC:234.2180, OV:0.7655, PN:428.8064
+Epoch[5/5], Step[4719], Loss:641.7192
+NE:0.1896, TC:54.8568, CC:169.5623, OV:7.6104, PN:409.5001
+Epoch[5/5], Step[4721], Loss:593.0913
+NE:0.1561, TC:44.9468, CC:232.3674, OV:5.1725, PN:310.4485
+Epoch[5/5], Step[4722], Loss:687.7372
+NE:0.2090, TC:59.3350, CC:201.7367, OV:6.4892, PN:419.9673
+Epoch[5/5], Step[4723], Loss:608.0593
+NE:0.2183, TC:54.0833, CC:183.9823, OV:3.6693, PN:366.1062
+Epoch[5/5], Step[4725], Loss:1243.0842
+NE:0.0820, TC:15.1053, CC:1116.2488, OV:0.0105, PN:111.6377
+2026-01-15 06:35:37,074 INFO Training finished
+
+### Predict ###
+
+2026-01-15 06:35:37,079 INFO Initialising model
+Number of genes: 313
+2026-01-15 06:35:37,324 INFO Preparing data
+Loaded nuclei
+(5478, 7526)
+18170 patches available
+Cell types: ['B', 'CD4Tconv/Treg', 'CD8T/CD8Tex', 'DC', 'Endothelial', 'Epithelial', 'Fibroblasts', 'Malignant', 'Mast', 'Mono/Macro', 'Myofibroblasts', 'NK', 'Neutrophils', 'Plas
+ma', 'SMC']
+2026-01-15 06:35:37,706 INFO Total number of patches: 18170
+2026-01-15 06:35:37,706 INFO Begin prediction
+Predict using /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/model_outputs/2026_01_15_04_34_10/models/epoch_1_step_4000.pth
+2026-01-15 07:28:05,234 INFO Preparing data
+Loaded nuclei
+(5478, 7526)
+17248 patches available
+Cell types: ['B', 'CD4Tconv/Treg', 'CD8T/CD8Tex', 'DC', 'Endothelial', 'Epithelial', 'Fibroblasts', 'Malignant', 'Mast', 'Mono/Macro', 'Myofibroblasts', 'NK', 'Neutrophils', 'Plas
+ma', 'SMC']
+2026-01-15 07:28:05,607 INFO Total number of patches: 17248
+2026-01-15 07:28:05,607 INFO Begin prediction
+Predict using /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/model_outputs/2026_01_15_04_34_10/models/epoch_1_step_4000.pth
+2026-01-15 08:19:22,414 INFO Finished
+Combining predictions
+48 patches available
+Num multiprocessing splits: 8
+Processing...
+Combining results
+Saved segmentation to /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/model_outputs/2026_01_15_04_34_10/test_output/epoch_1_step_4000_connected.tif
+Number of cells 127672
+Number of splits for multiprocessing: 8
+Segmentation map pixel size:  (25779, 35416)
+Saving temporary resized segmentation
+Extracting cell expressions
+  0%|                                                                                                                                                        | 0/6 [00:00<?, ?it/s]
+Patch H 0:15000, W 0:15000
+(15000, 15000)
+Reading filtered transcripts
+0.4031025 7522.625 4.506059 5473.086
+Transforming x_location
+Transforming y_location
+10 14999 21 14999
+Transforming x_location
+Transforming y_location
+10 14999 21 14999
+Extracting cell-gene matrix chunks
+Combining cell-gene matrix chunks
+ 17%|███████████████████████▎                                                                                                                    | 1/6 [55:37<4:38:05, 3337.07s/it]
+Patch H 0:15000, W 15000:30000
+(15000, 15000)
+Reading filtered transcripts
+0.4031025 7522.625 4.506059 5473.086
+Transforming x_location
+Transforming y_location
+15000 29999 48 14999
+Transforming x_location
+Transforming y_location
+0 14999 48 14999
+Extracting cell-gene matrix chunks
+Combining cell-gene matrix chunks
+ 33%|██████████████████████████████████████████████                                                                                            | 2/6 [1:21:45<2:33:07, 2296.94s/it]
+Patch H 0:15000, W 30000:35416
+(15000, 5416)
+Reading filtered transcripts
+0.4031025 7522.625 4.506059 5473.086
+Transforming x_location
+Transforming y_location
+30000 35401 52 14999
+Transforming x_location
+Transforming y_location
+0 5401 52 14999
+Extracting cell-gene matrix chunks
+Combining cell-gene matrix chunks
+ 50%|█████████████████████████████████████████████████████████████████████                                                                     | 3/6 [1:36:49<1:23:01, 1660.51s/it]
+Patch H 15000:25779, W 0:15000
+(10779, 15000)
+Reading filtered transcripts
+0.4031025 7522.625 4.506059 5473.086
+Transforming x_location
+Transforming y_location
+2 14999 15000 25735
+Transforming x_location
+Transforming y_location
+2 14999 0 10735
+Extracting cell-gene matrix chunks
+Combining cell-gene matrix chunks
+ 67%|█████████████████████████████████████████████████████████████████████████████████████████████▎                                              | 4/6 [2:05:58<56:31, 1695.55s/it]
+Patch H 15000:25779, W 15000:30000
+(10779, 15000)
+Reading filtered transcripts
+0.4031025 7522.625 4.506059 5473.086
+Transforming x_location
+Transforming y_location
+15000 29999 15000 25752
+Transforming x_location
+Transforming y_location
+0 14999 0 10752
+Extracting cell-gene matrix chunks
+^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[B^CProcess Process-140:
+Process Process-142:
+Process Process-137:
+Process Process-141:
+Process Process-138:
+Process Process-139:
+ 67%|████████████████████████████████████████████████████████████████████████████████████████████                                              | 4/6 [2:22:55<1:11:27, 2143.86s/it]
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ja24oa/BIDCell/bidcell/processing/cell_gene_matrix.py", line 36, in process_chunk
+    df_out.loc[seg_val, gene] += 1
+  File "/home/ja24oa/BIDCell/bidcell/processing/cell_gene_matrix.py", line 36, in process_chunk
+    df_out.loc[seg_val, gene] += 1
+  File "/home/ja24oa/BIDCell/bidcell/processing/cell_gene_matrix.py", line 36, in process_chunk
+    df_out.loc[seg_val, gene] += 1
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 723, in __setitem__
+    iloc._setitem_with_indexer(indexer, value, self.name)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 723, in __setitem__
+    iloc._setitem_with_indexer(indexer, value, self.name)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 723, in __setitem__
+    iloc._setitem_with_indexer(indexer, value, self.name)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1730, in _setitem_with_indexer
+    self._setitem_with_indexer_split_path(indexer, value, name)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1730, in _setitem_with_indexer
+    self._setitem_with_indexer_split_path(indexer, value, name)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1730, in _setitem_with_indexer
+    self._setitem_with_indexer_split_path(indexer, value, name)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1817, in _setitem_with_indexer_split_path
+    self._setitem_single_column(loc, value, pi)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1817, in _setitem_with_indexer_split_path
+    self._setitem_single_column(loc, value, pi)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1817, in _setitem_with_indexer_split_path
+    self._setitem_single_column(loc, value, pi)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1924, in _setitem_single_column
+    self.obj._iset_item(loc, ser)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1924, in _setitem_single_column
+    self.obj._iset_item(loc, ser)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1924, in _setitem_single_column
+    self.obj._iset_item(loc, ser)
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pandas/core/frame.py", line 3766, in _iset_item
+    self._iset_item_mgr(loc, arraylike)
+  File "/usr/lib/python3/dist-packages/pandas/core/frame.py", line 3766, in _iset_item
+    self._iset_item_mgr(loc, arraylike)
+  File "/usr/lib/python3/dist-packages/pandas/core/frame.py", line 3766, in _iset_item
+    self._iset_item_mgr(loc, arraylike)
+  File "/usr/lib/python3/dist-packages/pandas/core/frame.py", line 3746, in _iset_item_mgr
+    self._mgr.iset(loc, value)
+  File "/usr/lib/python3/dist-packages/pandas/core/frame.py", line 3746, in _iset_item_mgr
+    self._mgr.iset(loc, value)
+  File "/usr/lib/python3/dist-packages/pandas/core/internals/managers.py", line 1078, in iset
+    blk.set_inplace(blk_locs, value_getitem(val_locs))
+  File "/usr/lib/python3/dist-packages/pandas/core/internals/managers.py", line 1078, in iset
+    blk.set_inplace(blk_locs, value_getitem(val_locs))
+  File "/usr/lib/python3/dist-packages/pandas/core/frame.py", line 3746, in _iset_item_mgr
+    self._mgr.iset(loc, value)
+  File "/usr/lib/python3/dist-packages/pandas/core/internals/managers.py", line 1078, in iset
+    blk.set_inplace(blk_locs, value_getitem(val_locs))
+KeyboardInterrupt
+KeyboardInterrupt
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+KeyboardInterrupt
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ja24oa/BIDCell/bidcell/processing/cell_gene_matrix.py", line 36, in process_chunk
+    df_out.loc[seg_val, gene] += 1
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 723, in __setitem__
+    iloc._setitem_with_indexer(indexer, value, self.name)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1730, in _setitem_with_indexer
+    self._setitem_with_indexer_split_path(indexer, value, name)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1817, in _setitem_with_indexer_split_path
+    self._setitem_single_column(loc, value, pi)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1924, in _setitem_single_column
+    self.obj._iset_item(loc, ser)
+  File "/usr/lib/python3/dist-packages/pandas/core/frame.py", line 3766, in _iset_item
+    self._iset_item_mgr(loc, arraylike)
+  File "/usr/lib/python3/dist-packages/pandas/core/frame.py", line 3746, in _iset_item_mgr
+    self._mgr.iset(loc, value)
+  File "/usr/lib/python3/dist-packages/pandas/core/internals/managers.py", line 1078, in iset
+    blk.set_inplace(blk_locs, value_getitem(val_locs))
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ja24oa/BIDCell/bidcell/processing/cell_gene_matrix.py", line 36, in process_chunk
+    df_out.loc[seg_val, gene] += 1
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 723, in __setitem__
+    iloc._setitem_with_indexer(indexer, value, self.name)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1730, in _setitem_with_indexer
+    self._setitem_with_indexer_split_path(indexer, value, name)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1817, in _setitem_with_indexer_split_path
+    self._setitem_single_column(loc, value, pi)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1919, in _setitem_single_column
+    ser = ser.copy()
+  File "/usr/lib/python3/dist-packages/pandas/core/generic.py", line 5933, in copy
+    data = self._mgr.copy(deep=deep)
+  File "/usr/lib/python3/dist-packages/pandas/core/internals/managers.py", line 599, in copy
+    res = self.apply("copy", deep=deep)
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3/dist-packages/pandas/core/internals/managers.py", line 327, in apply
+    applied = getattr(b, f)(**kwargs)
+  File "/usr/lib/python3/dist-packages/pandas/core/internals/blocks.py", line 650, in copy
+    values = values.copy()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ja24oa/BIDCell/bidcell/processing/cell_gene_matrix.py", line 36, in process_chunk
+    df_out.loc[seg_val, gene] += 1
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 723, in __setitem__
+    iloc._setitem_with_indexer(indexer, value, self.name)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1730, in _setitem_with_indexer
+    self._setitem_with_indexer_split_path(indexer, value, name)
+KeyboardInterrupt
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1817, in _setitem_with_indexer_split_path
+    self._setitem_single_column(loc, value, pi)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexing.py", line 1924, in _setitem_single_column
+    self.obj._iset_item(loc, ser)
+  File "/usr/lib/python3/dist-packages/pandas/core/frame.py", line 3766, in _iset_item
+    self._iset_item_mgr(loc, arraylike)
+  File "/usr/lib/python3/dist-packages/pandas/core/frame.py", line 3746, in _iset_item_mgr
+    self._mgr.iset(loc, value)
+  File "/usr/lib/python3/dist-packages/pandas/core/internals/managers.py", line 1078, in iset
+    blk.set_inplace(blk_locs, value_getitem(val_locs))
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ja24oa/BIDCell/run_lr_experiment.py", line 276, in <module>
+    main()
+  File "/home/ja24oa/BIDCell/run_lr_experiment.py", line 183, in main
+    model.run_pipeline()
+  File "/home/ja24oa/BIDCell/bidcell/BIDCellModel.py", line 48, in run_pipeline
+    self.predict()
+  File "/home/ja24oa/BIDCell/bidcell/BIDCellModel.py", line 133, in predict
+    make_cell_gene_mat(self.config, is_cell=True, timestamp=timestamp)
+  File "/home/ja24oa/BIDCell/bidcell/processing/cell_gene_matrix.py", line 257, in make_cell_gene_mat
+    p.join()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib/python3.10/multiprocessing/popen_fork.py", line 43, in wait
+    return self.poll(os.WNOHANG if timeout == 0.0 else 0)
+  File "/usr/lib/python3.10/multiprocessing/popen_fork.py", line 27, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt
+
+ja24oa@bmds-srv-1:~/BIDCell$ nano params_paper.yaml
+ja24oa@bmds-srv-1:~/BIDCell$ CUDA_VISIBLE_DEVICES=2,3 python3 run_lr_experiment.py
+Starting Learning Rate Experiment (Full Paper Datasource)...
+Rates to test: [1e-05, 1e-06, 1e-07, 1e-08, 1e-09]
+
+==========================================
+Running Training with Learning Rate: 1e-05
+==========================================
+### Preprocessing ###
+
+Reading DAPI image
+/home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/morphology_mip.ome.tif
+DAPI shape h: 25778 w: 35416
+Segmenting DAPI patches h: 24000 w: 32000
+Nuclei image h: 5478 w: 7526
+  0%|                                                                                                                                                        | 0/4 [00:00<?, ?it/s]
+model_type argument is not used in v4.0.1+. Ignoring this argument...
+channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+more than 65535 masks in image, masks returned as np.uint32
+ 25%|████████████████████████████████████                                                                                                            | 1/4 [01:33<04:39, 93.16s/it]
+model_type argument is not used in v4.0.1+. Ignoring this argument...
+channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+ 50%|████████████████████████████████████████████████████████████████████████                                                                        | 2/4 [01:42<01:27, 43.82s/it]
+model_type argument is not used in v4.0.1+. Ignoring this argument...
+channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+ 75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████                                    | 3/4 [01:48<00:26, 26.75s/it]
+model_type argument is not used in v4.0.1+. Ignoring this argument...
+channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [01:50<00:00, 27.74s/it]
+Finished segmenting, found 127672 nuclei
+Loading transcripts file
+     transcript_id  cell_id  overlaps_nucleus             feature_name  x_location  y_location  z_location         qv
+0  281474976710656      565                 0                   SEC11C    4.395842   328.66647   12.019493  18.662480
+1  281474976710657      540                 0  NegControlCodeword_0502    5.074415   236.96484    7.608511  18.634956
+2  281474976710658      562                 0                   SEC11C    4.702023   322.79715   12.289083  18.662480
+3  281474976710659      271                 0                    DAPK3    4.906601   581.42865   11.222615  20.821745
+4  281474976710660      291                 0                     TCIM    5.660699   720.85175    9.265523  18.017488
+Filtering transcripts
+Finished filtering
+Saving csv...
+<bound method NDFrame.head of             transcript_id  cell_id  overlaps_nucleus feature_name  x_location  y_location  z_location         qv
+0         281474976710659      271                 0        DAPK3           5         581   11.222615  20.821745
+1         281474976710662      536                 0         NKG7           6         220   10.271250  40.000000
+2         281474976710663     1089                 0      RAPGEF3           8         878   12.464459  20.488186
+3         281474976710664      540                 0        PPARG           6         232    7.837698  35.338028
+4         281474976710665      532                 0      RAPGEF3           6         211   10.820307  40.000000
+...                   ...      ...               ...          ...         ...         ...         ...        ...
+34442711  281805689407068       -1                 0        HOXD8        5218        5296   30.560934  20.061079
+34442712  281805689407071   135717                 1          LUM        5219        4793   38.440426  21.389278
+34442713  281805689407078       -1                 0          LUM        5217        5425   30.519602  21.960102
+34442714  281805689407083       -1                 0         NARS        5220        4840   32.180700  25.970398
+34442715  281805689407092   135716                 0          LUM        5220        4739   30.208746  20.524120
+
+[34442716 rows x 8 columns]>
+(34442716, 8)
+313 unique genes
+Total height 5478, width 7526
+Converting to maps
+  0%|                                                                                                                                                        | 0/4 [00:00<?, ?it/s]
+Patch: (0, 3500, 0, 4000)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:17<00:00,  4.03it/s]
+ 25%|███████████████████████████████████▊                                                                                                           | 1/4 [06:39<19:57, 399.05s/it]
+Patch: (0, 3500, 4000, 7526)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:13<00:00,  4.29it/s]
+ 50%|███████████████████████████████████████████████████████████████████████▌                                                                       | 2/4 [10:53<10:27, 313.96s/it]
+Patch: (3500, 5478, 0, 4000)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:13<00:00,  4.23it/s]
+ 75%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                   | 3/4 [14:07<04:19, 259.39s/it]
+Patch: (3500, 5478, 4000, 7526)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:13<00:00,  4.25it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [17:11<00:00, 257.83s/it]
+Saved all maps
+(5478, 7526)
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_0_4000.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_0_4000.hdf5
+[0, 3500, 0, 4000]
+Shift by 0
+896 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 896/896 [00:02<00:00, 324.36it/s]
+Shift by 64
+780 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 780/780 [00:02<00:00, 333.06it/s]
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_4000_7526.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_4000_7526.hdf5
+[0, 3500, 4000, 7526]
+Shift by 0
+784 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 784/784 [00:02<00:00, 286.89it/s]
+Shift by 64
+702 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 702/702 [00:02<00:00, 325.66it/s]
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_0_4000.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_0_4000.hdf5
+[3500, 5478, 0, 4000]
+Shift by 0
+512 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:01<00:00, 308.81it/s]
+Shift by 64
+420 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 420/420 [00:01<00:00, 328.80it/s]
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_4000_7526.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_4000_7526.hdf5
+[3500, 5478, 4000, 7526]
+Shift by 0
+448 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 448/448 [00:01<00:00, 276.81it/s]
+Shift by 64
+378 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 378/378 [00:01<00:00, 317.73it/s]
+Number of cells 127672
+Number of splits for multiprocessing: 8
+Done
+Number of cells: 127672
+Number of splits for multiprocessing: 8
+Computing simple annotation
+
+### Training ###
+
+Using device: cuda
+2026-01-15 11:47:18,602 INFO Initialising model
+Number of genes: 313
+2026-01-15 11:47:19,052 INFO Preparing data
+Loaded nuclei
+(5478, 7526)
+2112 patches available
+Cell types: ['B', 'CD4Tconv/Treg', 'CD8T/CD8Tex', 'DC', 'Endothelial', 'Epithelial', 'Fibroblasts', 'Malignant', 'Mast', 'Mono/Macro', 'Myofibroblasts', 'NK', 'Neutrophils', 'Plas
+ma', 'SMC']
+2026-01-15 11:47:19,344 INFO Total number of training examples: 2112
+2026-01-15 11:47:19,346 INFO Begin training
+
+Epoch = 1  lr = 1e-05
+Epoch[1/5], Step[0], Loss:30196.9453
+NE:0.8594, TC:2077.1519, CC:14078.5742, OV:5.0426, PN:14035.3164
+2026-01-15 11:47:21,563 INFO Model saved: /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/model_outputs/2026_01_15_11_47_18/models/epoch_1_step_0.pth
+Epoch[1/5], Step[1], Loss:28447.5430
+NE:0.8916, TC:765.1011, CC:13499.4590, OV:0.5308, PN:14181.5615
+Epoch[1/5], Step[2], Loss:23970.3555
+NE:0.7485, TC:1779.1538, CC:10618.8711, OV:29.3486, PN:11542.2344
+Epoch[1/5], Step[3], Loss:22079.3633
+NE:0.7406, TC:1680.1783, CC:9288.0840, OV:9.4751, PN:11100.8857
+Epoch[1/5], Step[4], Loss:20283.4785
+NE:0.6946, TC:1550.4567, CC:8675.9043, OV:31.6841, PN:10024.7393
+Epoch[1/5], Step[5], Loss:20241.3516
+NE:0.6807, TC:1497.7333, CC:8081.3877, OV:22.8556, PN:10638.6953
+Epoch[1/5], Step[6], Loss:18960.4258
+NE:0.6314, TC:1398.4484, CC:7488.8652, OV:32.5964, PN:10039.8828
+Epoch[1/5], Step[7], Loss:16732.2852
+NE:0.6341, TC:1336.7500, CC:6886.6167, OV:24.7297, PN:8483.5557
+Epoch[1/5], Step[8], Loss:15587.4062
+NE:0.6002, TC:1272.7188, CC:6274.7056, OV:7.6414, PN:8031.7402
+Epoch[1/5], Step[9], Loss:14801.4365
+NE:0.5767, TC:1225.7109, CC:5998.1543, OV:4.0000, PN:7572.9946
+  Error running experiment for LR 1e-05: CUDA out of memory. Tried to allocate 9.57 GiB. GPU 0 has a total capacity of 79.15 GiB of which 3.36 GiB is free. Including non-PyTorch m
+emory, this process has 75.78 GiB memory in use. Of the allocated memory 60.91 GiB is allocated by PyTorch, and 14.37 GiB is reserved by PyTorch but unallocated. If reserved but u
+nallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs
+/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/home/ja24oa/BIDCell/run_lr_experiment.py", line 183, in main
+    model.run_pipeline()
+  File "/home/ja24oa/BIDCell/bidcell/BIDCellModel.py", line 44, in run_pipeline
+    self.train()
+  File "/home/ja24oa/BIDCell/bidcell/BIDCellModel.py", line 114, in train
+    train(self.config)
+  File "/home/ja24oa/BIDCell/bidcell/model/train.py", line 253, in train
+    mtl_backward(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_mtl_backward.py", line 105, in mtl_backward
+    backward_transform({})
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_base.py", line 81, in __call__
+    return self.outer(intermediate)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_base.py", line 80, in __call__
+    intermediate = self.inner(input)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_differentiate.py", line 43, in __call__
+    differentiated_tuple = self._differentiate(tensor_outputs)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_jac.py", line 91, in _differentiate
+    jacs_chunks.append(_get_jacs_chunk(jac_outputs_chunk, get_vjp_last))
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_jac.py", line 114, in _get_jacs_chunk
+    return torch.vmap(get_vjp, chunk_size=chunk_size)(jac_outputs_chunk)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/apis.py", line 208, in wrapped
+    return vmap_impl(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/vmap.py", line 271, in vmap_impl
+    return _chunked_vmap(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/vmap.py", line 383, in _chunked_vmap
+    _flat_vmap(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/vmap.py", line 432, in _flat_vmap
+    batched_outputs = func(*batched_inputs, **kwargs)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_differentiate.py", line 68, in _get_vjp
+    optional_grads = torch.autograd.grad(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/autograd/__init__.py", line 503, in grad
+    result = _engine_run_backward(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/autograd/graph.py", line 841, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 9.57 GiB. GPU 0 has a total capacity of 79.15 GiB of which 3.36 GiB is free. Including non-PyTorch memory, this proce
+ss has 75.78 GiB memory in use. Of the allocated memory 60.91 GiB is allocated by PyTorch, and 14.37 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory
+ is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cud
+a.html#environment-variables)
+
+==========================================
+Running Training with Learning Rate: 1e-06
+==========================================
+### Preprocessing ###
+
+Reading DAPI image
+/home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/morphology_mip.ome.tif
+DAPI shape h: 25778 w: 35416
+Segmenting DAPI patches h: 24000 w: 32000
+Nuclei image h: 5478 w: 7526
+  0%|                                                                                                                                                        | 0/4 [00:00<?, ?it/s]
+2026-01-15 11:48:55,951 WARNING model_type argument is not used in v4.0.1+. Ignoring this argument...
+2026-01-15 11:48:55,951 INFO ** TORCH CUDA version installed and working. **
+2026-01-15 11:48:55,951 INFO >>>> using GPU (CUDA)
+2026-01-15 11:48:57,314 INFO >>>> loading model /home/ja24oa/.cellpose/models/cpsam
+2026-01-15 11:48:57,937 WARNING channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+2026-01-15 11:48:58,199 INFO processing grayscale image with (5100, 6800) HW
+2026-01-15 11:49:40,175 WARNING more than 65535 masks in image, masks returned as np.uint32
+ 25%|████████████████████████████████████                                                                                                            | 1/4 [01:21<04:04, 81.44s/it]
+2026-01-15 11:49:47,251 WARNING model_type argument is not used in v4.0.1+. Ignoring this argument...
+2026-01-15 11:49:47,251 INFO ** TORCH CUDA version installed and working. **
+2026-01-15 11:49:47,251 INFO >>>> using GPU (CUDA)
+2026-01-15 11:49:48,586 INFO >>>> loading model /home/ja24oa/.cellpose/models/cpsam
+2026-01-15 11:49:48,908 WARNING channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+2026-01-15 11:49:48,924 INFO processing grayscale image with (5100, 726) HW
+ 50%|████████████████████████████████████████████████████████████████████████                                                                        | 2/4 [01:30<01:17, 38.63s/it]
+2026-01-15 11:49:55,331 WARNING model_type argument is not used in v4.0.1+. Ignoring this argument...
+2026-01-15 11:49:55,332 INFO ** TORCH CUDA version installed and working. **
+2026-01-15 11:49:55,332 INFO >>>> using GPU (CUDA)
+2026-01-15 11:49:57,098 INFO >>>> loading model /home/ja24oa/.cellpose/models/cpsam
+2026-01-15 11:49:57,458 WARNING channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+2026-01-15 11:49:57,469 INFO processing grayscale image with (378, 6800) HW
+ 75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████                                    | 3/4 [01:36<00:23, 23.95s/it]
+2026-01-15 11:49:59,976 WARNING model_type argument is not used in v4.0.1+. Ignoring this argument...
+2026-01-15 11:49:59,977 INFO ** TORCH CUDA version installed and working. **
+2026-01-15 11:49:59,977 INFO >>>> using GPU (CUDA)
+2026-01-15 11:50:01,161 INFO >>>> loading model /home/ja24oa/.cellpose/models/cpsam
+2026-01-15 11:50:01,549 WARNING channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+2026-01-15 11:50:01,551 INFO processing grayscale image with (378, 726) HW
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [01:38<00:00, 24.66s/it]
+Finished segmenting, found 127672 nuclei
+Loading transcripts file
+     transcript_id  cell_id  overlaps_nucleus             feature_name  x_location  y_location  z_location         qv
+0  281474976710656      565                 0                   SEC11C    4.395842   328.66647   12.019493  18.662480
+1  281474976710657      540                 0  NegControlCodeword_0502    5.074415   236.96484    7.608511  18.634956
+2  281474976710658      562                 0                   SEC11C    4.702023   322.79715   12.289083  18.662480
+3  281474976710659      271                 0                    DAPK3    4.906601   581.42865   11.222615  20.821745
+4  281474976710660      291                 0                     TCIM    5.660699   720.85175    9.265523  18.017488
+Filtering transcripts
+Finished filtering
+Saving csv...
+<bound method NDFrame.head of             transcript_id  cell_id  overlaps_nucleus feature_name  x_location  y_location  z_location         qv
+0         281474976710659      271                 0        DAPK3           5         581   11.222615  20.821745
+1         281474976710662      536                 0         NKG7           6         220   10.271250  40.000000
+2         281474976710663     1089                 0      RAPGEF3           8         878   12.464459  20.488186
+3         281474976710664      540                 0        PPARG           6         232    7.837698  35.338028
+4         281474976710665      532                 0      RAPGEF3           6         211   10.820307  40.000000
+...                   ...      ...               ...          ...         ...         ...         ...        ...
+34442711  281805689407068       -1                 0        HOXD8        5218        5296   30.560934  20.061079
+34442712  281805689407071   135717                 1          LUM        5219        4793   38.440426  21.389278
+34442713  281805689407078       -1                 0          LUM        5217        5425   30.519602  21.960102
+34442714  281805689407083       -1                 0         NARS        5220        4840   32.180700  25.970398
+34442715  281805689407092   135716                 0          LUM        5220        4739   30.208746  20.524120
+
+[34442716 rows x 8 columns]>
+(34442716, 8)
+313 unique genes
+Total height 5478, width 7526
+Converting to maps
+  0%|                                                                                                                                                        | 0/4 [00:00<?, ?it/s]
+Patch: (0, 3500, 0, 4000)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:11<00:00,  4.40it/s]
+ 25%|███████████████████████████████████▊                                                                                                           | 1/4 [06:31<19:34, 391.56s/it]
+Patch: (0, 3500, 4000, 7526)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:11<00:00,  4.37it/s]
+ 50%|███████████████████████████████████████████████████████████████████████▌                                                                       | 2/4 [10:41<10:16, 308.22s/it]
+Patch: (3500, 5478, 0, 4000)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:11<00:00,  4.40it/s]
+ 75%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                   | 3/4 [13:54<04:15, 255.50s/it]
+Patch: (3500, 5478, 4000, 7526)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:12<00:00,  4.31it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [16:55<00:00, 253.76s/it]
+Saved all maps
+(5478, 7526)
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_0_4000.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_0_4000.hdf5
+[0, 3500, 0, 4000]
+Shift by 0
+896 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 896/896 [00:05<00:00, 159.77it/s]
+Shift by 64
+780 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 780/780 [00:04<00:00, 163.59it/s]
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_4000_7526.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_4000_7526.hdf5
+[0, 3500, 4000, 7526]
+Shift by 0
+784 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 784/784 [00:04<00:00, 159.43it/s]
+Shift by 64
+702 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 702/702 [00:04<00:00, 155.22it/s]
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_0_4000.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_0_4000.hdf5
+[3500, 5478, 0, 4000]
+Shift by 0
+512 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 162.18it/s]
+Shift by 64
+420 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 420/420 [00:02<00:00, 164.97it/s]
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_4000_7526.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_4000_7526.hdf5
+[3500, 5478, 4000, 7526]
+Shift by 0
+448 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 448/448 [00:03<00:00, 148.16it/s]
+Shift by 64
+378 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 378/378 [00:02<00:00, 168.46it/s]
+Number of cells 127672
+Number of splits for multiprocessing: 8
+Done
+Number of cells: 127672
+Number of splits for multiprocessing: 8
+Computing simple annotation
+
+### Training ###
+
+Using device: cuda
+2026-01-15 12:11:43,791 INFO Initialising model
+Number of genes: 313
+2026-01-15 12:11:44,245 INFO Preparing data
+Loaded nuclei
+(5478, 7526)
+2112 patches available
+Cell types: ['B', 'CD4Tconv/Treg', 'CD8T/CD8Tex', 'DC', 'Endothelial', 'Epithelial', 'Fibroblasts', 'Malignant', 'Mast', 'Mono/Macro', 'Myofibroblasts', 'NK', 'Neutrophils', 'Plas
+ma', 'SMC']
+2026-01-15 12:11:44,460 INFO Total number of training examples: 2112
+2026-01-15 12:11:44,461 INFO Begin training
+
+Epoch = 1  lr = 1e-06
+  Error running experiment for LR 1e-06: CUDA error: invalid configuration argument
+Search for `cudaErrorInvalidConfiguration' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/ja24oa/BIDCell/run_lr_experiment.py", line 183, in main
+    model.run_pipeline()
+  File "/home/ja24oa/BIDCell/bidcell/BIDCellModel.py", line 44, in run_pipeline
+    self.train()
+  File "/home/ja24oa/BIDCell/bidcell/BIDCellModel.py", line 114, in train
+    train(self.config)
+  File "/home/ja24oa/BIDCell/bidcell/model/train.py", line 253, in train
+    mtl_backward(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_mtl_backward.py", line 105, in mtl_backward
+    backward_transform({})
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_base.py", line 81, in __call__
+    return self.outer(intermediate)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_base.py", line 80, in __call__
+    intermediate = self.inner(input)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_differentiate.py", line 43, in __call__
+    differentiated_tuple = self._differentiate(tensor_outputs)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_jac.py", line 91, in _differentiate
+    jacs_chunks.append(_get_jacs_chunk(jac_outputs_chunk, get_vjp_last))
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_jac.py", line 114, in _get_jacs_chunk
+    return torch.vmap(get_vjp, chunk_size=chunk_size)(jac_outputs_chunk)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/apis.py", line 208, in wrapped
+    return vmap_impl(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/vmap.py", line 271, in vmap_impl
+    return _chunked_vmap(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/vmap.py", line 383, in _chunked_vmap
+    _flat_vmap(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/vmap.py", line 432, in _flat_vmap
+    batched_outputs = func(*batched_inputs, **kwargs)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_differentiate.py", line 68, in _get_vjp
+    optional_grads = torch.autograd.grad(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/autograd/__init__.py", line 503, in grad
+    result = _engine_run_backward(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/autograd/graph.py", line 841, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.AcceleratorError: CUDA error: invalid configuration argument
+Search for `cudaErrorInvalidConfiguration' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+==========================================
+Running Training with Learning Rate: 1e-07
+==========================================
+### Preprocessing ###
+
+Reading DAPI image
+/home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/morphology_mip.ome.tif
+DAPI shape h: 25778 w: 35416
+Segmenting DAPI patches h: 24000 w: 32000
+Nuclei image h: 5478 w: 7526
+  0%|                                                                                                                                                        | 0/4 [00:00<?, ?it/s]
+2026-01-15 12:12:27,581 WARNING model_type argument is not used in v4.0.1+. Ignoring this argument...
+2026-01-15 12:12:27,582 INFO ** TORCH CUDA version installed and working. **
+2026-01-15 12:12:27,582 INFO >>>> using GPU (CUDA)
+2026-01-15 12:12:29,037 INFO >>>> loading model /home/ja24oa/.cellpose/models/cpsam
+2026-01-15 12:12:29,625 WARNING channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+2026-01-15 12:12:29,892 INFO processing grayscale image with (5100, 6800) HW
+2026-01-15 12:13:10,893 WARNING more than 65535 masks in image, masks returned as np.uint32
+ 25%|████████████████████████████████████                                                                                                            | 1/4 [01:22<04:08, 82.72s/it]
+2026-01-15 12:13:17,952 WARNING model_type argument is not used in v4.0.1+. Ignoring this argument...
+2026-01-15 12:13:17,953 INFO ** TORCH CUDA version installed and working. **
+2026-01-15 12:13:17,953 INFO >>>> using GPU (CUDA)
+2026-01-15 12:13:19,319 INFO >>>> loading model /home/ja24oa/.cellpose/models/cpsam
+2026-01-15 12:13:19,850 WARNING channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+2026-01-15 12:13:19,868 INFO processing grayscale image with (5100, 726) HW
+ 50%|████████████████████████████████████████████████████████████████████████                                                                        | 2/4 [01:31<01:18, 39.48s/it]
+2026-01-15 12:13:26,483 WARNING model_type argument is not used in v4.0.1+. Ignoring this argument...
+2026-01-15 12:13:26,483 INFO ** TORCH CUDA version installed and working. **
+2026-01-15 12:13:26,483 INFO >>>> using GPU (CUDA)
+2026-01-15 12:13:27,813 INFO >>>> loading model /home/ja24oa/.cellpose/models/cpsam
+2026-01-15 12:13:28,144 WARNING channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+2026-01-15 12:13:28,165 INFO processing grayscale image with (378, 6800) HW
+ 75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████                                    | 3/4 [01:37<00:24, 24.18s/it]
+2026-01-15 12:13:30,684 WARNING model_type argument is not used in v4.0.1+. Ignoring this argument...
+2026-01-15 12:13:30,684 INFO ** TORCH CUDA version installed and working. **
+2026-01-15 12:13:30,684 INFO >>>> using GPU (CUDA)
+2026-01-15 12:13:31,963 INFO >>>> loading model /home/ja24oa/.cellpose/models/cpsam
+2026-01-15 12:13:32,309 WARNING channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+2026-01-15 12:13:32,311 INFO processing grayscale image with (378, 726) HW
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [01:40<00:00, 25.00s/it]
+Finished segmenting, found 127672 nuclei
+Loading transcripts file
+     transcript_id  cell_id  overlaps_nucleus             feature_name  x_location  y_location  z_location         qv
+0  281474976710656      565                 0                   SEC11C    4.395842   328.66647   12.019493  18.662480
+1  281474976710657      540                 0  NegControlCodeword_0502    5.074415   236.96484    7.608511  18.634956
+2  281474976710658      562                 0                   SEC11C    4.702023   322.79715   12.289083  18.662480
+3  281474976710659      271                 0                    DAPK3    4.906601   581.42865   11.222615  20.821745
+4  281474976710660      291                 0                     TCIM    5.660699   720.85175    9.265523  18.017488
+Filtering transcripts
+Finished filtering
+Saving csv...
+<bound method NDFrame.head of             transcript_id  cell_id  overlaps_nucleus feature_name  x_location  y_location  z_location         qv
+0         281474976710659      271                 0        DAPK3           5         581   11.222615  20.821745
+1         281474976710662      536                 0         NKG7           6         220   10.271250  40.000000
+2         281474976710663     1089                 0      RAPGEF3           8         878   12.464459  20.488186
+3         281474976710664      540                 0        PPARG           6         232    7.837698  35.338028
+4         281474976710665      532                 0      RAPGEF3           6         211   10.820307  40.000000
+...                   ...      ...               ...          ...         ...         ...         ...        ...
+34442711  281805689407068       -1                 0        HOXD8        5218        5296   30.560934  20.061079
+34442712  281805689407071   135717                 1          LUM        5219        4793   38.440426  21.389278
+34442713  281805689407078       -1                 0          LUM        5217        5425   30.519602  21.960102
+34442714  281805689407083       -1                 0         NARS        5220        4840   32.180700  25.970398
+34442715  281805689407092   135716                 0          LUM        5220        4739   30.208746  20.524120
+
+[34442716 rows x 8 columns]>
+(34442716, 8)
+313 unique genes
+Total height 5478, width 7526
+Converting to maps
+  0%|                                                                                                                                                        | 0/4 [00:00<?, ?it/s]
+Patch: (0, 3500, 0, 4000)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:11<00:00,  4.35it/s]
+ 25%|███████████████████████████████████▊                                                                                                           | 1/4 [06:33<19:39, 393.19s/it]
+Patch: (0, 3500, 4000, 7526)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:12<00:00,  4.30it/s]
+ 50%|███████████████████████████████████████████████████████████████████████▌                                                                       | 2/4 [10:44<10:19, 309.89s/it]
+Patch: (3500, 5478, 0, 4000)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:12<00:00,  4.30it/s]
+ 75%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                   | 3/4 [13:58<04:16, 256.77s/it]
+Patch: (3500, 5478, 4000, 7526)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:12<00:00,  4.34it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [16:59<00:00, 254.99s/it]
+Saved all maps
+(5478, 7526)
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_0_4000.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_0_4000.hdf5
+[0, 3500, 0, 4000]
+Shift by 0
+896 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 896/896 [00:05<00:00, 164.82it/s]
+Shift by 64
+780 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 780/780 [00:04<00:00, 168.84it/s]
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_4000_7526.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_4000_7526.hdf5
+[0, 3500, 4000, 7526]
+Shift by 0
+784 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 784/784 [00:05<00:00, 155.29it/s]
+Shift by 64
+702 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 702/702 [00:04<00:00, 167.38it/s]
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_0_4000.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_0_4000.hdf5
+[3500, 5478, 0, 4000]
+Shift by 0
+512 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 150.97it/s]
+Shift by 64
+420 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 420/420 [00:02<00:00, 164.26it/s]
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_4000_7526.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_4000_7526.hdf5
+[3500, 5478, 4000, 7526]
+Shift by 0
+448 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 448/448 [00:02<00:00, 158.54it/s]
+Shift by 64
+378 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 378/378 [00:02<00:00, 172.88it/s]
+Number of cells 127672
+Number of splits for multiprocessing: 8
+Done
+Number of cells: 127672
+Number of splits for multiprocessing: 8
+Computing simple annotation
+
+### Training ###
+
+Using device: cuda
+2026-01-15 12:34:32,659 INFO Initialising model
+Number of genes: 313
+2026-01-15 12:34:32,915 INFO Preparing data
+Loaded nuclei
+(5478, 7526)
+2112 patches available
+Cell types: ['B', 'CD4Tconv/Treg', 'CD8T/CD8Tex', 'DC', 'Endothelial', 'Epithelial', 'Fibroblasts', 'Malignant', 'Mast', 'Mono/Macro', 'Myofibroblasts', 'NK', 'Neutrophils', 'Plas
+ma', 'SMC']
+2026-01-15 12:34:33,110 INFO Total number of training examples: 2112
+2026-01-15 12:34:33,110 INFO Begin training
+
+Epoch = 1  lr = 1e-07
+Epoch[1/5], Step[0], Loss:31730.1094
+NE:0.9656, TC:1955.7126, CC:14480.3389, OV:34.2617, PN:15258.8311
+2026-01-15 12:34:45,427 INFO Model saved: /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/model_outputs/2026_01_15_12_34_32/models/epoch_1_step_0.pth
+  Error running experiment for LR 1e-07: CUDA out of memory. Tried to allocate 8.50 GiB. GPU 0 has a total capacity of 79.15 GiB of which 5.34 GiB is free. Including non-PyTorch m
+emory, this process has 73.80 GiB memory in use. Of the allocated memory 62.60 GiB is allocated by PyTorch, and 10.69 GiB is reserved by PyTorch but unallocated. If reserved but u
+nallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs
+/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/home/ja24oa/BIDCell/run_lr_experiment.py", line 183, in main
+    model.run_pipeline()
+  File "/home/ja24oa/BIDCell/bidcell/BIDCellModel.py", line 44, in run_pipeline
+    self.train()
+  File "/home/ja24oa/BIDCell/bidcell/BIDCellModel.py", line 114, in train
+    train(self.config)
+  File "/home/ja24oa/BIDCell/bidcell/model/train.py", line 253, in train
+    mtl_backward(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_mtl_backward.py", line 105, in mtl_backward
+    backward_transform({})
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_base.py", line 81, in __call__
+    return self.outer(intermediate)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_base.py", line 80, in __call__
+    intermediate = self.inner(input)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_differentiate.py", line 43, in __call__
+    differentiated_tuple = self._differentiate(tensor_outputs)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_jac.py", line 91, in _differentiate
+    jacs_chunks.append(_get_jacs_chunk(jac_outputs_chunk, get_vjp_last))
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_jac.py", line 114, in _get_jacs_chunk
+    return torch.vmap(get_vjp, chunk_size=chunk_size)(jac_outputs_chunk)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/apis.py", line 208, in wrapped
+    return vmap_impl(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/vmap.py", line 271, in vmap_impl
+    return _chunked_vmap(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/vmap.py", line 383, in _chunked_vmap
+    _flat_vmap(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/vmap.py", line 432, in _flat_vmap
+    batched_outputs = func(*batched_inputs, **kwargs)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_differentiate.py", line 68, in _get_vjp
+    optional_grads = torch.autograd.grad(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/autograd/__init__.py", line 503, in grad
+    result = _engine_run_backward(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/autograd/graph.py", line 841, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 8.50 GiB. GPU 0 has a total capacity of 79.15 GiB of which 5.34 GiB is free. Including non-PyTorch memory, this proce
+ss has 73.80 GiB memory in use. Of the allocated memory 62.60 GiB is allocated by PyTorch, and 10.69 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory
+ is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cud
+a.html#environment-variables)
+
+==========================================
+Running Training with Learning Rate: 1e-08
+==========================================
+### Preprocessing ###
+
+Reading DAPI image
+/home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/morphology_mip.ome.tif
+DAPI shape h: 25778 w: 35416
+Segmenting DAPI patches h: 24000 w: 32000
+Nuclei image h: 5478 w: 7526
+  0%|                                                                                                                                                        | 0/4 [00:00<?, ?it/s]
+2026-01-15 12:35:38,531 WARNING model_type argument is not used in v4.0.1+. Ignoring this argument...
+2026-01-15 12:35:38,532 INFO ** TORCH CUDA version installed and working. **
+2026-01-15 12:35:38,532 INFO >>>> using GPU (CUDA)
+2026-01-15 12:35:39,863 INFO >>>> loading model /home/ja24oa/.cellpose/models/cpsam
+2026-01-15 12:35:40,186 WARNING channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+2026-01-15 12:35:40,462 INFO processing grayscale image with (5100, 6800) HW
+2026-01-15 12:36:22,426 WARNING more than 65535 masks in image, masks returned as np.uint32
+ 25%|████████████████████████████████████                                                                                                            | 1/4 [01:26<04:18, 86.08s/it]
+2026-01-15 12:36:29,209 WARNING model_type argument is not used in v4.0.1+. Ignoring this argument...
+2026-01-15 12:36:29,209 INFO ** TORCH CUDA version installed and working. **
+2026-01-15 12:36:29,209 INFO >>>> using GPU (CUDA)
+2026-01-15 12:36:30,530 INFO >>>> loading model /home/ja24oa/.cellpose/models/cpsam
+2026-01-15 12:36:30,848 WARNING channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+2026-01-15 12:36:30,879 INFO processing grayscale image with (5100, 726) HW
+ 50%|████████████████████████████████████████████████████████████████████████                                                                        | 2/4 [01:34<01:21, 40.60s/it]
+2026-01-15 12:36:37,228 WARNING model_type argument is not used in v4.0.1+. Ignoring this argument...
+2026-01-15 12:36:37,228 INFO ** TORCH CUDA version installed and working. **
+2026-01-15 12:36:37,228 INFO >>>> using GPU (CUDA)
+2026-01-15 12:36:38,669 INFO >>>> loading model /home/ja24oa/.cellpose/models/cpsam
+2026-01-15 12:36:39,176 WARNING channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+2026-01-15 12:36:39,198 INFO processing grayscale image with (378, 6800) HW
+ 75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████                                    | 3/4 [01:41<00:24, 24.87s/it]
+2026-01-15 12:36:41,728 WARNING model_type argument is not used in v4.0.1+. Ignoring this argument...
+2026-01-15 12:36:41,728 INFO ** TORCH CUDA version installed and working. **
+2026-01-15 12:36:41,728 INFO >>>> using GPU (CUDA)
+2026-01-15 12:36:43,025 INFO >>>> loading model /home/ja24oa/.cellpose/models/cpsam
+2026-01-15 12:36:43,346 WARNING channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+2026-01-15 12:36:43,347 INFO processing grayscale image with (378, 726) HW
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [01:43<00:00, 25.78s/it]
+Finished segmenting, found 127672 nuclei
+Loading transcripts file
+     transcript_id  cell_id  overlaps_nucleus             feature_name  x_location  y_location  z_location         qv
+0  281474976710656      565                 0                   SEC11C    4.395842   328.66647   12.019493  18.662480
+1  281474976710657      540                 0  NegControlCodeword_0502    5.074415   236.96484    7.608511  18.634956
+2  281474976710658      562                 0                   SEC11C    4.702023   322.79715   12.289083  18.662480
+3  281474976710659      271                 0                    DAPK3    4.906601   581.42865   11.222615  20.821745
+4  281474976710660      291                 0                     TCIM    5.660699   720.85175    9.265523  18.017488
+Filtering transcripts
+Finished filtering
+Saving csv...
+<bound method NDFrame.head of             transcript_id  cell_id  overlaps_nucleus feature_name  x_location  y_location  z_location         qv
+0         281474976710659      271                 0        DAPK3           5         581   11.222615  20.821745
+1         281474976710662      536                 0         NKG7           6         220   10.271250  40.000000
+2         281474976710663     1089                 0      RAPGEF3           8         878   12.464459  20.488186
+3         281474976710664      540                 0        PPARG           6         232    7.837698  35.338028
+4         281474976710665      532                 0      RAPGEF3           6         211   10.820307  40.000000
+...                   ...      ...               ...          ...         ...         ...         ...        ...
+34442711  281805689407068       -1                 0        HOXD8        5218        5296   30.560934  20.061079
+34442712  281805689407071   135717                 1          LUM        5219        4793   38.440426  21.389278
+34442713  281805689407078       -1                 0          LUM        5217        5425   30.519602  21.960102
+34442714  281805689407083       -1                 0         NARS        5220        4840   32.180700  25.970398
+34442715  281805689407092   135716                 0          LUM        5220        4739   30.208746  20.524120
+
+[34442716 rows x 8 columns]>
+(34442716, 8)
+313 unique genes
+Total height 5478, width 7526
+Converting to maps
+  0%|                                                                                                                                                        | 0/4 [00:00<?, ?it/s]
+Patch: (0, 3500, 0, 4000)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:15<00:00,  4.14it/s]
+ 25%|███████████████████████████████████▊                                                                                                           | 1/4 [06:37<19:51, 397.05s/it]
+Patch: (0, 3500, 4000, 7526)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:13<00:00,  4.24it/s]
+ 50%|███████████████████████████████████████████████████████████████████████▌                                                                       | 2/4 [10:50<10:25, 312.56s/it]
+Patch: (3500, 5478, 0, 4000)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:14<00:00,  4.22it/s]
+ 75%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                   | 3/4 [14:05<04:18, 258.67s/it]
+Patch: (3500, 5478, 4000, 7526)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:11<00:00,  4.36it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [17:06<00:00, 256.51s/it]
+Saved all maps
+(5478, 7526)
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_0_4000.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_0_4000.hdf5
+[0, 3500, 0, 4000]
+Shift by 0
+896 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 896/896 [00:05<00:00, 151.43it/s]
+Shift by 64
+780 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 780/780 [00:04<00:00, 168.84it/s]
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_4000_7526.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_4000_7526.hdf5
+[0, 3500, 4000, 7526]
+Shift by 0
+784 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 784/784 [00:05<00:00, 148.95it/s]
+Shift by 64
+702 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 702/702 [00:04<00:00, 162.44it/s]
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_0_4000.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_0_4000.hdf5
+[3500, 5478, 0, 4000]
+Shift by 0
+512 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 155.61it/s]
+Shift by 64
+420 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 420/420 [00:02<00:00, 147.06it/s]
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_4000_7526.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_4000_7526.hdf5
+[3500, 5478, 4000, 7526]
+Shift by 0
+448 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 448/448 [00:02<00:00, 158.49it/s]
+Shift by 64
+378 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 378/378 [00:02<00:00, 173.08it/s]
+Number of cells 127672
+Number of splits for multiprocessing: 8
+Done
+Number of cells: 127672
+Number of splits for multiprocessing: 8
+Computing simple annotation
+
+### Training ###
+
+Using device: cuda
+2026-01-15 12:57:45,170 INFO Initialising model
+Number of genes: 313
+2026-01-15 12:57:45,621 INFO Preparing data
+Loaded nuclei
+(5478, 7526)
+2112 patches available
+Cell types: ['B', 'CD4Tconv/Treg', 'CD8T/CD8Tex', 'DC', 'Endothelial', 'Epithelial', 'Fibroblasts', 'Malignant', 'Mast', 'Mono/Macro', 'Myofibroblasts', 'NK', 'Neutrophils', 'Plas
+ma', 'SMC']
+2026-01-15 12:57:45,888 INFO Total number of training examples: 2112
+2026-01-15 12:57:45,890 INFO Begin training
+
+Epoch = 1  lr = 1e-08
+  Error running experiment for LR 1e-08: CUDA out of memory. Tried to allocate 8.98 GiB. GPU 0 has a total capacity of 79.15 GiB of which 4.52 GiB is free. Including non-PyTorch m
+emory, this process has 74.62 GiB memory in use. Of the allocated memory 65.98 GiB is allocated by PyTorch, and 8.13 GiB is reserved by PyTorch but unallocated. If reserved but un
+allocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/
+stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/home/ja24oa/BIDCell/run_lr_experiment.py", line 183, in main
+    model.run_pipeline()
+  File "/home/ja24oa/BIDCell/bidcell/BIDCellModel.py", line 44, in run_pipeline
+    self.train()
+  File "/home/ja24oa/BIDCell/bidcell/BIDCellModel.py", line 114, in train
+    train(self.config)
+  File "/home/ja24oa/BIDCell/bidcell/model/train.py", line 253, in train
+    mtl_backward(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_mtl_backward.py", line 105, in mtl_backward
+    backward_transform({})
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_base.py", line 81, in __call__
+    return self.outer(intermediate)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_base.py", line 80, in __call__
+    intermediate = self.inner(input)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_differentiate.py", line 43, in __call__
+    differentiated_tuple = self._differentiate(tensor_outputs)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_jac.py", line 91, in _differentiate
+    jacs_chunks.append(_get_jacs_chunk(jac_outputs_chunk, get_vjp_last))
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_jac.py", line 114, in _get_jacs_chunk
+    return torch.vmap(get_vjp, chunk_size=chunk_size)(jac_outputs_chunk)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/apis.py", line 208, in wrapped
+    return vmap_impl(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/vmap.py", line 271, in vmap_impl
+    return _chunked_vmap(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/vmap.py", line 383, in _chunked_vmap
+    _flat_vmap(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/vmap.py", line 432, in _flat_vmap
+    batched_outputs = func(*batched_inputs, **kwargs)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_differentiate.py", line 68, in _get_vjp
+    optional_grads = torch.autograd.grad(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/autograd/__init__.py", line 503, in grad
+    result = _engine_run_backward(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/autograd/graph.py", line 841, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 8.98 GiB. GPU 0 has a total capacity of 79.15 GiB of which 4.52 GiB is free. Including non-PyTorch memory, this proce
+ss has 74.62 GiB memory in use. Of the allocated memory 65.98 GiB is allocated by PyTorch, and 8.13 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory
+is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda
+.html#environment-variables)
+
+==========================================
+Running Training with Learning Rate: 1e-09
+==========================================
+### Preprocessing ###
+
+Reading DAPI image
+/home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/morphology_mip.ome.tif
+DAPI shape h: 25778 w: 35416
+Segmenting DAPI patches h: 24000 w: 32000
+Nuclei image h: 5478 w: 7526
+  0%|                                                                                                                                                        | 0/4 [00:00<?, ?it/s]
+2026-01-15 12:58:36,901 WARNING model_type argument is not used in v4.0.1+. Ignoring this argument...
+2026-01-15 12:58:36,902 INFO ** TORCH CUDA version installed and working. **
+2026-01-15 12:58:36,902 INFO >>>> using GPU (CUDA)
+2026-01-15 12:58:38,218 INFO >>>> loading model /home/ja24oa/.cellpose/models/cpsam
+2026-01-15 12:58:38,534 WARNING channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+2026-01-15 12:58:38,809 INFO processing grayscale image with (5100, 6800) HW
+2026-01-15 12:59:20,380 WARNING more than 65535 masks in image, masks returned as np.uint32
+ 25%|████████████████████████████████████                                                                                                            | 1/4 [01:24<04:13, 84.58s/it]
+2026-01-15 12:59:27,107 WARNING model_type argument is not used in v4.0.1+. Ignoring this argument...
+2026-01-15 12:59:27,107 INFO ** TORCH CUDA version installed and working. **
+2026-01-15 12:59:27,107 INFO >>>> using GPU (CUDA)
+2026-01-15 12:59:28,435 INFO >>>> loading model /home/ja24oa/.cellpose/models/cpsam
+2026-01-15 12:59:28,756 WARNING channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+2026-01-15 12:59:28,787 INFO processing grayscale image with (5100, 726) HW
+ 50%|████████████████████████████████████████████████████████████████████████                                                                        | 2/4 [01:34<01:21, 40.54s/it]
+2026-01-15 12:59:36,176 WARNING model_type argument is not used in v4.0.1+. Ignoring this argument...
+2026-01-15 12:59:36,177 INFO ** TORCH CUDA version installed and working. **
+2026-01-15 12:59:36,177 INFO >>>> using GPU (CUDA)
+2026-01-15 12:59:37,460 INFO >>>> loading model /home/ja24oa/.cellpose/models/cpsam
+2026-01-15 12:59:37,798 WARNING channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+2026-01-15 12:59:37,818 INFO processing grayscale image with (378, 6800) HW
+ 75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████                                    | 3/4 [01:40<00:24, 24.72s/it]
+2026-01-15 12:59:40,340 WARNING model_type argument is not used in v4.0.1+. Ignoring this argument...
+2026-01-15 12:59:40,341 INFO ** TORCH CUDA version installed and working. **
+2026-01-15 12:59:40,341 INFO >>>> using GPU (CUDA)
+2026-01-15 12:59:41,504 INFO >>>> loading model /home/ja24oa/.cellpose/models/cpsam
+2026-01-15 12:59:41,830 WARNING channels deprecated in v4.0.1+. If data contain more than 3 channels, only the first 3 channels will be used
+2026-01-15 12:59:41,831 INFO processing grayscale image with (378, 726) HW
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [01:42<00:00, 25.54s/it]
+Finished segmenting, found 127672 nuclei
+Loading transcripts file
+     transcript_id  cell_id  overlaps_nucleus             feature_name  x_location  y_location  z_location         qv
+0  281474976710656      565                 0                   SEC11C    4.395842   328.66647   12.019493  18.662480
+1  281474976710657      540                 0  NegControlCodeword_0502    5.074415   236.96484    7.608511  18.634956
+2  281474976710658      562                 0                   SEC11C    4.702023   322.79715   12.289083  18.662480
+3  281474976710659      271                 0                    DAPK3    4.906601   581.42865   11.222615  20.821745
+4  281474976710660      291                 0                     TCIM    5.660699   720.85175    9.265523  18.017488
+Filtering transcripts
+Finished filtering
+Saving csv...
+<bound method NDFrame.head of             transcript_id  cell_id  overlaps_nucleus feature_name  x_location  y_location  z_location         qv
+0         281474976710659      271                 0        DAPK3           5         581   11.222615  20.821745
+1         281474976710662      536                 0         NKG7           6         220   10.271250  40.000000
+2         281474976710663     1089                 0      RAPGEF3           8         878   12.464459  20.488186
+3         281474976710664      540                 0        PPARG           6         232    7.837698  35.338028
+4         281474976710665      532                 0      RAPGEF3           6         211   10.820307  40.000000
+...                   ...      ...               ...          ...         ...         ...         ...        ...
+34442711  281805689407068       -1                 0        HOXD8        5218        5296   30.560934  20.061079
+34442712  281805689407071   135717                 1          LUM        5219        4793   38.440426  21.389278
+34442713  281805689407078       -1                 0          LUM        5217        5425   30.519602  21.960102
+34442714  281805689407083       -1                 0         NARS        5220        4840   32.180700  25.970398
+34442715  281805689407092   135716                 0          LUM        5220        4739   30.208746  20.524120
+
+[34442716 rows x 8 columns]>
+(34442716, 8)
+313 unique genes
+Total height 5478, width 7526
+Converting to maps
+  0%|                                                                                                                                                        | 0/4 [00:00<?, ?it/s]
+Patch: (0, 3500, 0, 4000)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:13<00:00,  4.26it/s]
+ 25%|███████████████████████████████████▊                                                                                                           | 1/4 [06:32<19:38, 392.97s/it]
+Patch: (0, 3500, 4000, 7526)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:11<00:00,  4.38it/s]
+ 50%|███████████████████████████████████████████████████████████████████████▌                                                                       | 2/4 [10:44<10:19, 309.54s/it]
+Patch: (3500, 5478, 0, 4000)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:12<00:00,  4.31it/s]
+ 75%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                   | 3/4 [13:57<04:16, 256.67s/it]
+Patch: (3500, 5478, 4000, 7526)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:11<00:00,  4.37it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [16:59<00:00, 254.91s/it]
+Saved all maps
+(5478, 7526)
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_0_4000.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_0_4000.hdf5
+[0, 3500, 0, 4000]
+Shift by 0
+896 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 896/896 [00:05<00:00, 171.31it/s]
+Shift by 64
+780 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 780/780 [00:04<00:00, 171.08it/s]
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_4000_7526.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_0_3500_4000_7526.hdf5
+[0, 3500, 4000, 7526]
+Shift by 0
+784 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 784/784 [00:04<00:00, 162.09it/s]
+Shift by 64
+702 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 702/702 [00:04<00:00, 170.47it/s]
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_0_4000.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_0_4000.hdf5
+[3500, 5478, 0, 4000]
+Shift by 0
+512 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 156.37it/s]
+Shift by 64
+420 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 420/420 [00:02<00:00, 169.11it/s]
+Processing /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_4000_7526.hdf5
+Loaded gene expr maps from /home/ja24oa/BIDCell/data_large/dataset_xenium_breast1/expr_maps/all_genes_3500_5478_4000_7526.hdf5
+[3500, 5478, 4000, 7526]
+Shift by 0
+448 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 448/448 [00:02<00:00, 158.34it/s]
+Shift by 64
+378 patches
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 378/378 [00:02<00:00, 172.68it/s]
+Number of cells 127672
+Number of splits for multiprocessing: 8
+Done
+Number of cells: 127672
+Number of splits for multiprocessing: 8
+Computing simple annotation
+
+### Training ###
+
+Using device: cuda
+2026-01-15 13:20:26,273 INFO Initialising model
+Number of genes: 313
+2026-01-15 13:20:26,657 INFO Preparing data
+Loaded nuclei
+(5478, 7526)
+2112 patches available
+Cell types: ['B', 'CD4Tconv/Treg', 'CD8T/CD8Tex', 'DC', 'Endothelial', 'Epithelial', 'Fibroblasts', 'Malignant', 'Mast', 'Mono/Macro', 'Myofibroblasts', 'NK', 'Neutrophils', 'Plas
+ma', 'SMC']
+2026-01-15 13:20:26,837 INFO Total number of training examples: 2112
+2026-01-15 13:20:26,838 INFO Begin training
+
+Epoch = 1  lr = 1e-09
+  Error running experiment for LR 1e-09: CUDA error: invalid configuration argument
+Search for `cudaErrorInvalidConfiguration' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/ja24oa/BIDCell/run_lr_experiment.py", line 183, in main
+    model.run_pipeline()
+  File "/home/ja24oa/BIDCell/bidcell/BIDCellModel.py", line 44, in run_pipeline
+    self.train()
+  File "/home/ja24oa/BIDCell/bidcell/BIDCellModel.py", line 114, in train
+    train(self.config)
+  File "/home/ja24oa/BIDCell/bidcell/model/train.py", line 253, in train
+    mtl_backward(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_mtl_backward.py", line 105, in mtl_backward
+    backward_transform({})
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_base.py", line 81, in __call__
+    return self.outer(intermediate)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_base.py", line 80, in __call__
+    intermediate = self.inner(input)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_differentiate.py", line 43, in __call__
+    differentiated_tuple = self._differentiate(tensor_outputs)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_jac.py", line 91, in _differentiate
+    jacs_chunks.append(_get_jacs_chunk(jac_outputs_chunk, get_vjp_last))
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_jac.py", line 114, in _get_jacs_chunk
+    return torch.vmap(get_vjp, chunk_size=chunk_size)(jac_outputs_chunk)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/apis.py", line 208, in wrapped
+    return vmap_impl(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/vmap.py", line 271, in vmap_impl
+    return _chunked_vmap(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/vmap.py", line 383, in _chunked_vmap
+    _flat_vmap(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/_functorch/vmap.py", line 432, in _flat_vmap
+    batched_outputs = func(*batched_inputs, **kwargs)
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torchjd/autojac/_transform/_differentiate.py", line 68, in _get_vjp
+    optional_grads = torch.autograd.grad(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/autograd/__init__.py", line 503, in grad
+    result = _engine_run_backward(
+  File "/home/ja24oa/.local/lib/python3.10/site-packages/torch/autograd/graph.py", line 841, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.AcceleratorError: CUDA error: invalid configuration argument
+Search for `cudaErrorInvalidConfiguration' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+Saving aggregated results to D:\2512-BROCK-CODING\BIDCell/ugrad_results/lr_medians.json...
+Done. You can now run the radar graph generation script.
+ja24oa@bmds-srv-1:~/BIDCell$ git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+ja24oa@bmds-srv-1:~/BIDCell$ git checkout -b remote-server-training
+Switched to a new branch 'remote-server-training'
+ja24oa@bmds-srv-1:~/BIDCell$ git add .
+ja24oa@bmds-srv-1:~/BIDCell$ git commit -m 'add code, add results from remote server'
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <ja24oa@bmds-srv-1.campus.brocku.local>) not allowed
+ja24oa@bmds-srv-1:~/BIDCell$ ^C
+ja24oa@bmds-srv-1:~/BIDCell$   git config --global user.name "bkty1122"
+ja24oa@bmds-srv-1:~/BIDCell$ git commit -m 'add code, add results from remote server'
+[remote-server-training d9ddd0e] add code, add results from remote server
+ Committer: bkty1122 <ja24oa@bmds-srv-1.campus.brocku.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 5 insertions(+), 4 deletions(-)
+ create mode 100644 "D:\\2512-BROCK-CODING\\BIDCell/ugrad_results/lr_medians.json"
+ja24oa@bmds-srv-1:~/BIDCell$ ^C
+ja24oa@bmds-srv-1:~/BIDCell$ git config --global user.email kwoktszyi1122@gmail.com
+ja24oa@bmds-srv-1:~/BIDCell$ git commit -m 'add code, add results from remote server'
+On branch remote-server-training
+nothing to commit, working tree clean
+ja24oa@bmds-srv-1:~/BIDCell$ git add .
+ja24oa@bmds-srv-1:~/BIDCell$ git commit -m 'add code'
+On branch remote-server-training
+nothing to commit, working tree clean
+ja24oa@bmds-srv-1:~/BIDCell$ ^C
+ja24oa@bmds-srv-1:~/BIDCell$ git commit --amend --reset-author
+[remote-server-training 4c68747] add code, add results from remote server
+ 2 files changed, 5 insertions(+), 4 deletions(-)
+ create mode 100644 "D:\\2512-BROCK-CODING\\BIDCell/ugrad_results/lr_medians.json"
+ja24oa@bmds-srv-1:~/BIDCell$ git push
+fatal: The current branch remote-server-training has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin remote-server-training
+
+ja24oa@bmds-srv-1:~/BIDCell$ ^C
+ja24oa@bmds-srv-1:~/BIDCell$ git push --set-upstream origin remote-server-training
+Username for 'https://github.com': bkty1122
+Password for 'https://bkty1122@github.com':
+remote: Permission to bkty1122/BIDCell.git denied to bkty1122.
+fatal: unable to access 'https://github.com/bkty1122/BIDCell.git/': The requested URL returned error: 403
+ja24oa@bmds-srv-1:~/BIDCell$ git push --set-upstream origin remote-server-training
+Username for 'https://github.com': bkty1122
+Password for 'https://bkty1122@github.com':
+remote: Permission to bkty1122/BIDCell.git denied to bkty1122.
+fatal: unable to access 'https://github.com/bkty1122/BIDCell.git/': The requested URL returned error: 403
+ja24oa@bmds-srv-1:~/BIDCell$ git push --set-upstream origin remote-server-training
+Username for 'https://github.com': bkty1122
+Password for 'https://bkty1122@github.com':
+Enumerating objects: 451, done.
+Counting objects: 100% (451/451), done.
+Delta compression using up to 224 threads
+Compressing objects: 100% (163/163), done.
+Writing objects: 100% (437/437), 34.25 MiB | 4.62 MiB/s, done.
+Total 437 (delta 280), reused 417 (delta 266), pack-reused 0
+remote: Resolving deltas: 100% (280/280), completed with 10 local objects.
+remote: warning: See https://gh.io/lfs for more information.
+remote: warning: File 0a38d3387a61fd2e6a579e082dc5f5fa0e00c76d is 58.16 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+remote:
+remote: Create a pull request for 'remote-server-training' on GitHub by visiting:
+remote:      https://github.com/bkty1122/BIDCell/pull/new/remote-server-training
+remote:
+To https://github.com/bkty1122/BIDCell.git
+ * [new branch]      remote-server-training -> remote-server-training
+Branch 'remote-server-training' set up to track remote branch 'remote-server-training' from 'origin'.
+ja24oa@bmds-srv-1:~/BIDCell$ history
+    1  python3 -m venv .venv
+    2  apt install python3.10-venv
+    3  pip install -r requirements.txt
+    4  python run_lr_experiment.py
+    5  ls
+    6  python3 run_lr_experiment.py
+    7  python3 -m venv .venv
+    8  pip install --user tifffile
+    9  pip install --user -r requirements.txt
+   10  nano requirements.txt
+   11  git pull
+   12  pip install --user -r requirements.txt
+   13  python3 run_lr_experiment.py
+   14  pip install cv2
+   15  pip install --user opencv-python tifffile
+   16  python3 run_lr_experiment.py
+   17  pip install --user pandas
+   18  python3 run_lr_experiment.py
+   19  pip install --user "numpy<2.0"
+   20  python3 run_lr_experiment.py
+   21  pip install --user pydantic
+   22  python3 run_lr_experiment.py
+   23  pip install --user natsort
+   24  pip install --user scipy
+   25  pip install --user scikit-image torch torchvision tqdm pyyaml
+   26  nvidia-smi
+   27  python3 run_lr_experiment.py
+   28  pip install --user segmentation-models-pytorch
+   29  CUDA_VISIBLE_DEVICES=2 python3 run_lr_experiment.py
+   30  pip install --user h5py
+   31  CUDA_VISIBLE_DEVICES=2 python3 run_lr_experiment.py
+   32  pip install --user imgaug
+   33  CUDA_VISIBLE_DEVICES=2 python3 run_lr_experiment.py
+   34  pip install --user "numpy<2.0"
+   35  CUDA_VISIBLE_DEVICES=2 python3 run_lr_experiment.py
+   36  pip install --user torchjd
+   37  CUDA_VISIBLE_DEVICES=2 python3 run_lr_experiment.py
+   38  pip install --user cellpose
+   39  CUDA_VISIBLE_DEVICES=2 python3 run_lr_experiment.py
+   40  pip install --user "numpy<2.0" cellpose
+   41  CUDA_VISIBLE_DEVICES=2 python3 run_lr_experiment.py
+   42  ls -d */
+   43  # Check what is inside your data folder
+   44  ls -F data/
+   45  # Search specifically for the missing breast dataset
+   46  find data -name "*breast1*"
+   47  nano params_paper.yaml
+   48  python bidcell\download_utils.py
+   49  python3 bidcell/download_utils.py
+   50  python bidcell\download_utils.py
+   51  CUDA_VISIBLE_DEVICES=2 python3 run_lr_experiment.py
+   52  ls
+   53  find . -name "sc_breast.csv"
+   54  sed -i 's|./example_data/|./data/|g' params_paper.yaml
+   55  CUDA_VISIBLE_DEVICES=2 python3 run_lr_experiment.py
+   56  sed -i 's|./data_large/|./data/|g' params_paper.yaml
+   57  CUDA_VISIBLE_DEVICES=2 python3 run_lr_experiment.py
+   58  nano params_paper.yaml
+   59  sed -i 's|./data/|./data_large/|g' params_paper.yaml
+   60  nano params_paper.yaml
+   61  CUDA_VISIBLE_DEVICES=2 python3 run_lr_experiment.py
+   62  nano params_paper.yaml
+   63  CUDA_VISIBLE_DEVICES=2 python3 run_lr_experiment.py
+   64  nano params_paper.yaml
+   65  CUDA_VISIBLE_DEVICES=2,3 python3 run_lr_experiment.py
+   66  git branch -a
+   67  git checkout -b remote-server-training
+   68  git add .
+   69  git commit -m 'add code, add results from remote server'
+   70  git config --global user.email kwoktszyi1122@gmail.com
+   71  git commit -m 'add code, add results from remote server'
+   72  git add .
+   73  git commit -m 'add code'
+   74  git commit --amend --reset-author
+   75  git push
+   76  git push --set-upstream origin remote-server-training
+   77  history
+ja24oa@bmds-srv-1:~/BIDCell$ tmux capture-pane -p -S - > full_terminal_history.txt
+
