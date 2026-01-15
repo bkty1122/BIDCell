@@ -132,20 +132,28 @@ def get_aggregated_metrics(morph_metrics, expr_metrics):
 
 # --- MAIN EXPERIMENT ---
 
+from bidcell.download_utils import download_data
+
 def main():
-    base_config_path = "params_small_example.yaml"
+    base_config_path = "params_paper.yaml"
     out_dir = "ugrad_ablation_results"
     
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)
         
-    # Ensure example data is present
-    if not os.path.exists("example_data"):
-         print("Getting example data...")
-         BIDCellModel.get_example_data()
-         
     with open(base_config_path, 'r') as f:
         base_config = yaml.safe_load(f)
+
+    # Check for Data Existence (Full Paper Datasource)
+    dapi_path = base_config['files']['fp_dapi']
+    if not os.path.exists(dapi_path):
+        target_dir = os.path.dirname(dapi_path)
+        print(f"Data not found at {dapi_path}. Attempting auto-download...")
+        download_data(target_dir)
+        
+        if not os.path.exists(dapi_path):
+             print(f"Critical: Failed to obtain data at {dapi_path}. Exiting.")
+             return
         
     # Ablation Settings
     ablations = {

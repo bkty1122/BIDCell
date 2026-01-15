@@ -19,15 +19,21 @@ from bidcell.model.utils.utils import get_newest_id
 # Metric Computation Functions (Taken from example_ugrad_metrics.py)
 # -----------------------------------------------------------------------------
 
-def compute_morphology_metrics(seg_path):
+def compute_morphology_metrics(seg_path, pixel_size_um=1.0):
     seg = tifffile.imread(seg_path)
     cell_ids = np.unique(seg)
     cell_ids = cell_ids[cell_ids != 0]
     
     metrics = []
+    
+    # Calculate density
+    h, w = seg.shape
+    total_area_um2 = h * w * (pixel_size_um ** 2)
+    # Density = Cells per 100um x 100um (10,000 um^2)
+    density = len(cell_ids) / (total_area_um2 / 10000.0) if total_area_um2 > 0 else 0
 
     if len(cell_ids) == 0:
-        return metrics, 0
+        return metrics, 0, 0.0
 
     for cid in cell_ids:
         mask = np.uint8(seg == cid)
@@ -83,7 +89,7 @@ def compute_morphology_metrics(seg_path):
         
         metrics.append(row)
         
-    return metrics, len(cell_ids)
+    return metrics, len(cell_ids), density
 
 def compute_expression_metrics(cgm_path):
     if not os.path.exists(cgm_path):
@@ -106,6 +112,8 @@ def compute_expression_metrics(cgm_path):
 # Main Experiment Loop
 # -----------------------------------------------------------------------------
 
+from bidcell.download_utils import download_data
+
 def main():
     # Define directories
     base_dir = r"D:\2512-BROCK-CODING\BIDCell"
@@ -113,15 +121,34 @@ def main():
     if not os.path.exists(ugrad_results_dir):
         os.makedirs(ugrad_results_dir)
         
-    config_file = "params_small_example.yaml"
+    config_file = "params_paper.yaml"
     
+    # Check if data exists for the paper configuration
+    try:
+        config_check = load_config(config_file)
+        dapi_path = config_check.files.fp_dapi
+        target_dir = os.path.dirname(dapi_path)
+        
+        if not os.path.exists(dapi_path):
+            print(f"Data not found at {dapi_path}. Attempting auto-download...")
+            download_data(target_dir)
+            
+        # Re-check
+        if not os.path.exists(dapi_path):
+             print(f"Critical: Failed to obtain data at {dapi_path}. Exiting.")
+             return
+             
+    except Exception as e:
+        print(f"Error loading config or downloading data: {e}")
+        return
+
     # Define Learning Rates to test
     # Matching the graph: 1E-05, 1E-06, 1E-07, 1E-08, 1E-09
     lrs = [1e-5, 1e-6, 1e-7, 1e-8, 1e-9]
     
     results = {}
     
-    print("Starting Learning Rate Experiment...")
+    print("Starting Learning Rate Experiment (Full Paper Datasource)...")
     print(f"Rates to test: {lrs}")
     
     for lr in lrs:
@@ -174,9 +201,15 @@ def main():
             connected_files = glob.glob(os.path.join(test_out_dir, "*_connected.tif"))
             
             cell_count = 0
+            density_val = 0.0
+            
             if connected_files:
                 seg_path = connected_files[0]
-                morph_rows, cell_count = compute_morphology_metrics(seg_path)
+                # Get pixel size
+                data_pix_um = model.config.affine.target_pix_um
+                if data_pix_um is None: data_pix_um = 1.0
+                
+                morph_rows, cell_count, density_val = compute_morphology_metrics(seg_path, pixel_size_um=data_pix_um)
                 
                 if morph_rows:
                     morph_df = pd.DataFrame(morph_rows)
@@ -188,8 +221,8 @@ def main():
             else:
                  print("  Error: No segmentation output found.")
             
-            # 2. Density (Proxy: Cell Count)
-            current_metrics["density"] = float(cell_count)
+            # 2. Density (Corrected to Cells / 100um x 100um)
+            current_metrics["density"] = float(density_val)
             
             # 3. Expression
             # The structure observed is model_outputs/timestamp/test_output/... AND separate cell_gene_matrices/timestamp/expr_mat.csv

@@ -7,7 +7,7 @@
         "solidity": 0.7448979591836735,
         "convexity": 0.8664122122157023,
         "circularity": 0.4311101386341926,
-        "density": 852.0,
+        "density": 1.9722222222222223,
         "total_transcripts": 594.0,
         "total_genes": 58.0
     },
@@ -19,7 +19,7 @@
         "solidity": 0.7084815228420641,
         "convexity": 0.8420402335755558,
         "circularity": 0.37860272953411905,
-        "density": 852.0,
+        "density": 1.9722222222222223,
         "total_transcripts": 609.5,
         "total_genes": 61.0
     },
@@ -31,7 +31,7 @@
         "solidity": 0.6934673366834171,
         "convexity": 0.8342696026714547,
         "circularity": 0.36541709651925,
-        "density": 852.0,
+        "density": 1.9722222222222223,
         "total_transcripts": 597.0,
         "total_genes": 58.0
     },
@@ -43,7 +43,7 @@
         "solidity": 0.7900552486187845,
         "convexity": 0.9153449507977602,
         "circularity": 0.5035014343714951,
-        "density": 852.0,
+        "density": 1.9722222222222223,
         "total_transcripts": 549.5,
         "total_genes": 50.0
     },
@@ -55,7 +55,7 @@
         "solidity": 0.7071069182389937,
         "convexity": 0.8627089225670251,
         "circularity": 0.39805682801060716,
-        "density": 852.0,
+        "density": 1.9722222222222223,
         "total_transcripts": 574.5,
         "total_genes": 56.0
     }
