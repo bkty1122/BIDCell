@@ -12,7 +12,6 @@
 example_data/
 data_large/
 dist
-params_small_example.yaml
 *_example_config.yaml
 example_large.py
 pypi_token.txt

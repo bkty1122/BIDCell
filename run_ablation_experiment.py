@@ -136,8 +136,8 @@ from bidcell.download_utils import download_data
 
 def main():
     base_dir = r"D:\2512-BROCK-CODING\BIDCell"
-    base_config_path = "params_paper.yaml"
-    out_dir = os.path.join(base_dir, "full_data_results", "ugrad_ablation_results")
+    base_config_path = "params_small_example.yaml"
+    out_dir = os.path.join(base_dir, "full_data_results_small_loss_align", "ugrad_ablation_results")
     
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)

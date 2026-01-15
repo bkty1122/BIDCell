@@ -117,11 +117,11 @@ from bidcell.download_utils import download_data
 def main():
     # Define directories
     base_dir = r"D:\2512-BROCK-CODING\BIDCell"
-    ugrad_results_dir = os.path.join(base_dir, "full_data_results", "ugrad_results")
+    ugrad_results_dir = os.path.join(base_dir, "full_data_results_small_loss_align", "ugrad_results")
     if not os.path.exists(ugrad_results_dir):
         os.makedirs(ugrad_results_dir)
         
-    config_file = "params_paper.yaml"
+    config_file = "params_small_example.yaml"
     
     # Check if data exists for the paper configuration
     try:
