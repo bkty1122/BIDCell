@@ -117,7 +117,7 @@ from bidcell.download_utils import download_data
 def main():
     # Define directories
     base_dir = r"D:\2512-BROCK-CODING\BIDCell"
-    ugrad_results_dir = os.path.join(base_dir, "ugrad_results")
+    ugrad_results_dir = os.path.join(base_dir, "full_data_results", "ugrad_results")
     if not os.path.exists(ugrad_results_dir):
         os.makedirs(ugrad_results_dir)
         
@@ -179,16 +179,30 @@ def main():
         # BIDCellModel.get_example_data() 
         
         try:
+            # Snapshot existing output directories to safely identify the new one
+            config_pre = load_config(config_file)
+            data_dir = config_pre.files.data_dir
+            model_outputs_dir = os.path.join(data_dir, "model_outputs")
+            if not os.path.exists(model_outputs_dir):
+                os.makedirs(model_outputs_dir)
+            existing_dirs = set(os.listdir(model_outputs_dir))
+
             # Run Pipeline
             model.run_pipeline()
             
             # Identify Output Directory
-            # Re-read config cleanly to get path settings
-            config = load_config(config_file) 
-            data_dir = config.files.data_dir
-            timestamp = get_newest_id(os.path.join(data_dir, "model_outputs"))
+            # Re-read config cleanly (though path shouldn't change)
+            current_dirs = set(os.listdir(model_outputs_dir))
+            new_dirs = current_dirs - existing_dirs
             
-            print(f"  Experiment completed. Output ID: {timestamp}")
+            if new_dirs:
+                timestamp = list(new_dirs)[0]
+                print(f"  Experiment completed. Detected new Output ID: {timestamp}")
+            else:
+                 # Fallback
+                 timestamp = get_newest_id(model_outputs_dir)
+                 print(f"  Warning: No new directory detected. Using newest: {timestamp}")
+
             out_dir = os.path.join(data_dir, "model_outputs", timestamp)
             
             # -------------------------------------------------------
