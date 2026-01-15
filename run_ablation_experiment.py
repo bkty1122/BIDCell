@@ -132,11 +132,17 @@ def get_aggregated_metrics(morph_metrics, expr_metrics):
 
 # --- MAIN EXPERIMENT ---
 
-from bidcell.download_utils import download_data
+from bidcell.download_utils import download_data, setup_small_data
 
 def main():
     base_dir = r"D:\2512-BROCK-CODING\BIDCell"
     base_config_path = "params_small_example.yaml"
+
+    # Pre-check for small data requirement to avoid load_config crash
+    if "small" in base_config_path and not os.path.exists("./example_data/dataset_xenium_breast1_small"):
+        print("Small example data missing. Setting it up...")
+        setup_small_data()
+
     out_dir = os.path.join(base_dir, "full_data_results_small_loss_align", "ugrad_ablation_results")
     
     if not os.path.exists(out_dir):

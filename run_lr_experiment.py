@@ -112,7 +112,7 @@ def compute_expression_metrics(cgm_path):
 # Main Experiment Loop
 # -----------------------------------------------------------------------------
 
-from bidcell.download_utils import download_data
+from bidcell.download_utils import download_data, setup_small_data
 
 def main():
     # Define directories
@@ -123,6 +123,11 @@ def main():
         
     config_file = "params_small_example.yaml"
     
+    # Pre-check for small data requirement to avoid load_config crash
+    if "small" in config_file and not os.path.exists("./example_data/dataset_xenium_breast1_small"):
+        print("Small example data missing. Setting it up...")
+        setup_small_data()
+
     # Check if data exists for the paper configuration
     try:
         config_check = load_config(config_file)

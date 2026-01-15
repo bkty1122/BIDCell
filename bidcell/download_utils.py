@@ -3,6 +3,58 @@ import subprocess
 import sys
 import shutil
 import zipfile
+from pathlib import Path
+
+def setup_small_data(target_root_dir="./example_data"):
+    """
+    Copies the small example dataset from the repository's 'data' folder
+    to the target directory (default: ./example_data), enabling usage of
+    params_small_example.yaml.
+    """
+    # Assumption: this script is in <RepoRoot>/bidcell/download_utils.py
+    # and the data is in <RepoRoot>/data
+    current_file = Path(__file__).resolve()
+    repo_root = current_file.parent.parent
+    source_data_dir = repo_root / "data"
+    
+    target_path = Path(target_root_dir)
+    
+    if not source_data_dir.exists():
+        print(f"Error: Source data directory not found at {source_data_dir}")
+        return
+
+    if not target_path.exists():
+        os.makedirs(target_path)
+        
+    print(f"Setting up small example data from {source_data_dir} to {target_path}...")
+    
+    # Copy dataset_xenium_breast1_small
+    src_ds = source_data_dir / "dataset_xenium_breast1_small"
+    dst_ds = target_path / "dataset_xenium_breast1_small"
+    
+    if src_ds.exists():
+        if dst_ds.exists():
+             print(f"  {dst_ds} already exists.")
+        else:
+             print(f"  Copying {src_ds} -> {dst_ds}")
+             shutil.copytree(src_ds, dst_ds)
+    else:
+        print(f"  Warning: {src_ds} not found in source.")
+        
+    # Copy sc_references
+    src_ref = source_data_dir / "sc_references"
+    dst_ref = target_path / "sc_references"
+    
+    if src_ref.exists():
+        if dst_ref.exists():
+             print(f"  {dst_ref} already exists.")
+        else:
+             print(f"  Copying {src_ref} -> {dst_ref}")
+             shutil.copytree(src_ref, dst_ref)
+    else:
+        print(f"  Warning: {src_ref} not found in source.")
+        
+    print("Small data setup complete.")
 
 DATASET_URL = "https://cf.10xgenomics.com/samples/xenium/1.0.1/Xenium_FFPE_Human_Breast_Cancer_Rep1/Xenium_FFPE_Human_Breast_Cancer_Rep1_outs.zip"
 
@@ -93,6 +145,10 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="Download Xenium Dataset")
     parser.add_argument("--target_dir", type=str, default="./data_large/dataset_xenium_breast1", help="Directory to save data")
+    parser.add_argument("--small", action="store_true", help="Setup small example data instead of downloading full dataset")
     args = parser.parse_args()
     
-    download_data(args.target_dir)
+    if args.small:
+        setup_small_data()
+    else:
+        download_data(args.target_dir)
