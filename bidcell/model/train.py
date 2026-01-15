@@ -19,7 +19,7 @@ from .dataio.dataset_input import DataProcessing
 from .model.losses import (
     CellCallingLoss,
     NucleiEncapsulationLoss,
-    OverlapLoss,
+    MultipleAssignmentLoss,
     Oversegmentation,
     PosNegMarkerLoss,
 )
@@ -113,7 +113,7 @@ def train(config: Config):
     criterion_ne = NucleiEncapsulationLoss(config.training_params.ne_weight, device)
     criterion_os = Oversegmentation(config.training_params.os_weight, device)
     criterion_cc = CellCallingLoss(config.training_params.cc_weight, device)
-    criterion_ov = OverlapLoss(config.training_params.ov_weight, device)
+    criterion_ma = MultipleAssignmentLoss(config.training_params.ov_weight, device)
     criterion_pn = PosNegMarkerLoss(
         config.training_params.pos_weight,
         config.training_params.neg_weight,
@@ -235,23 +235,23 @@ def train(config: Config):
             loss_ne = criterion_ne(seg_pred, batch_n)
             loss_os = criterion_os(seg_pred, batch_n)
             loss_cc = criterion_cc(seg_pred, batch_sa)
-            loss_ov = criterion_ov(seg_pred, batch_n)
+            loss_ma = criterion_ma(seg_pred, batch_x313) # Using batch_x313 (transcripts) for MA loss
             loss_pn = criterion_pn(seg_pred, batch_pos, batch_neg)
 
             loss_ne = loss_ne.squeeze()
             loss_os = loss_os.squeeze()
             loss_cc = loss_cc.squeeze()
-            loss_ov = loss_ov.squeeze()
+            loss_ma = loss_ma.squeeze()
             loss_pn = loss_pn.squeeze()
 
-            loss = loss_ne + loss_os + loss_cc + loss_ov + loss_pn
+            loss = loss_ne + loss_os + loss_cc + loss_ma + loss_pn
 
             # Optimisation
             if config.training_params.aggregation == "sum":
                 loss.backward()
             else:
                 mtl_backward(
-                    losses=[loss_ne, loss_os, loss_cc, loss_ov, loss_pn],
+                    losses=[loss_ne, loss_os, loss_cc, loss_ma, loss_pn],
                     features=seg_pred,
                     aggregator=aggregator
                 )
@@ -260,7 +260,7 @@ def train(config: Config):
             step_ne_loss = loss_ne.detach().cpu().numpy() # noqa
             step_os_loss = loss_os.detach().cpu().numpy() # noqa
             step_cc_loss = loss_cc.detach().cpu().numpy() # noqa
-            step_ov_loss = loss_ov.detach().cpu().numpy() # noqa
+            step_ma_loss = loss_ma.detach().cpu().numpy() # noqa
             step_pn_loss = loss_pn.detach().cpu().numpy() # noqa
 
             step_train_loss = loss.detach().cpu().numpy()
@@ -290,10 +290,10 @@ def train(config: Config):
                         step_train_loss,
                     )
                 )
-                print('NE:{:.4f}, TC:{:.4f}, CC:{:.4f}, OV:{:.4f}, PN:{:.4f}'.format(step_ne_loss,
+                print('NE:{:.4f}, TC:{:.4f}, CC:{:.4f}, MA:{:.4f}, PN:{:.4f}'.format(step_ne_loss,
                                                                                     step_os_loss,
                                                                                     step_cc_loss,
-                                                                                    step_ov_loss,
+                                                                                    step_ma_loss,
                                                                                     step_pn_loss))
 
             # Save model
