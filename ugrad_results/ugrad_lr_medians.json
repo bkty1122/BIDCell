@@ -8,7 +8,7 @@
         "convexity": 0.8664122122157023,
         "circularity": 0.4311101386341926,
         "density": 1.9722222222222223,
-        "total_transcripts": 594.0,
+        "total_transcripts": 163.17587939698493,
         "total_genes": 58.0
     },
     "LR=1E-06": {
@@ -20,7 +20,7 @@
         "convexity": 0.8420402335755558,
         "circularity": 0.37860272953411905,
         "density": 1.9722222222222223,
-        "total_transcripts": 609.5,
+        "total_transcripts": 167.43383584589614,
         "total_genes": 61.0
     },
     "LR=1E-07": {
@@ -32,7 +32,7 @@
         "convexity": 0.8342696026714547,
         "circularity": 0.36541709651925,
         "density": 1.9722222222222223,
-        "total_transcripts": 597.0,
+        "total_transcripts": 164.0,
         "total_genes": 58.0
     },
     "LR=1E-08": {
@@ -44,7 +44,7 @@
         "convexity": 0.9153449507977602,
         "circularity": 0.5035014343714951,
         "density": 1.9722222222222223,
-        "total_transcripts": 549.5,
+        "total_transcripts": 150.95142378559464,
         "total_genes": 50.0
     },
     "LR=1E-09": {
@@ -56,7 +56,7 @@
         "convexity": 0.8627089225670251,
         "circularity": 0.39805682801060716,
         "density": 1.9722222222222223,
-        "total_transcripts": 574.5,
+        "total_transcripts": 157.81909547738692,
         "total_genes": 56.0
     }
 }
