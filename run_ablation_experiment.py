@@ -135,7 +135,7 @@ def get_aggregated_metrics(morph_metrics, expr_metrics):
 from bidcell.download_utils import download_data, setup_small_data
 
 def main():
-    base_dir = r"D:\2512-BROCK-CODING\BIDCell"
+    base_dir = os.path.dirname(os.path.abspath(__file__))
     base_config_path = "params_small_example.yaml"
 
     # Pre-check for small data requirement to avoid load_config crash

@@ -135,7 +135,7 @@ def get_aggregated_metrics(morph_metrics, expr_metrics):
 from bidcell.download_utils import download_data
 
 def main():
-    base_dir = r"D:\2512-BROCK-CODING\BIDCell"
+    base_dir = os.path.dirname(os.path.abspath(__file__))
     base_config_path = "params_paper.yaml"
     out_dir = os.path.join(base_dir, "full_data_results", "ugrad_ablation_results")
     

@@ -116,7 +116,7 @@ from bidcell.download_utils import download_data, setup_small_data
 
 def main():
     # Define directories
-    base_dir = r"D:\2512-BROCK-CODING\BIDCell"
+    base_dir = os.path.dirname(os.path.abspath(__file__))
     ugrad_results_dir = os.path.join(base_dir, "full_data_results_small_loss_align", "ugrad_results")
     if not os.path.exists(ugrad_results_dir):
         os.makedirs(ugrad_results_dir)
