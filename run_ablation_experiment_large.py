@@ -177,6 +177,11 @@ def main():
         config['training_params']['total_epochs'] = 2
         config['training_params']['model_freq'] = 60 # Save regularly to catch step 60
         config['training_params']['sample_freq'] = 1000
+
+        # MEMORY OPTIMIZATION: Reduce patch size to avoid OOM and CUDA configuration errors on GPU
+        # 128x128 patches with dense cells create massive tensors during autograd/jac calculation.
+        # 64x64 greatly reduces memory usage per step (by approx 4-16x).
+        config['model_params']['patch_size'] = 64
         
         # Sync Testing Params
         config['testing_params']['test_epoch'] = 2
@@ -200,10 +205,22 @@ def main():
         try:
             # Run Model
             model = BIDCellModel(temp_cfg)
-            # Assume preprocessing done by previous runs or default
-            # Check for expr_maps
-            if not os.path.exists(os.path.join(config['files']['data_dir'], "expr_maps")):
+            
+            # Check if processing is needed for this config (matches params in model.config)
+            # 1. Check basic expression maps
+            p_conf = model.config
+            maps_dir = os.path.join(p_conf.files.data_dir, p_conf.files.dir_out_maps)
+            if not os.path.exists(maps_dir):
+                print("Expression maps not found. Running full preprocessing...")
                 model.preprocess()
+            else:
+                # 2. Check if specific patches exist for the current patch_size
+                patch_dirname = f"{p_conf.files.dir_patches}{p_conf.model_params.patch_size}x{p_conf.model_params.patch_size}_shift_0"
+                patches_path = os.path.join(maps_dir, patch_dirname)
+                
+                if not os.path.exists(patches_path) or not os.listdir(patches_path):
+                    print(f"Patches not found at {patches_path}. Generating patches for size {p_conf.model_params.patch_size}...")
+                    model.generate_patches()
             
             # Detect new output folder by checking before/after
             model_outputs_dir = os.path.join(config['files']['data_dir'], "model_outputs")
