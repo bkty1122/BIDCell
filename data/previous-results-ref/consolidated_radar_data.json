@@ -1,0 +1,110 @@
+{
+    "amtl-median": {
+        "area": 186.4322,
+        "circularity": 103612000.0,
+        "compactness": 91620000.0,
+        "convexity": 0.9252,
+        "density": 2.268,
+        "elongation": 0.7914000000000001,
+        "solidity": 0.807,
+        "sphericity": 0.5968,
+        "total_genes": 71.4956,
+        "total_transcripts": 261.2154
+    },
+    "amtl-min": {
+        "area": 177.6392,
+        "circularity": 109080000.0,
+        "compactness": 98944000.0,
+        "convexity": 0.9298,
+        "density": 2.322,
+        "elongation": 0.8148,
+        "solidity": 0.8228,
+        "sphericity": 0.596,
+        "total_genes": 69.3158,
+        "total_transcripts": 247.1368
+    },
+    "stch-mu-0.0005": {
+        "area": 147.276,
+        "circularity": 106000000.0,
+        "compactness": 98700000.0,
+        "convexity": 0.934,
+        "density": 1.8177,
+        "elongation": 0.7918,
+        "solidity": 0.8187,
+        "sphericity": 0.598,
+        "total_genes": 58.048,
+        "total_transcripts": 170.608
+    },
+    "default": {
+        "area": 142.5357,
+        "circularity": 114000000.0,
+        "compactness": 106000000.0,
+        "convexity": 0.9336,
+        "density": 1.7367,
+        "elongation": 0.8124,
+        "solidity": 0.8151,
+        "sphericity": 0.6018,
+        "total_genes": 57.5873,
+        "total_transcripts": 164.0
+    },
+    "ugrad_LR=1E-05": {
+        "area": 80.5,
+        "elongation": 0.640304946141875,
+        "compactness": 89847602.1783088,
+        "sphericity": 0.6565897795687903,
+        "solidity": 0.7448979591836735,
+        "convexity": 0.8664122122157023,
+        "circularity": 134494407.27442524,
+        "density": 1.9722222222222223,
+        "total_transcripts": 163.17587939698493,
+        "total_genes": 58.0
+    },
+    "ugrad_LR=1E-06": {
+        "area": 103.75,
+        "elongation": 0.6499652159202944,
+        "compactness": 102309563.04772873,
+        "sphericity": 0.6153060920623921,
+        "solidity": 0.7084815228420641,
+        "convexity": 0.8420402335755558,
+        "circularity": 118113551.82341856,
+        "density": 1.9722222222222223,
+        "total_transcripts": 167.43383584589614,
+        "total_genes": 61.0
+    },
+    "ugrad_LR=1E-07": {
+        "area": 91.0,
+        "elongation": 0.647845843877024,
+        "compactness": 106000000.0,
+        "sphericity": 0.6044973916562834,
+        "solidity": 0.6934673366834171,
+        "convexity": 0.8342696026714547,
+        "circularity": 114000000.0,
+        "density": 1.9722222222222223,
+        "total_transcripts": 164.0,
+        "total_genes": 58.0
+    },
+    "ugrad_LR=1E-08": {
+        "area": 57.5,
+        "elongation": 0.6219749130033116,
+        "compactness": 76929695.8992603,
+        "sphericity": 0.7095783497060033,
+        "solidity": 0.7900552486187845,
+        "convexity": 0.9153449507977602,
+        "circularity": 157078483.91632843,
+        "density": 1.9722222222222223,
+        "total_transcripts": 150.95142378559464,
+        "total_genes": 50.0
+    },
+    "ugrad_LR=1E-09": {
+        "area": 78.0,
+        "elongation": 0.6252957811285597,
+        "compactness": 97308431.56439559,
+        "sphericity": 0.6309173000450202,
+        "solidity": 0.7071069182389937,
+        "convexity": 0.8627089225670251,
+        "circularity": 124182691.02748099,
+        "density": 1.9722222222222223,
+        "total_transcripts": 157.81909547738692,
+        "total_genes": 56.0
+    }
+}
