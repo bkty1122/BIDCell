@@ -11,7 +11,7 @@ def generate_normalized_comparison_radar():
     """
     # Paths to data files
     csv_path = r"D:\2512-BROCK-CODING\BIDCell\data\previous-results-ref\radar-graph-comparasion-raw-data.csv"
-    ugrad_json_path = r"D:\2512-BROCK-CODING\BIDCell\data\previous-results-ref\ugrad-lr-07.json"
+    ugrad_json_path = r"D:\2512-BROCK-CODING\BIDCell\data\previous-results-ref\ugrad.json"
     
     # Check if files exist
     if not os.path.exists(csv_path):
@@ -30,8 +30,18 @@ def generate_normalized_comparison_radar():
     with open(ugrad_json_path, 'r') as f:
         ugrad_data = json.load(f)
     
-    # Extract UGrad LR=1E-07 data
-    ugrad_lr07 = ugrad_data["LR=1E-07"]
+    # --- Configuration for UGrad Data Selection ---
+    # Choose the key from ugrad.json (e.g., "LR=1E-05", "LR=1E-07")
+    ugrad_key = "LR=1E-09" 
+    # Choose the legend label (e.g., "ugrad-lr-05", "ugrad-lr-07")
+    ugrad_label = "ugrad-lr-09"
+    
+    if ugrad_key not in ugrad_data:
+        print(f"Error: Key {ugrad_key} not found in {ugrad_json_path}")
+        return
+
+    # Extract selected UGrad data
+    ugrad_selected_data = ugrad_data[ugrad_key]
     
     # Metric mapping from JSON keys to CSV metric categories
     metric_mapping = {
@@ -60,10 +70,10 @@ def generate_normalized_comparison_radar():
             methods_data[method][metric] = value
     
     # Add UGrad data
-    methods_data['ugrad-lr-07'] = {}
+    methods_data[ugrad_label] = {}
     for json_key, csv_metric in metric_mapping.items():
-        if json_key in ugrad_lr07:
-            methods_data['ugrad-lr-07'][csv_metric] = ugrad_lr07[json_key]
+        if json_key in ugrad_selected_data:
+            methods_data[ugrad_label][csv_metric] = ugrad_selected_data[json_key]
     
     # Get the default method values for normalization
     default_values = methods_data['default']
@@ -100,7 +110,7 @@ def generate_normalized_comparison_radar():
     normalized_data = {"Metric": plot_labels}
     
     # Order of methods for consistent legend
-    method_order = ['default', 'amtl-min', 'amtl-median', 'stch-mu-0.0005', 'ugrad-lr-07']
+    method_order = ['default', 'amtl-min', 'amtl-median', 'stch-mu-0.0005', ugrad_label]
     
     for method in method_order:
         if method not in methods_data:
@@ -160,7 +170,7 @@ def generate_normalized_comparison_radar():
     print(f"Saving plot to {output_html}")
     fig.write_html(output_html)
     
-    output_png = os.path.join(output_dir, "normalized_comparison_radar.png")
+    output_png = os.path.join(output_dir, "normalized_comparison_radar" + ugrad_label + ".png")
     print(f"Saving plot to {output_png}")
     try:
         fig.write_image(output_png, width=1200, height=800, scale=2)
