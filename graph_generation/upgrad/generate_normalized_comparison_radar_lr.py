@@ -73,18 +73,18 @@ def generate_normalized_comparison_radar_lr():
         "Density"
     ]
     
-    # Create labels with * to indicate normalization
+    # Create labels with no * to indicate normalization
     plot_labels = [
-        "total_transcripts*",
-        "total_genes*",
-        "cell_area*",
-        "elongation*",
-        "compactness*",
-        "sphericity*",
-        "solidity*",
-        "convexity*",
-        "circularity*",
-        "density*"
+        "total_transcripts",
+        "total_genes",
+        "cell_area",
+        "elongation",
+        "compactness",
+        "sphericity",
+        "solidity",
+        "convexity",
+        "circularity",
+        "density"
     ]
     
     # --- Process Base Methods Data First ---
