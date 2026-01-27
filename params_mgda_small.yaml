@@ -1,0 +1,68 @@
+# Configuration for the small Xenium Breast Cancer dataset for MGDA
+cpus: 8
+
+files:
+  data_dir: ./cagrad_ablation_data/dataset_xenium_breast1_small
+  
+  fp_dapi: ./cagrad_ablation_data/dataset_xenium_breast1_small/morphology_mip_small.tif
+  fp_transcripts: ./cagrad_ablation_data/dataset_xenium_breast1_small/transcripts_small.csv
+  
+  # References (included in repo)
+  fp_ref: ./example_data/sc_references/sc_breast.csv
+  fp_pos_markers: ./example_data/sc_references/sc_breast_markers_pos.csv
+  fp_neg_markers: ./example_data/sc_references/sc_breast_markers_neg.csv
+
+nuclei_fovs:
+  stitch_nuclei_fovs: False
+
+nuclei:
+  diameter: # None = auto
+
+transcripts:
+  shift_to_origin: False 
+  x_col: x_location
+  y_col: y_location
+  gene_col: feature_name
+  transcripts_to_filter:
+  - NegControlProbe_
+  - antisense_
+  - NegControlCodeword_
+  - BLANK_
+  - Blank-
+  - NegPrb
+
+affine:
+  target_pix_um: 1.0
+  base_pix_x: 0.2125
+  base_pix_y: 0.2125
+  base_ts_x: 1.0
+  base_ts_y: 1.0
+  global_shift_x: 0
+  global_shift_y: 0
+
+model_params:
+  name: custom
+  patch_size: 48
+  elongated:
+  - Endothelial
+  - Fibroblasts
+  - Myofibroblasts
+  - SMC
+
+training_params:
+  total_epochs: 5
+  total_steps: 4000
+  aggregation: mgda
+  ne_weight: 1.0
+  os_weight: 1.0
+  cc_weight: 1.0
+  ov_weight: 1.0
+  pos_weight: 1.0
+  neg_weight: 1.0
+
+testing_params:
+  test_epoch: 1
+  test_step: 4000
+
+experiment_dirs:
+  dir_id: last

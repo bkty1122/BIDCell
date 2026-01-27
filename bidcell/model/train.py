@@ -12,7 +12,7 @@ import torch.optim.lr_scheduler as lr_scheduler
 from torch.utils.data import DataLoader
 
 from torchjd.autojac import mtl_backward
-from torchjd.aggregation import UPGrad
+from torchjd.aggregation import UPGrad, MGDA
 from ..custom_aggregators import CAGrad, NashMTL
 
 from .dataio.dataset_input import DataProcessing
@@ -72,6 +72,8 @@ def train(config: Config):
         aggregator = CAGrad()
     elif config.training_params.aggregation == "nashmtl":
         aggregator = NashMTL()
+    elif config.training_params.aggregation == "mgda":
+        aggregator = MGDA()
     else:
         aggregator = None
 
