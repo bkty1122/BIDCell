@@ -52,7 +52,7 @@ def generate_normalized_comparison_radar_lr():
     # Key: Method name in CSV or JSON
     # Value: Desired Legend Name
     legend_map = {
-        'default': 'SUM',
+        'default': 'LR',
         'amtl-min': 'AMTL(min-mode)',
         'amtl-median': 'AMTL(median-mode)',
         'stch-mu-0.0005': 'STCH(mu=0.0005)',
