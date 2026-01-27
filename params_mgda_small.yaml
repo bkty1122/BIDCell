@@ -2,7 +2,7 @@
 cpus: 8
 
 files:
-  data_dir: ./cagrad_ablation_data/dataset_xenium_breast1_small
+  data_dir: ./mgda_data/dataset_xenium_breast1_small
   
   fp_dapi: ./cagrad_ablation_data/dataset_xenium_breast1_small/morphology_mip_small.tif
   fp_transcripts: ./cagrad_ablation_data/dataset_xenium_breast1_small/transcripts_small.csv
@@ -52,6 +52,7 @@ model_params:
 training_params:
   total_epochs: 5
   total_steps: 4000
+  model_freq: 1000
   aggregation: mgda
   ne_weight: 1.0
   os_weight: 1.0
@@ -62,7 +63,7 @@ training_params:
 
 testing_params:
   test_epoch: 1
-  test_step: 4000
+  test_step: 3000
 
 experiment_dirs:
   dir_id: last
