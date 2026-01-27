@@ -11,6 +11,7 @@ import tifffile
 import cv2
 import traceback
 import torch
+import yaml
 
 # -----------------------------------------------------------------------------
 # SAFETY CONFIGURATION
@@ -210,6 +211,20 @@ def main():
 
     # 3. Load Config & Markers
     config_file = "params_mgda_small.yaml"
+
+    # Pre-create data directory to satisfy validation
+    try:
+        with open(config_file, 'r') as f:
+            temp_config = yaml.safe_load(f)
+        if 'files' in temp_config and 'data_dir' in temp_config['files']:
+             # Resolve path assuming it's relative to CWD if not absolute
+            dd = temp_config['files']['data_dir']
+            if not os.path.exists(dd):
+                print(f"Creating data directory: {dd}")
+                os.makedirs(dd, exist_ok=True)
+    except Exception as e:
+        print(f"Warning: Could not pre-create data directory: {e}")
+
     try:
         config = load_config(config_file)
         
