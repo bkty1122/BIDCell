@@ -16,7 +16,7 @@ import torch
 # SAFETY CONFIGURATION
 # -----------------------------------------------------------------------------
 # 1. Set specific GPU (CUDA 3)
-os.environ["CUDA_VISIBLE_DEVICES"] = "3" 
+os.environ["CUDA_VISIBLE_DEVICES"] = "4" 
 
 # 2. Memory Fragmentation Optimization
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
