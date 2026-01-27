@@ -19,7 +19,7 @@ nuclei:
   diameter: # None = auto
 
 transcripts:
-  shift_to_origin: False 
+  shift_to_origin: True 
   x_col: x_location
   y_col: y_location
   gene_col: feature_name
