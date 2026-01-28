@@ -193,7 +193,12 @@ def main():
     if os.path.exists(test_output_dir):
         print("Copying segmentation results...")
         for f in glob.glob(os.path.join(test_output_dir, "*")):
-            shutil.copy(f, dest_dir)
+            if os.path.isfile(f):
+                shutil.copy(f, dest_dir)
+            elif os.path.isdir(f):
+                # Optional: Copy the subfolder if it contains valuable patch data
+                # shutil.copytree(f, os.path.join(dest_dir, os.path.basename(f)), dirs_exist_ok=True)
+                pass
         print(" > Copied segmentation images.")
     else:
         print("Warning: test_output directory not found!")
