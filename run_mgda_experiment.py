@@ -290,8 +290,62 @@ def main():
             existing_dirs = set(os.listdir(model_outputs_dir))
             
             # --- RUN PIPELINE ---
-            print("  Running pipeline...")
-            model.run_pipeline()
+            # --- RUN PIPELINE (Decomposed for Safety) ---
+            print("  Running pipeline components...")
+            # 1. Preprocess
+            model.preprocess()
+            
+            # 2. Train
+            model.train()
+            
+            # 3. Auto-Detect Checkpoint
+            # content of training output dir
+            # We need to find where train() saved the model.
+            # train() uses get_experiment_id inside, which might be tricky to predict perfectly from outside 
+            # without duplicating logic, but we know it follows the config structure.
+            
+            # Reload config to get fresh paths if changed
+            # But we can look at the data dir
+            
+            # Find the latest experiment timestamp folder
+            data_dir = model.config.files.data_dir
+            model_outputs_dir = os.path.join(data_dir, "model_outputs")
+            timestamp = get_newest_id(model_outputs_dir)
+            experiment_path = os.path.join(model_outputs_dir, timestamp)
+            models_dir = os.path.join(experiment_path, "models")
+            
+            # Find latest .pth
+            found_ckpt = False
+            if os.path.exists(models_dir):
+                checkpoints = glob.glob(os.path.join(models_dir, "*.pth"))
+                if checkpoints:
+                    # Sort to find latest
+                    # assuming naming epoch_X_step_Y.pth
+                    from bidcell.model.utils.utils import sorted_alphanumeric
+                    checkpoints = sorted_alphanumeric(checkpoints)
+                    latest_ckpt = checkpoints[-1]
+                    
+                    # Parse filename
+                    base = os.path.basename(latest_ckpt)
+                    # epoch_Next_step_Y.pth
+                    parts = base.replace(".pth","").split("_")
+                    if len(parts) >= 4:
+                        e_val = int(parts[1])
+                        s_val = int(parts[3])
+                        
+                        print(f"  Auto-detected checkpoint: {base} (Epoch {e_val}, Step {s_val})")
+                        
+                        # Update config for prediction
+                        model.config.testing_params.test_epoch = e_val
+                        model.config.testing_params.test_step = s_val
+                        model.config.experiment_dirs.dir_id = timestamp
+                        found_ckpt = True
+            
+            if not found_ckpt:
+                print("  Warning: No checkpoint found. Prediction might fail if using defaults.")
+
+            # 4. Predict
+            model.predict()
             # --------------------
             
             # Identify new output
