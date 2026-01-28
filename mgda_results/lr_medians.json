@@ -12,5 +12,61 @@
         "total_genes": 49.0,
         "positive exprsPct": 0.10234177096867668,
         "negative exprsPct": 0.08491522629221511
+    },
+    "LR=1E-05": {
+        "area": 103.5,
+        "elongation": 0.6553710342400365,
+        "compactness": 24.12462127954838,
+        "sphericity": 0.7217299097795776,
+        "solidity": 0.81184064656868,
+        "convexity": 0.8934337261953378,
+        "circularity": 0.5208940816597583,
+        "density": 43.63001745200698,
+        "total_transcripts": 605.0,
+        "total_genes": 63.0,
+        "positive exprsPct": 0.13546578310182233,
+        "negative exprsPct": 0.12260921465565375
+    },
+    "LR=1E-06": {
+        "area": 78.0,
+        "elongation": 0.6496550892692181,
+        "compactness": 29.20342309881689,
+        "sphericity": 0.6559761909586649,
+        "solidity": 0.7391131809877505,
+        "convexity": 0.8640710974065463,
+        "circularity": 0.4303047795869741,
+        "density": 43.63001745200698,
+        "total_transcripts": 580.0,
+        "total_genes": 57.0,
+        "positive exprsPct": 0.12440054976140473,
+        "negative exprsPct": 0.10774776836804761
+    },
+    "LR=1E-07": {
+        "area": 64.5,
+        "elongation": 0.6335468834332432,
+        "compactness": 28.025647233814546,
+        "sphericity": 0.6696187538194573,
+        "solidity": 0.7482050754810741,
+        "convexity": 0.8914294657253647,
+        "circularity": 0.4483896209042015,
+        "density": 43.63001745200698,
+        "total_transcripts": 568.0,
+        "total_genes": 52.0,
+        "positive exprsPct": 0.1104723936363295,
+        "negative exprsPct": 0.09646155229966619
+    },
+    "LR=1E-08": {
+        "area": 82.5,
+        "elongation": 0.6505569831925888,
+        "compactness": 30.06853484775828,
+        "sphericity": 0.6464706293360736,
+        "solidity": 0.7365269461077845,
+        "convexity": 0.8541743826708915,
+        "circularity": 0.417924274594179,
+        "density": 43.63001745200698,
+        "total_transcripts": 587.0,
+        "total_genes": 59.0,
+        "positive exprsPct": 0.12836233800380292,
+        "negative exprsPct": 0.11535977206767184
     }
 }
