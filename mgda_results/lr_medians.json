@@ -1,0 +1,16 @@
+{
+    "LR=1E-09": {
+        "area": 55.0,
+        "elongation": 0.6447747462151203,
+        "compactness": 22.113283835201447,
+        "sphericity": 0.7538389057927011,
+        "solidity": 0.8333333333333334,
+        "convexity": 0.9292712469092121,
+        "circularity": 0.5682733016589714,
+        "density": 43.63001745200698,
+        "total_transcripts": 539.0,
+        "total_genes": 49.0,
+        "positive exprsPct": 0.10234177096867668,
+        "negative exprsPct": 0.08491522629221511
+    }
+}
